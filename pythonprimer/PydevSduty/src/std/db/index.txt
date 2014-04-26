@@ -1,0 +1,3 @@
+python mysql 安装
+http://www.codegood.com/download/10/
+http://www.codegood.com/downloads

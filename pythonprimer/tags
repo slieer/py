@@ -1,0 +1,1298 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	PydevSduty/src/simple/collection_list_1.py	/^class A:$/;"	c
+A	PydevSduty/src/simple/function_7_6.py	/^class A:$/;"	c
+APP	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      APP((short)1, "app"),$/;"	e	enum:XcapOp._del_args._Fields	file:
+APP	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      APP((short)1, "app"),$/;"	e	enum:XcapOp.get_args._Fields	file:
+APP	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      APP((short)1, "app"),$/;"	e	enum:XcapOp.put_args._Fields	file:
+APP_FIELD_DESC	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private static final org.apache.thrift.protocol.TField APP_FIELD_DESC = new org.apache.thrift.protocol.TField("app", org.apache.thrift.protocol.TType.STRING, (short)1);$/;"	f	class:XcapOp._del_args	file:
+APP_FIELD_DESC	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private static final org.apache.thrift.protocol.TField APP_FIELD_DESC = new org.apache.thrift.protocol.TField("app", org.apache.thrift.protocol.TType.STRING, (short)1);$/;"	f	class:XcapOp.get_args	file:
+APP_FIELD_DESC	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private static final org.apache.thrift.protocol.TField APP_FIELD_DESC = new org.apache.thrift.protocol.TField("app", org.apache.thrift.protocol.TType.STRING, (short)1);$/;"	f	class:XcapOp.put_args	file:
+Account	PydevSduty/src/std/application/ConfigTest.py	/^class Account(ConfigSection):$/;"	c
+Adder	PydevSduty/src/thinking/in_/python/ClassFunction.py	/^    class Adder(object):$/;"	c	function:make_adder_as_bound_method
+Adder	PydevSduty/src/thinking/in_/python/ClassFunction.py	/^    class Adder(object):$/;"	c	function:make_adder_as_callable_instance
+Administrator	PydevSduty/src/twisted/cred/simplecred.py	/^class Administrator:$/;"	c
+Agent	PydevSduty/src/twisted/web/client/request.py	/^from twisted.web.client import Agent$/;"	i
+Agent	PydevSduty/src/twisted/web/client/sendbody.py	/^from twisted.web.client import Agent$/;"	i
+Animal	PydevSduty/src/simple/function_7_6.py	/^class Animal(object):$/;"	c
+AnonymousUser	PydevSduty/src/twisted/cred/simplecred.py	/^class AnonymousUser:$/;"	c
+AppTest	ThriftTst/src/test/java/com/slieer/ThriftTst/AppTest.java	/^    public AppTest( String testName )$/;"	m	class:AppTest
+AppTest	ThriftTst/src/test/java/com/slieer/ThriftTst/AppTest.java	/^public class AppTest $/;"	c
+AsyncClient	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public AsyncClient(org.apache.thrift.protocol.TProtocolFactory protocolFactory, org.apache.thrift.async.TAsyncClientManager clientManager, org.apache.thrift.transport.TNonblockingTransport transport) {$/;"	m	class:XcapOp.AsyncClient
+AsyncClient	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^  public static class AsyncClient extends org.apache.thrift.async.TAsyncClient implements AsyncIface {$/;"	c	class:XcapOp
+AsyncIface	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^  public interface AsyncIface {$/;"	i	class:XcapOp
+AsyncZip	PydevSduty/src/std/Thread.py	/^class AsyncZip(threading.Thread):$/;"	c
+BankFactory	PydevSduty/src/twisted/cred/Cred.py	/^class BankFactory(protocol.ServerFactory):$/;"	c
+BaseRequestHandler	PydevSduty/src/std/net/SocketServerWeblog.py	/^from SocketServer import BaseRequestHandler, ThreadingTCPServer$/;"	i
+Basic	PydevSduty/src/simple/_hello_world_v1.py	/^class Basic:$/;"	c
+Basic	PydevSduty/src/simple/function_built_in_func_date.py	/^from simple._hello_world_v1 import Basic$/;"	i
+BasicClientFactory	PydevSduty/src/twisted/TcpClientDemo.py	/^class BasicClientFactory(protocol.ClientFactory):$/;"	c
+C	PydevSduty/src/simple/class_init.py	/^class C:$/;"	c
+CONFIG_FILE	PydevSduty/src/std/application/ConfigTest.py	/^CONFIG_FILE = '.\/xcapclient.ini'$/;"	v
+CRecord	PydevSduty/src/simple/function_lambda.py	/^class CRecord :$/;"	c
+CallbackAndDisconnectProtocol	PydevSduty/src/twisted/core/deferred02_Demo.py	/^class CallbackAndDisconnectProtocol(protocol.Protocol):$/;"	c
+Child	PydevSduty/src/simple/class_static.py	/^class Child (Person):$/;"	c
+Child	PydevSduty/src/twisted/web2/children.py	/^class Child(resource.Resource):$/;"	c
+Client	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^class Client(Iface):$/;"	c
+Client	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public Client(org.apache.thrift.protocol.TProtocol iprot, org.apache.thrift.protocol.TProtocol oprot) {$/;"	m	class:XcapOp.Client
+Client	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public Client(org.apache.thrift.protocol.TProtocol prot)$/;"	m	class:XcapOp.Client
+Client	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^  public static class Client extends org.apache.thrift.TServiceClient implements Iface {$/;"	c	class:XcapOp
+ColorIndexPage	PydevSduty/src/twisted/web/SimpleWebServer4_Resources.py	/^class ColorIndexPage(resource.Resource):$/;"	c
+ColorPage	PydevSduty/src/twisted/web/SimpleWebServer4_Resources.py	/^class ColorPage(resource.Resource):$/;"	c
+ColorRoot	PydevSduty/src/twisted/web/SimpleWebServer4_Resources.py	/^class ColorRoot(resource.Resource):$/;"	c
+ConfigFile	PydevSduty/src/std/application/ConfigTest.py	/^from application.configuration import ConfigFile, ConfigSection, ConfigSetting$/;"	i
+ConfigSection	PydevSduty/src/std/application/ConfigTest.py	/^from application.configuration import ConfigFile, ConfigSection, ConfigSetting$/;"	i
+ConfigSetting	PydevSduty/src/std/application/ConfigTest.py	/^from application.configuration import ConfigFile, ConfigSection, ConfigSetting$/;"	i
+ConnectionTestFactory	PydevSduty/src/twisted/core/deferred02_Demo.py	/^class ConnectionTestFactory(protocol.ClientFactory):$/;"	c
+ContentHandler	PydevSduty/src/std/structured_data/xml/adddressbook.py	/^from xml.sax.handler import ContentHandler$/;"	i
+ContentHandler	PydevSduty/src/std/structured_data/xml/token.py	/^from xml.sax.handler import ContentHandler$/;"	i
+DBCredentialsChecker	PydevSduty/src/twisted/cred/dbcred.py	/^class DBCredentialsChecker(object):$/;"	c
+DOC_URL	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      DOC_URL((short)2, "docUrl"),$/;"	e	enum:XcapOp._del_args._Fields	file:
+DOC_URL	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      DOC_URL((short)2, "docUrl"),$/;"	e	enum:XcapOp.get_args._Fields	file:
+DOC_URL	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      DOC_URL((short)2, "docUrl"),$/;"	e	enum:XcapOp.put_args._Fields	file:
+DOC_URL_FIELD_DESC	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private static final org.apache.thrift.protocol.TField DOC_URL_FIELD_DESC = new org.apache.thrift.protocol.TField("docUrl", org.apache.thrift.protocol.TType.STRING, (short)2);$/;"	f	class:XcapOp._del_args	file:
+DOC_URL_FIELD_DESC	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private static final org.apache.thrift.protocol.TField DOC_URL_FIELD_DESC = new org.apache.thrift.protocol.TField("docUrl", org.apache.thrift.protocol.TType.STRING, (short)2);$/;"	f	class:XcapOp.get_args	file:
+DOC_URL_FIELD_DESC	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private static final org.apache.thrift.protocol.TField DOC_URL_FIELD_DESC = new org.apache.thrift.protocol.TField("docUrl", org.apache.thrift.protocol.TType.STRING, (short)2);$/;"	f	class:XcapOp.put_args	file:
+DefaultParam	PydevSduty/src/simple/function_7_6.py	/^class DefaultParam:$/;"	c
+Deferred	PydevSduty/src/twisted/cred/dbcred.py	/^from twisted.internet.defer import Deferred$/;"	i
+DeferredTest	PydevSduty/src/twisted/core/deferredList.py	/^class DeferredTest:$/;"	c
+Different	PydevSduty/src/thinking/in_/python/SimpleClass.py	/^class Different:$/;"	c
+Echo	PydevSduty/src/twisted/core/echo_server.py	/^class Echo(protocol.Protocol):$/;"	c
+Echo	PydevSduty/src/twisted/core/simpleserv.py	/^class Echo(protocol.Protocol):$/;"	c
+EchoClient	PydevSduty/src/twisted/core/simpleclient.py	/^class EchoClient(protocol.Protocol):$/;"	c
+EchoFactory	PydevSduty/src/twisted/core/echo_server.py	/^class EchoFactory(protocol.Factory):$/;"	c
+EchoFactory	PydevSduty/src/twisted/core/simpleclient.py	/^class EchoFactory(protocol.ClientFactory):$/;"	c
+EchoFactory	PydevSduty/src/twisted/core/simpleserv.py	/^class EchoFactory(protocol.Factory):$/;"	c
+Employee	PydevSduty/src/simple/class_init.py	/^class Employee:$/;"	c
+FRIENT_LIST_APP	ThriftTst/src/main/java/com/broqs/thrift/client/XcapService.java	/^	String FRIENT_LIST_APP = "";$/;"	f	interface:XcapService
+Factory	PydevSduty/src/twisted/SimpleGameServer.py	/^from twisted.internet.protocol import Factory,Protocol$/;"	i
+Factory	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public Factory() {}$/;"	m	class:XcapOp.Client.Factory
+Factory	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public Factory(org.apache.thrift.async.TAsyncClientManager clientManager, org.apache.thrift.protocol.TProtocolFactory protocolFactory) {$/;"	m	class:XcapOp.AsyncClient.Factory
+Factory	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public static class Factory implements org.apache.thrift.TServiceClientFactory<Client> {$/;"	c	class:XcapOp.Client
+Factory	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public static class Factory implements org.apache.thrift.async.TAsyncClientFactory<AsyncClient> {$/;"	c	class:XcapOp.AsyncClient
+FingerFactory	PydevSduty/src/twisted/core/deferred01_lsCommand.py	/^class FingerFactory(protocol.ServerFactory):$/;"	c
+FingerFactory	PydevSduty/src/twisted/core/deferred03_.py	/^class FingerFactory(protocol.ServerFactory):$/;"	c
+FingerProtocol	PydevSduty/src/twisted/core/deferred01_lsCommand.py	/^class FingerProtocol(basic.LineReceiver):$/;"	c
+FingerProtocol	PydevSduty/src/twisted/core/deferred03_.py	/^class FingerProtocol(basic.LineReceiver):$/;"	c
+First	PydevSduty/src/twisted/web/WebResources.py	/^class First( resource.Resource):$/;"	c
+FooClass	PydevSduty/src/pythonCorePrograming/figure_3_1.py	/^class FooClass(object):$/;"	c
+FunctionHandleRequest	PydevSduty/src/twisted/web/SimpleWebServer3_Post.py	/^class FunctionHandleRequest(http.Request):$/;"	c
+Getter	PydevSduty/src/twisted/core/deferred00_Simple.py	/^class Getter:$/;"	c
+Headers	PydevSduty/src/twisted/web/client/request.py	/^from twisted.web.http_headers import Headers$/;"	i
+Headers	PydevSduty/src/twisted/web/client/sendbody.py	/^from twisted.web.http_headers import Headers$/;"	i
+Hello	PydevSduty/src/thinking/in_/InitImportTest.py	/^from thinking.in_.python.Test import HelloWorld as Hello$/;"	i
+HelloWorld	PydevSduty/src/thinking/in_/python/Test.py	/^class HelloWorld:$/;"	c
+HomePage	PydevSduty/src/twisted/web/SimpleWebServer4_Resources.py	/^class HomePage(resource.Resource):$/;"	c
+HttpEchoProtocol	PydevSduty/src/twisted/web/SimpleWebServer1_Echo.py	/^class HttpEchoProtocol(basic.LineReceiver):$/;"	c
+IBodyProducer	PydevSduty/src/twisted/web/client/stringprod.py	/^from twisted.web.iweb import IBodyProducer$/;"	i
+ICredentialsChecker	PydevSduty/src/twisted/cred/dbcred.py	/^from twisted.cred.checkers import ICredentialsChecker$/;"	i
+IProtocolUser	PydevSduty/src/twisted/cred/simplecred.py	/^class IProtocolUser(Interface):$/;"	c
+IUserMoneyAvatar	PydevSduty/src/twisted/cred/Cred.py	/^class IUserMoneyAvatar(Interface):$/;"	c
+IUsernameHashedPassword	PydevSduty/src/twisted/cred/dbcred.py	/^from twisted.cred.credentials import IUsernameHashedPassword, IUsernamePassword$/;"	i
+IUsernamePassword	PydevSduty/src/twisted/cred/dbcred.py	/^from twisted.cred.credentials import IUsernameHashedPassword, IUsernamePassword$/;"	i
+Iface	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^class Iface:$/;"	c
+Iface	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^  public interface Iface {$/;"	i	class:XcapOp
+Interface	PydevSduty/src/twisted/cred/Cred.py	/^from zope.interface import Interface, implements$/;"	i
+Interface	PydevSduty/src/twisted/cred/simplecred.py	/^from zope.interface import implements, Interface$/;"	i
+LOG	PydevSduty/src/std/net/SocketServerWeblog.py	/^    LOG = open('access-log')$/;"	v
+LOGGER	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private static final Logger LOGGER = LoggerFactory.getLogger(Processor.class.getName());$/;"	f	class:XcapOp.Processor	file:
+LineReceiver	PydevSduty/src/twisted/cred/Cred.py	/^from twisted.protocols.basic import LineReceiver$/;"	i
+ListTest	PydevSduty/src/simple/collection_list.py	/^class ListTest:$/;"	c
+MoneyProtocol	PydevSduty/src/twisted/cred/Cred.py	/^class MoneyProtocol(LineReceiver):$/;"	c
+MyChat	PydevSduty/src/twisted/core/chatserver.py	/^class MyChat(basic.LineReceiver):$/;"	c
+MyHttp	PydevSduty/src/twisted/web/SimpleWebServer2.py	/^class MyHttp(http.HTTPChannel):$/;"	c
+MyHttp	PydevSduty/src/twisted/web/SimpleWebServer3_Post.py	/^class MyHttp(http.HTTPChannel):$/;"	c
+MyHttpFactory	PydevSduty/src/twisted/web/SimpleWebServer2.py	/^class MyHttpFactory(http.HTTPFactory):$/;"	c
+MyHttpFactory	PydevSduty/src/twisted/web/SimpleWebServer3_Post.py	/^class MyHttpFactory(http.HTTPFactory):$/;"	c
+MyOpener	PydevSduty/src/linux/net.py	/^class MyOpener(urllib.FancyURLopener):$/;"	c
+MyRequestHandler	PydevSduty/src/twisted/web/SimpleWebServer2.py	/^class MyRequestHandler(http.Request):$/;"	c
+NUMBER	PydevSduty/src/simple/flow_control_while.py	/^NUMBER = 23$/;"	v
+Obj	PydevSduty/src/simple/function_call_by_value.py	/^class Obj(object):$/;"	c
+OptionGroup	PydevSduty/src/linux/net.py	/^        from optparse import OptionParser, OptionGroup$/;"	i
+OptionParser	PydevSduty/src/linux/net.py	/^        from optparse import OptionParser, OptionGroup$/;"	i
+PORT	PydevSduty/src/twisted/web/SimpleWebServer0.py	/^PORT = 8080                                                    $/;"	v
+PORT	PydevSduty/src/twisted/web/WebResources.py	/^PORT = 8080$/;"	v
+PRESENCE_APP	ThriftTst/src/main/java/com/broqs/thrift/client/XcapService.java	/^	String PRESENCE_APP = "";$/;"	f	interface:XcapService
+PasswordChecker	PydevSduty/src/twisted/cred/Cred.py	/^class PasswordChecker(object):$/;"	c
+Pers	PydevSduty/src/simple/class_static.py	/^class Pers(object):$/;"	c
+Person	PydevSduty/src/simple/class_init.py	/^class Person:$/;"	c
+Person	PydevSduty/src/simple/class_object_variable.py	/^class Person:$/;"	c
+Person	PydevSduty/src/simple/class_static.py	/^class Person:$/;"	c
+PhoneContentHandler	PydevSduty/src/std/structured_data/xml/adddressbook.py	/^class PhoneContentHandler(ContentHandler):#定义一个handler类$/;"	c
+Portal	PydevSduty/src/twisted/cred/dbcred.py	/^    from twisted.cred.portal import Portal$/;"	i
+Private	PydevSduty/src/simple/module_all.py	/^class Private:$/;"	c
+Processor	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^class Processor(Iface, TProcessor):$/;"	c
+Processor	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    protected Processor(I iface, Map<String,  org.apache.thrift.ProcessFunction<I, ? extends  org.apache.thrift.TBase>> processMap) {$/;"	m	class:XcapOp.Processor
+Processor	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public Processor(I iface) {$/;"	m	class:XcapOp.Processor
+Processor	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^  public static class Processor<I extends Iface> extends org.apache.thrift.TBaseProcessor implements org.apache.thrift.TProcessor {$/;"	c	class:XcapOp
+Protocol	PydevSduty/src/twisted/SimpleGameServer.py	/^from twisted.internet.protocol import Factory,Protocol$/;"	i
+Protocol	PydevSduty/src/twisted/cred/simplecred.py	/^class Protocol(basic.LineReceiver):$/;"	c
+QueueTest	PydevSduty/src/simple/collection_list.py	/^class QueueTest:$/;"	c
+QuickDisconnectedProtocol	PydevSduty/src/twisted/TcpClientDemo.py	/^class QuickDisconnectedProtocol(protocol.Protocol):$/;"	c
+RUNNING	PydevSduty/src/simple/flow_control_while.py	/^RUNNING = True$/;"	v
+ReStructured	PydevSduty/src/twisted/web/SimpleWebServer0.py	/^class ReStructured(Resource):                                                                                                                                 $/;"	c
+Realm	PydevSduty/src/twisted/cred/simplecred.py	/^class Realm:$/;"	c
+RegularUser	PydevSduty/src/twisted/cred/simplecred.py	/^class RegularUser:$/;"	c
+Resource	PydevSduty/src/twisted/web/SimpleWebServer0.py	/^from twisted.web.resource import Resource                                       $/;"	i
+SAXException	PydevSduty/src/std/structured_data/xml/adddressbook.py	/^from xml.sax import make_parser, SAXException$/;"	i
+STRUCT_DESC	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("_del_args");$/;"	f	class:XcapOp._del_args	file:
+STRUCT_DESC	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("_del_result");$/;"	f	class:XcapOp._del_result	file:
+STRUCT_DESC	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("get_args");$/;"	f	class:XcapOp.get_args	file:
+STRUCT_DESC	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("get_result");$/;"	f	class:XcapOp.get_result	file:
+STRUCT_DESC	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("put_args");$/;"	f	class:XcapOp.put_args	file:
+STRUCT_DESC	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("put_result");$/;"	f	class:XcapOp.put_result	file:
+SUCCESS	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      SUCCESS((short)0, "success");$/;"	e	enum:XcapOp._del_result._Fields	file:
+SUCCESS	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      SUCCESS((short)0, "success");$/;"	e	enum:XcapOp.get_result._Fields	file:
+SUCCESS	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      SUCCESS((short)0, "success");$/;"	e	enum:XcapOp.put_result._Fields	file:
+SUCCESS_FIELD_DESC	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private static final org.apache.thrift.protocol.TField SUCCESS_FIELD_DESC = new org.apache.thrift.protocol.TField("success", org.apache.thrift.protocol.TType.STRING, (short)0);$/;"	f	class:XcapOp._del_result	file:
+SUCCESS_FIELD_DESC	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private static final org.apache.thrift.protocol.TField SUCCESS_FIELD_DESC = new org.apache.thrift.protocol.TField("success", org.apache.thrift.protocol.TType.STRING, (short)0);$/;"	f	class:XcapOp.get_result	file:
+SUCCESS_FIELD_DESC	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private static final org.apache.thrift.protocol.TField SUCCESS_FIELD_DESC = new org.apache.thrift.protocol.TField("success", org.apache.thrift.protocol.TType.STRING, (short)0);$/;"	f	class:XcapOp.put_result	file:
+SchoolMember	PydevSduty/src/simple/class_inherit.py	/^class SchoolMember:$/;"	c
+ServerFactory	PydevSduty/src/twisted/cred/simplecred.py	/^class ServerFactory(protocol.ServerFactory):$/;"	c
+ShortInputException	PydevSduty/src/simple/exception_raise_else.py	/^class ShortInputException(Exception):$/;"	c
+Simple	PydevSduty/src/thinking/in_/python/Simple.py	/^class Simple:$/;"	c
+Simple	PydevSduty/src/thinking/in_/python/SimpleClass.py	/^import Simple$/;"	i
+Simple2	PydevSduty/src/thinking/in_/python/SimpleClass.py	/^class Simple2(Simple):$/;"	c
+StackTest	PydevSduty/src/simple/collection_list.py	/^class StackTest:$/;"	c
+StackTest	PydevSduty/src/simple/test/collecton_list_test.py	/^from simple.collection_list import StackTest$/;"	i
+StrType	PydevSduty/src/simple/data_type_string.py	/^class StrType :$/;"	c
+String	PydevSduty/src/simple/function_7_6.py	/^class String:$/;"	c
+StringProducer	PydevSduty/src/twisted/web/client/sendbody.py	/^from stringprod import StringProducer$/;"	i
+StringProducer	PydevSduty/src/twisted/web/client/stringprod.py	/^class StringProducer(object):$/;"	c
+Student	PydevSduty/src/simple/class_inherit.py	/^class Student(SchoolMember):$/;"	c
+TBinaryProtocol	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^from thrift.protocol import TBinaryProtocol, TProtocol$/;"	i
+TBinaryProtocol	ThriftTst/gen/gen-py/xcap/ttypes.py	/^from thrift.protocol import TBinaryProtocol, TProtocol$/;"	i
+TOKEN	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      TOKEN((short)3, "token");$/;"	e	enum:XcapOp._del_args._Fields	file:
+TOKEN	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      TOKEN((short)3, "token");$/;"	e	enum:XcapOp.get_args._Fields	file:
+TOKEN	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      TOKEN((short)4, "token");$/;"	e	enum:XcapOp.put_args._Fields	file:
+TOKEN_FIELD_DESC	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private static final org.apache.thrift.protocol.TField TOKEN_FIELD_DESC = new org.apache.thrift.protocol.TField("token", org.apache.thrift.protocol.TType.STRING, (short)3);$/;"	f	class:XcapOp._del_args	file:
+TOKEN_FIELD_DESC	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private static final org.apache.thrift.protocol.TField TOKEN_FIELD_DESC = new org.apache.thrift.protocol.TField("token", org.apache.thrift.protocol.TType.STRING, (short)3);$/;"	f	class:XcapOp.get_args	file:
+TOKEN_FIELD_DESC	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private static final org.apache.thrift.protocol.TField TOKEN_FIELD_DESC = new org.apache.thrift.protocol.TField("token", org.apache.thrift.protocol.TType.STRING, (short)4);$/;"	f	class:XcapOp.put_args	file:
+TProcessor	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^from thrift.Thrift import TProcessor$/;"	i
+TProtocol	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^from thrift.protocol import TBinaryProtocol, TProtocol$/;"	i
+TProtocol	ThriftTst/gen/gen-py/xcap/ttypes.py	/^from thrift.protocol import TBinaryProtocol, TProtocol$/;"	i
+TTransport	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^from thrift.transport import TTransport$/;"	i
+TTransport	ThriftTst/gen/gen-py/xcap/ttypes.py	/^from thrift.transport import TTransport$/;"	i
+Teacher	PydevSduty/src/simple/class_inherit.py	/^class Teacher(SchoolMember):$/;"	c
+Template	PydevSduty/src/std/ManyModuleTest.py	/^        from string import Template$/;"	i
+Test	PydevSduty/src/simple/class_properties.py	/^class Test:$/;"	c
+Test	PydevSduty/src/simple/collection_list_1.py	/^class Test(unittest.TestCase):$/;"	c
+Test	PydevSduty/src/std/ManyModuleTest.py	/^class Test(unittest.TestCase):$/;"	c
+TestStatisticalFunctions	PydevSduty/src/std/UnitTest.py	/^class TestStatisticalFunctions(unittest.TestCase):$/;"	c
+TestThread	PydevSduty/src/cookbook/thread_test.py	/^class TestThread(threading.Thread):$/;"	c
+ThreadingTCPServer	PydevSduty/src/std/net/SocketServerWeblog.py	/^from SocketServer import BaseRequestHandler, ThreadingTCPServer$/;"	i
+TokenContentHandler	PydevSduty/src/std/structured_data/xml/token.py	/^class TokenContentHandler(ContentHandler):$/;"	c
+Toplevel	PydevSduty/src/twisted/web2/children.py	/^class Toplevel(resource.Resource):$/;"	c
+Toplevel	PydevSduty/src/twisted/web2/simple.py	/^class Toplevel(resource.Resource):$/;"	c
+USER_INFO	PydevSduty/src/twisted/cred/Cred.py	/^USER_INFO = {'kanif':{'password':'123456', 'money':1000, 'rate':0.1}$/;"	v
+UnauthorizedLogin	PydevSduty/src/twisted/cred/Cred.py	/^from twisted.cred.error import UnauthorizedLogin$/;"	i
+UserBankRealm	PydevSduty/src/twisted/cred/Cred.py	/^class UserBankRealm:$/;"	c
+UserMoneyAvatar	PydevSduty/src/twisted/cred/Cred.py	/^class UserMoneyAvatar():$/;"	c
+WebLogHandler	PydevSduty/src/std/net/SocketServerWeblog.py	/^class WebLogHandler(BaseRequestHandler):$/;"	c
+X	PydevSduty/src/simple/module_all.py	/^class X :$/;"	c
+XMLDOC	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      XMLDOC((short)3, "xmldoc"),$/;"	e	enum:XcapOp.put_args._Fields	file:
+XMLDOC_FIELD_DESC	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private static final org.apache.thrift.protocol.TField XMLDOC_FIELD_DESC = new org.apache.thrift.protocol.TField("xmldoc", org.apache.thrift.protocol.TType.STRING, (short)3);$/;"	f	class:XcapOp.put_args	file:
+XcapOp	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^public class XcapOp {$/;"	c
+XcapService	ThriftTst/src/main/java/com/broqs/thrift/client/XcapService.java	/^public interface XcapService {$/;"	i
+XcapServiceImpl	ThriftTst/src/main/java/com/broqs/thrift/client/XcapServiceImpl.java	/^	public XcapServiceImpl() {$/;"	m	class:XcapServiceImpl
+XcapServiceImpl	ThriftTst/src/main/java/com/broqs/thrift/client/XcapServiceImpl.java	/^public class XcapServiceImpl implements XcapService {$/;"	c
+_Fields	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      _Fields(short thriftId, String fieldName) {$/;"	m	class:XcapOp._del_args._Fields
+_Fields	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      _Fields(short thriftId, String fieldName) {$/;"	m	class:XcapOp._del_result._Fields
+_Fields	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      _Fields(short thriftId, String fieldName) {$/;"	m	class:XcapOp.get_args._Fields
+_Fields	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      _Fields(short thriftId, String fieldName) {$/;"	m	class:XcapOp.get_result._Fields
+_Fields	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      _Fields(short thriftId, String fieldName) {$/;"	m	class:XcapOp.put_args._Fields
+_Fields	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      _Fields(short thriftId, String fieldName) {$/;"	m	class:XcapOp.put_result._Fields
+_Fields	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public enum _Fields implements org.apache.thrift.TFieldIdEnum {$/;"	g	class:XcapOp._del_args
+_Fields	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public enum _Fields implements org.apache.thrift.TFieldIdEnum {$/;"	g	class:XcapOp._del_result
+_Fields	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public enum _Fields implements org.apache.thrift.TFieldIdEnum {$/;"	g	class:XcapOp.get_args
+_Fields	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public enum _Fields implements org.apache.thrift.TFieldIdEnum {$/;"	g	class:XcapOp.get_result
+_Fields	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public enum _Fields implements org.apache.thrift.TFieldIdEnum {$/;"	g	class:XcapOp.put_args
+_Fields	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public enum _Fields implements org.apache.thrift.TFieldIdEnum {$/;"	g	class:XcapOp.put_result
+__all__	PydevSduty/src/simple/module_all.py	/^__all__ = ['bar', 'baz', 'X']$/;"	v
+__all__	PydevSduty/src/thinking/in_/python/ClassFunction.py	/^__all__ = ['make_adder_as_bound_method',$/;"	v
+__all__	ThriftTst/gen/gen-py/xcap/__init__.py	/^__all__ = ['ttypes', 'constants', 'XcapOp']$/;"	v
+__call__	PydevSduty/src/simple/function_7_6.py	/^    def __call__(self):$/;"	m	class:String	file:
+__call__	PydevSduty/src/simple/function_7_6.py	/^    def __call__(self,food):   $/;"	m	class:Animal	file:
+__call__	PydevSduty/src/thinking/in_/python/ClassFunction.py	/^        def __call__(self, addend): return addend+self.augend$/;"	m	class:make_adder_as_callable_instance.Adder	file:
+__del__	PydevSduty/src/simple/class_inherit.py	/^    def __del__(self):$/;"	m	class:SchoolMember	file:
+__del__	PydevSduty/src/simple/class_object_variable.py	/^    def __del__(self):$/;"	m	class:Person	file:
+__eq__	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def __eq__(self, other):$/;"	m	class:_del_args	file:
+__eq__	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def __eq__(self, other):$/;"	m	class:_del_result	file:
+__eq__	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def __eq__(self, other):$/;"	m	class:get_args	file:
+__eq__	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def __eq__(self, other):$/;"	m	class:get_result	file:
+__eq__	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def __eq__(self, other):$/;"	m	class:put_args	file:
+__eq__	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def __eq__(self, other):$/;"	m	class:put_result	file:
+__init__	PydevSduty/src/cookbook/thread_test.py	/^    def __init__(self, name='TestThread'):$/;"	m	class:TestThread
+__init__	PydevSduty/src/linux/net.py	/^    def __init__(self):$/;"	m	class:parameters
+__init__	PydevSduty/src/simple/_hello_world_v1.py	/^    def __init__(self, no='default-no', ver='var'):$/;"	m	class:Basic
+__init__	PydevSduty/src/simple/class_inherit.py	/^    def __init__(self, name, age):$/;"	m	class:SchoolMember
+__init__	PydevSduty/src/simple/class_inherit.py	/^    def __init__(self, name, age, marks):$/;"	m	class:Student
+__init__	PydevSduty/src/simple/class_inherit.py	/^    def __init__(self, name, age, salary):$/;"	m	class:Teacher
+__init__	PydevSduty/src/simple/class_init.py	/^    def __init__(self, name):$/;"	m	class:Person
+__init__	PydevSduty/src/simple/class_object_variable.py	/^    def __init__(self,name):$/;"	m	class:Person
+__init__	PydevSduty/src/simple/class_properties.py	/^    def __init__(self,a='defaultA',b='defaultB'):$/;"	m	class:Test
+__init__	PydevSduty/src/simple/class_static.py	/^    def __init__(self):$/;"	m	class:Person
+__init__	PydevSduty/src/simple/collection_list.py	/^    def __init__(self, array):$/;"	m	class:QueueTest
+__init__	PydevSduty/src/simple/collection_list.py	/^    def __init__(self, arrayOjb=[]):     #class StackTest(object): def __new__(self, arrayOjb=[]):   出错？？？？$/;"	m	class:StackTest
+__init__	PydevSduty/src/simple/collection_list_1.py	/^    def __init__(self, value):$/;"	m	class:A
+__init__	PydevSduty/src/simple/data_type_string.py	/^    def __init__(self, st):$/;"	m	class:StrType
+__init__	PydevSduty/src/simple/exception_raise_else.py	/^    def __init__(self, length, atleast):$/;"	m	class:ShortInputException
+__init__	PydevSduty/src/simple/function_7_6.py	/^    def __init__(self):$/;"	m	class:A
+__init__	PydevSduty/src/simple/function_7_6.py	/^    def __init__(self, name, legs):        $/;"	m	class:Animal
+__init__	PydevSduty/src/simple/function_lambda.py	/^    def __init__(self):$/;"	m	class:CRecord
+__init__	PydevSduty/src/std/Thread.py	/^    def __init__(self):$/;"	m	class:AsyncZip
+__init__	PydevSduty/src/std/structured_data/xml/adddressbook.py	/^    def __init__(self, name):$/;"	m	class:PhoneContentHandler
+__init__	PydevSduty/src/std/structured_data/xml/token.py	/^    def __init__(self):$/;"	m	class:TokenContentHandler
+__init__	PydevSduty/src/thinking/in_/python/ClassFunction.py	/^        def __init__(self, augend): self.augend = augend$/;"	m	class:make_adder_as_bound_method.Adder
+__init__	PydevSduty/src/thinking/in_/python/ClassFunction.py	/^        def __init__(self, augend): self.augend = augend$/;"	m	class:make_adder_as_callable_instance.Adder
+__init__	PydevSduty/src/thinking/in_/python/Simple.py	/^    def __init__(self, str):$/;"	m	class:Simple
+__init__	PydevSduty/src/thinking/in_/python/SimpleClass.py	/^    def __init__(self, str):$/;"	m	class:Simple2
+__init__	PydevSduty/src/twisted/core/deferred02_Demo.py	/^    def __init__(self):$/;"	m	class:ConnectionTestFactory
+__init__	PydevSduty/src/twisted/core/deferred03_.py	/^    def __init__(self, **kwargs):$/;"	m	class:FingerFactory
+__init__	PydevSduty/src/twisted/cred/Cred.py	/^    def __init__(self, portal):$/;"	m	class:BankFactory
+__init__	PydevSduty/src/twisted/cred/Cred.py	/^    def __init__(self, username, money):$/;"	m	class:UserMoneyAvatar
+__init__	PydevSduty/src/twisted/cred/dbcred.py	/^    def __init__(self, runQuery,$/;"	m	class:DBCredentialsChecker
+__init__	PydevSduty/src/twisted/cred/simplecred.py	/^    def __init__(self, portal):$/;"	m	class:ServerFactory
+__init__	PydevSduty/src/twisted/web/SimpleWebServer0.py	/^  def __init__(self, filename, *a):                                         $/;"	m	class:ReStructured
+__init__	PydevSduty/src/twisted/web/SimpleWebServer1_Echo.py	/^    def __init__(self):$/;"	m	class:HttpEchoProtocol
+__init__	PydevSduty/src/twisted/web/SimpleWebServer4_Resources.py	/^    def __init__(self):$/;"	m	class:ColorRoot
+__init__	PydevSduty/src/twisted/web/SimpleWebServer4_Resources.py	/^    def __init__(self, color):$/;"	m	class:ColorPage
+__init__	PydevSduty/src/twisted/web/SimpleWebServer4_Resources.py	/^    def __init__(self, requestedColorsList):$/;"	m	class:ColorIndexPage
+__init__	PydevSduty/src/twisted/web/client/stringprod.py	/^    def __init__(self, body):$/;"	m	class:StringProducer
+__init__	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def __init__(self, app=None, docUrl=None, token=None,):$/;"	m	class:_del_args
+__init__	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def __init__(self, app=None, docUrl=None, token=None,):$/;"	m	class:get_args
+__init__	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def __init__(self, app=None, docUrl=None, xmldoc=None, token=None,):$/;"	m	class:put_args
+__init__	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def __init__(self, handler):$/;"	m	class:Processor
+__init__	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def __init__(self, iprot, oprot=None):$/;"	m	class:Client
+__init__	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def __init__(self, success=None,):$/;"	m	class:_del_result
+__init__	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def __init__(self, success=None,):$/;"	m	class:get_result
+__init__	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def __init__(self, success=None,):$/;"	m	class:put_result
+__ne__	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def __ne__(self, other):$/;"	m	class:_del_args	file:
+__ne__	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def __ne__(self, other):$/;"	m	class:_del_result	file:
+__ne__	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def __ne__(self, other):$/;"	m	class:get_args	file:
+__ne__	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def __ne__(self, other):$/;"	m	class:get_result	file:
+__ne__	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def __ne__(self, other):$/;"	m	class:put_args	file:
+__ne__	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def __ne__(self, other):$/;"	m	class:put_result	file:
+__new__	PydevSduty/src/simple/class_static.py	/^    def __new__(self):$/;"	m	class:Pers	file:
+__new__	PydevSduty/src/simple/function_call_by_value.py	/^    def __new__(self, a, b):$/;"	m	class:Obj	file:
+__repr__	PydevSduty/src/simple/collection_list_1.py	/^    def __repr__(self):$/;"	m	class:A	file:
+__repr__	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def __repr__(self):$/;"	m	class:_del_args	file:
+__repr__	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def __repr__(self):$/;"	m	class:_del_result	file:
+__repr__	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def __repr__(self):$/;"	m	class:get_args	file:
+__repr__	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def __repr__(self):$/;"	m	class:get_result	file:
+__repr__	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def __repr__(self):$/;"	m	class:put_args	file:
+__repr__	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def __repr__(self):$/;"	m	class:put_result	file:
+__str__	PydevSduty/src/simple/function_7_6.py	/^    def __str__(self):                $/;"	m	class:Animal	file:
+__str__	PydevSduty/src/simple/function_lambda.py	/^    def __str__(self):$/;"	m	class:CRecord	file:
+_cbAuthenticate	PydevSduty/src/twisted/cred/dbcred.py	/^    def _cbAuthenticate(self, result, credentials, deferred):$/;"	m	class:DBCredentialsChecker
+_cbLogin	PydevSduty/src/twisted/cred/simplecred.py	/^    def _cbLogin(self, (interface, avatar, logout)):$/;"	m	class:Protocol
+_del	PydevSduty/src/simple/collection_list.py	/^    def _del(self):$/;"	m	class:ListTest
+_del	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def _del(self, app, docUrl, token):$/;"	m	class:Client
+_del	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def _del(self, app, docUrl, token):$/;"	m	class:Iface
+_del	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public _del() {$/;"	m	class:XcapOp.Processor._del
+_del	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private static class _del<I extends Iface> extends org.apache.thrift.ProcessFunction<I, _del_args> {$/;"	c	class:XcapOp.Processor
+_del	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String _del(String app, String docUrl, String token) throws org.apache.thrift.TException$/;"	m	class:XcapOp.Client
+_del	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String _del(String app, String docUrl, String token) throws org.apache.thrift.TException;$/;"	m	interface:XcapOp.Iface
+_del	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void _del(String app, String docUrl, String token, org.apache.thrift.async.AsyncMethodCallback<AsyncClient._del_call> resultHandler) throws org.apache.thrift.TException;$/;"	m	interface:XcapOp.AsyncIface
+_del	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void _del(String app, String docUrl, String token, org.apache.thrift.async.AsyncMethodCallback<_del_call> resultHandler) throws org.apache.thrift.TException {$/;"	m	class:XcapOp.AsyncClient
+_del	ThriftTst/src/main/java/com/broqs/thrift/client/XcapService.java	/^	String _del(String app, String docUrl, String token) throws TException;$/;"	m	interface:XcapService
+_del	ThriftTst/src/main/java/com/broqs/thrift/client/XcapServiceImpl.java	/^	public String _del(String app, String docUrl, String token)$/;"	m	class:XcapServiceImpl
+_del_args	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^class _del_args:$/;"	c
+_del_args	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public _del_args($/;"	m	class:XcapOp._del_args
+_del_args	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public _del_args() {$/;"	m	class:XcapOp._del_args
+_del_args	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public _del_args(_del_args other) {$/;"	m	class:XcapOp._del_args
+_del_args	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^  public static class _del_args implements org.apache.thrift.TBase<_del_args, _del_args._Fields>, java.io.Serializable, Cloneable   {$/;"	c	class:XcapOp
+_del_call	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public _del_call(String app, String docUrl, String token, org.apache.thrift.async.AsyncMethodCallback<_del_call> resultHandler, org.apache.thrift.async.TAsyncClient client, org.apache.thrift.protocol.TProtocolFactory protocolFactory, org.apache.thrift.transport.TNonblockingTransport transport) throws org.apache.thrift.TException {$/;"	m	class:XcapOp.AsyncClient._del_call
+_del_call	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public static class _del_call extends org.apache.thrift.async.TAsyncMethodCall {$/;"	c	class:XcapOp.AsyncClient
+_del_result	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^class _del_result:$/;"	c
+_del_result	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public _del_result($/;"	m	class:XcapOp._del_result
+_del_result	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public _del_result() {$/;"	m	class:XcapOp._del_result
+_del_result	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public _del_result(_del_result other) {$/;"	m	class:XcapOp._del_result
+_del_result	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^  public static class _del_result implements org.apache.thrift.TBase<_del_result, _del_result._Fields>, java.io.Serializable, Cloneable   {$/;"	c	class:XcapOp
+_ebAuthenticate	PydevSduty/src/twisted/cred/dbcred.py	/^    def _ebAuthenticate(self, message, credentials, deferred):$/;"	m	class:DBCredentialsChecker
+_ebLogin	PydevSduty/src/twisted/cred/simplecred.py	/^    def _ebLogin(self, failure):$/;"	m	class:Protocol
+_fieldName	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private final String _fieldName;$/;"	f	class:XcapOp._del_args._Fields	file:
+_fieldName	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private final String _fieldName;$/;"	f	class:XcapOp._del_result._Fields	file:
+_fieldName	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private final String _fieldName;$/;"	f	class:XcapOp.get_args._Fields	file:
+_fieldName	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private final String _fieldName;$/;"	f	class:XcapOp.get_result._Fields	file:
+_fieldName	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private final String _fieldName;$/;"	f	class:XcapOp.put_args._Fields	file:
+_fieldName	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private final String _fieldName;$/;"	f	class:XcapOp.put_result._Fields	file:
+_len	PydevSduty/src/simple/collection_list.py	/^    def _len(self):$/;"	m	class:ListTest
+_list	PydevSduty/src/simple/collection_list.py	/^    def _list(self):$/;"	m	class:ListTest
+_privateMethod	PydevSduty/src/simple/class_properties.py	/^    def _privateMethod(self):$/;"	m	class:Test
+_testSplit	PydevSduty/src/simple/function_7_6.py	/^    def _testSplit(self, str,interval):$/;"	m	class:String
+_thriftId	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private final short _thriftId;$/;"	f	class:XcapOp._del_args._Fields	file:
+_thriftId	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private final short _thriftId;$/;"	f	class:XcapOp._del_result._Fields	file:
+_thriftId	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private final short _thriftId;$/;"	f	class:XcapOp.get_args._Fields	file:
+_thriftId	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private final short _thriftId;$/;"	f	class:XcapOp.get_result._Fields	file:
+_thriftId	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private final short _thriftId;$/;"	f	class:XcapOp.put_args._Fields	file:
+_thriftId	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private final short _thriftId;$/;"	f	class:XcapOp.put_result._Fields	file:
+a	PydevSduty/src/simple/collection_set.py	/^a = set('abracadabra')$/;"	v
+a	PydevSduty/src/twisted/core/deferredList.py	/^a = DeferredTest()$/;"	v
+aSillyBlockingMethodOne	PydevSduty/src/twisted/threads/SimpleThread.py	/^def aSillyBlockingMethodOne(x):$/;"	f
+aSillyBlockingMethodTwo	PydevSduty/src/twisted/threads/SimpleThread.py	/^def aSillyBlockingMethodTwo(x):$/;"	f
+abc	PydevSduty/src/thinking/in_/python/Test.py	/^abc = 12$/;"	v
+abcVirable	PydevSduty/src/thinking/in_/InitImportTest.py	/^from thinking.in_.python.Test import abc as abcVirable$/;"	i
+accept	PydevSduty/src/simple/function_parameter.py	/^def accept(kwargs):$/;"	f
+accept1	PydevSduty/src/simple/function_parameter.py	/^def accept1(**kwargs):$/;"	f
+adbapi	PydevSduty/src/twisted/cred/dbcred.py	/^    from twisted.enterprise import adbapi$/;"	i
+add	PydevSduty/src/thinking/in_/python/ClassFunction.py	/^        def add(self, addend): return addend+self.augend$/;"	m	class:make_adder_as_bound_method.Adder
+add	PydevSduty/src/thinking/in_/python/ClassFunction.py	/^    def add(addend, _augend=augend): return addend+_augend$/;"	f	function:make_adder_as_closure
+addSlash	PydevSduty/src/twisted/web2/children.py	/^  addSlash = True$/;"	v	class:Toplevel
+addSlash	PydevSduty/src/twisted/web2/simple.py	/^  addSlash = True$/;"	v	class:Toplevel
+address	ThriftTst/src/main/java/com/broqs/thrift/client/XcapServiceImpl.java	/^	private String address = "localhost";$/;"	f	class:XcapServiceImpl	file:
+agent	PydevSduty/src/twisted/web/client/request.py	/^agent = Agent(reactor)$/;"	v
+agent	PydevSduty/src/twisted/web/client/sendbody.py	/^agent = Agent(reactor)$/;"	v
+alist	PydevSduty/src/simple/collection_sequence.py	/^alist = list(atuple);$/;"	v
+app	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private String app;$/;"	f	class:XcapOp.AsyncClient._del_call	file:
+app	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private String app;$/;"	f	class:XcapOp.AsyncClient.get_call	file:
+app	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private String app;$/;"	f	class:XcapOp.AsyncClient.put_call	file:
+app	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String app; \/\/ required$/;"	f	class:XcapOp._del_args
+app	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String app; \/\/ required$/;"	f	class:XcapOp.get_args
+app	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String app; \/\/ required$/;"	f	class:XcapOp.put_args
+append	PydevSduty/src/simple/collection_list.py	/^    def append(self):        $/;"	m	class:ListTest
+append1	PydevSduty/src/simple/collection_list.py	/^    def append1(self):$/;"	m	class:ListTest
+application	PydevSduty/src/twisted/core/chatserver.py	/^application = service.Application("chatserver")$/;"	v
+application	PydevSduty/src/twisted/web2/children.py	/^application = service.Application("demoserver")$/;"	v
+application	PydevSduty/src/twisted/web2/simple.py	/^application = service.Application("demoserver")$/;"	v
+ar	PydevSduty/src/simple/data_type.py	/^ar = [['abc','xyz'],$/;"	v
+argv	PydevSduty/src/std/net/Chp1AdvDownloadClient.py	/^from sys import argv$/;"	i
+arr	PydevSduty/src/simple/data_type.py	/^arr = [['slieer']]$/;"	v
+arrTest	PydevSduty/src/linux/hello.py	/^def arrTest():$/;"	f
+array	PydevSduty/src/simple/collection_list_1.py	/^        from array import array$/;"	i
+arrayTest	PydevSduty/src/simple/collection_list_1.py	/^    def arrayTest(self):$/;"	m	class:Test
+aset	PydevSduty/src/simple/collection_sequence.py	/^aset = set([1, 2, 3, 2, 4, 6]) $/;"	v
+atuple	PydevSduty/src/simple/collection_sequence.py	/^atuple = (2,3,'老子');$/;"	v
+auth	PydevSduty/src/std/application/ConfigTest.py	/^    auth = ConfigSetting(type=str, value=None)$/;"	v	class:Account
+authheader	PydevSduty/src/std/net/BasicAuth.py	/^authheader = "Basic %s" % base64string$/;"	v
+avatar	PydevSduty/src/twisted/cred/simplecred.py	/^    avatar = None$/;"	v	class:Protocol
+average	PydevSduty/src/std/UnitTest.py	/^def average(values):$/;"	f
+b	PydevSduty/src/simple/collection_set.py	/^b = set('alacazam')$/;"	v
+b	PydevSduty/src/simple/function_built_in_func_date.py	/^b = Basic()$/;"	v
+background	PydevSduty/src/std/Thread.py	/^background = (AsyncZip(),AsyncZip());$/;"	v
+bar	PydevSduty/src/simple/module_all.py	/^bar = 10$/;"	v
+base64	PydevSduty/src/std/net/BasicAuth.py	/^import base64 $/;"	i
+base64string	PydevSduty/src/std/net/BasicAuth.py	/^base64string = base64.encodestring($/;"	v
+basic	PydevSduty/src/twisted/core/chatserver.py	/^from twisted.protocols import basic$/;"	i
+basic	PydevSduty/src/twisted/core/deferred01_lsCommand.py	/^from twisted.protocols import basic$/;"	i
+basic	PydevSduty/src/twisted/core/deferred03_.py	/^from twisted.protocols import basic$/;"	i
+basic	PydevSduty/src/twisted/cred/simplecred.py	/^from twisted.protocols import basic$/;"	i
+basic	PydevSduty/src/twisted/web/SimpleWebServer1_Echo.py	/^from twisted.protocols import basic$/;"	i
+basicFor	PydevSduty/src/simple/flow_control_for.py	/^def basicFor():$/;"	f
+basicFor1	PydevSduty/src/simple/flow_control_for.py	/^def basicFor1():$/;"	f
+basket	PydevSduty/src/simple/collection_set.py	/^basket = ['apple', 'orange', 'apple', 'pear', 'orange', 'banana']$/;"	v
+baz	PydevSduty/src/simple/module_all.py	/^def baz(): $/;"	f
+blist	PydevSduty/src/simple/collection_sequence.py	/^blist = list(aset) $/;"	v
+body	PydevSduty/src/twisted/web/client/sendbody.py	/^body = StringProducer("hello, world")$/;"	v
+btuple	PydevSduty/src/simple/collection_sequence.py	/^btuple = tuple(alist)$/;"	v
+buf	PydevSduty/src/std/net/Chapter1_SimpleGopherClient.py	/^    buf = s.recv(2048)$/;"	v
+buf	PydevSduty/src/std/net/Chp1AdvDownloadClient.py	/^    buf = f.read(2048)    $/;"	v
+buildProtocol	PydevSduty/src/twisted/core/echo_server.py	/^    def buildProtocol(self, addr):$/;"	m	class:EchoFactory
+buildProtocol	PydevSduty/src/twisted/core/simpleserv.py	/^    def buildProtocol(self, addr):$/;"	m	class:EchoFactory
+buildProtocol	PydevSduty/src/twisted/cred/simplecred.py	/^    def buildProtocol(self, addr):$/;"	m	class:ServerFactory
+byName	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private static final Map<String, _Fields> byName = new HashMap<String, _Fields>();$/;"	f	class:XcapOp._del_args._Fields	file:
+byName	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private static final Map<String, _Fields> byName = new HashMap<String, _Fields>();$/;"	f	class:XcapOp._del_result._Fields	file:
+byName	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private static final Map<String, _Fields> byName = new HashMap<String, _Fields>();$/;"	f	class:XcapOp.get_args._Fields	file:
+byName	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private static final Map<String, _Fields> byName = new HashMap<String, _Fields>();$/;"	f	class:XcapOp.get_result._Fields	file:
+byName	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private static final Map<String, _Fields> byName = new HashMap<String, _Fields>();$/;"	f	class:XcapOp.put_args._Fields	file:
+byName	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private static final Map<String, _Fields> byName = new HashMap<String, _Fields>();$/;"	f	class:XcapOp.put_result._Fields	file:
+c	PydevSduty/src/simple/class_static.py	/^    c = Child()$/;"	v
+c	PydevSduty/src/simple/function_lambda.py	/^    c = CRecord()$/;"	v	class:CRecord
+callTest	PydevSduty/src/simple/function_7_6.py	/^def callTest():$/;"	f
+canntWalk	PydevSduty/src/simple/class_static.py	/^    def canntWalk(self):$/;"	m	class:Child
+cb	PydevSduty/src/twisted/cred/dbcred.py	/^    def cb(res):$/;"	f	function:main
+cbResponse	PydevSduty/src/twisted/web/client/request.py	/^def cbResponse(ignored):$/;"	f
+cbResponse	PydevSduty/src/twisted/web/client/sendbody.py	/^def cbResponse(ignored):$/;"	f
+cbShutdown	PydevSduty/src/twisted/web/client/request.py	/^def cbShutdown(ignored):$/;"	f
+cbShutdown	PydevSduty/src/twisted/web/client/sendbody.py	/^def cbShutdown(ignored):$/;"	f
+channel	PydevSduty/src/twisted/web2/children.py	/^from twisted.web2 import server, http, resource, channel$/;"	i
+channel	PydevSduty/src/twisted/web2/simple.py	/^from twisted.web2 import server, http, resource, channel$/;"	i
+characters	PydevSduty/src/std/structured_data/xml/adddressbook.py	/^    def characters(self, chars):$/;"	m	class:PhoneContentHandler
+characters	PydevSduty/src/std/structured_data/xml/token.py	/^    def characters(self, chars):$/;"	m	class:TokenContentHandler
+checkers	PydevSduty/src/twisted/cred/Cred.py	/^from twisted.cred import portal, checkers, credentials$/;"	i
+checkers	PydevSduty/src/twisted/cred/simplecred.py	/^from twisted.cred import checkers$/;"	i
+child_elephant	PydevSduty/src/twisted/web2/children.py	/^  child_elephant = Child()$/;"	v	class:Toplevel
+child_monkey	PydevSduty/src/twisted/web2/children.py	/^  child_monkey = static.File(os.path.dirname(static.__file__)+'\/static.py')$/;"	v	class:Toplevel
+classVar	PydevSduty/src/simple/class_static.py	/^    classVar = 'test class variable.'$/;"	v	class:Person
+class_attr	PydevSduty/src/simple/class_properties.py	/^    class_attr = 'slieer'$/;"	v	class:Test
+clear	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void clear() {$/;"	m	class:XcapOp._del_args
+clear	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void clear() {$/;"	m	class:XcapOp._del_result
+clear	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void clear() {$/;"	m	class:XcapOp.get_args
+clear	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void clear() {$/;"	m	class:XcapOp.get_result
+clear	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void clear() {$/;"	m	class:XcapOp.put_args
+clear	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void clear() {$/;"	m	class:XcapOp.put_result
+client	PydevSduty/src/twisted/web/Download0.py	/^from twisted.web import client$/;"	i
+client	PydevSduty/src/twisted/web/Download1.py	/^from twisted.web import client$/;"	i
+client	ThriftTst/src/main/java/com/broqs/thrift/client/XcapServiceImpl.java	/^	private XcapOp.Client client = null;$/;"	f	class:XcapServiceImpl	file:
+clientConnectionFailed	PydevSduty/src/twisted/TcpClientDemo.py	/^    def clientConnectionFailed(self, connector, reason):$/;"	m	class:BasicClientFactory
+clientConnectionFailed	PydevSduty/src/twisted/core/deferred02_Demo.py	/^    def clientConnectionFailed(self, connector, reason):$/;"	m	class:ConnectionTestFactory
+clientConnectionFailed	PydevSduty/src/twisted/core/simpleclient.py	/^    def clientConnectionFailed(self, connector, reason):$/;"	m	class:EchoFactory
+clientConnectionLost	PydevSduty/src/twisted/TcpClientDemo.py	/^    def clientConnectionLost(self, connector, reason):$/;"	m	class:BasicClientFactory
+clientConnectionLost	PydevSduty/src/twisted/core/simpleclient.py	/^    def clientConnectionLost(self, connector, reason):$/;"	m	class:EchoFactory
+clientManager	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private org.apache.thrift.async.TAsyncClientManager clientManager;$/;"	f	class:XcapOp.AsyncClient.Factory	file:
+clientfile	PydevSduty/src/std/net/Chapter1_SimpleServer.py	/^    clientfile = clientsock.makefile('rw',0)$/;"	v
+cmd_ANON	PydevSduty/src/twisted/cred/simplecred.py	/^    def cmd_ANON(self):$/;"	m	class:Protocol
+cmd_PASS	PydevSduty/src/twisted/cred/simplecred.py	/^    def cmd_PASS(self, password):$/;"	m	class:Protocol
+cmd_PRIVS	PydevSduty/src/twisted/cred/simplecred.py	/^    def cmd_PRIVS(self):$/;"	m	class:Protocol
+cmd_USER	PydevSduty/src/twisted/cred/simplecred.py	/^    def cmd_USER(self, name):$/;"	m	class:Protocol
+collections	PydevSduty/src/simple/collection_tuple.py	/^        import collections$/;"	i
+com.broqs.thrift.client	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^package com.broqs.thrift.client;$/;"	p
+com.broqs.thrift.client	ThriftTst/src/main/java/com/broqs/thrift/client/XcapService.java	/^package com.broqs.thrift.client;$/;"	p
+com.broqs.thrift.client	ThriftTst/src/main/java/com/broqs/thrift/client/XcapServiceImpl.java	/^package com.broqs.thrift.client;$/;"	p
+com.slieer.ThriftTst	ThriftTst/src/test/java/com/slieer/ThriftTst/AppTest.java	/^package com.slieer.ThriftTst;$/;"	p
+commands	PydevSduty/src/twisted/threads/SimpleThread.py	/^commands = [(aSillyBlockingMethodOne, ["Calling First"], {})]$/;"	v
+compareTo	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public int compareTo(_del_args other) {$/;"	m	class:XcapOp._del_args
+compareTo	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public int compareTo(_del_result other) {$/;"	m	class:XcapOp._del_result
+compareTo	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public int compareTo(get_args other) {$/;"	m	class:XcapOp.get_args
+compareTo	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public int compareTo(get_result other) {$/;"	m	class:XcapOp.get_result
+compareTo	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public int compareTo(put_args other) {$/;"	m	class:XcapOp.put_args
+compareTo	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public int compareTo(put_result other) {$/;"	m	class:XcapOp.put_result
+conn	PydevSduty/src/std/db/MysqlDB.py	/^def conn():$/;"	f
+connErrorTest	PydevSduty/src/std/db/OracleDBConnectorTest.py	/^def connErrorTest():$/;"	f
+connTest	PydevSduty/src/std/db/OracleDBConnectorTest.py	/^def connTest():$/;"	f
+connTest2	PydevSduty/src/std/db/OracleDBConnectorTest.py	/^def connTest2():$/;"	f
+connectionLost	PydevSduty/src/twisted/SimpleGameServer.py	/^    def connectionLost(self,reason):$/;"	m	class:gameSocket
+connectionLost	PydevSduty/src/twisted/core/chatserver.py	/^    def connectionLost(self, reason):$/;"	m	class:MyChat
+connectionLost	PydevSduty/src/twisted/core/simpleclient.py	/^    def connectionLost(self, reason):$/;"	m	class:EchoClient
+connectionLost	PydevSduty/src/twisted/cred/simplecred.py	/^    def connectionLost(self, reason):$/;"	m	class:Protocol
+connectionMade	PydevSduty/src/twisted/SimpleGameServer.py	/^    def connectionMade(self):$/;"	m	class:gameSocket
+connectionMade	PydevSduty/src/twisted/TcpClientDemo.py	/^    def connectionMade(self):$/;"	m	class:QuickDisconnectedProtocol
+connectionMade	PydevSduty/src/twisted/core/chatserver.py	/^    def connectionMade(self):$/;"	m	class:MyChat
+connectionMade	PydevSduty/src/twisted/core/deferred02_Demo.py	/^    def connectionMade(self):$/;"	m	class:CallbackAndDisconnectProtocol
+connectionMade	PydevSduty/src/twisted/core/simpleclient.py	/^    def connectionMade(self):$/;"	m	class:EchoClient
+connectionMade	PydevSduty/src/twisted/cred/simplecred.py	/^    def connectionMade(self):$/;"	m	class:Protocol
+connector	PydevSduty/src/std/db/OracleDBConnectorTest.py	/^import mysql.connector$/;"	i
+content_type	PydevSduty/src/twisted/web2/children.py	/^  content_type = http_headers.MimeType('text', 'plain')$/;"	v	class:Child
+counter	PydevSduty/src/simple/thread_test.py	/^def counter(myId,count):$/;"	f
+creation_time	PydevSduty/src/twisted/web2/children.py	/^  creation_time = time.time()$/;"	v	class:Child
+credentialInterfaces	PydevSduty/src/twisted/cred/Cred.py	/^    credentialInterfaces = (credentials.IUsernamePassword,)$/;"	v	class:PasswordChecker
+credentials	PydevSduty/src/twisted/cred/Cred.py	/^from twisted.cred import portal, checkers, credentials$/;"	i
+credentials	PydevSduty/src/twisted/cred/simplecred.py	/^from twisted.cred import credentials$/;"	i
+d	PydevSduty/src/twisted/threads/simple.py	/^d = threads.deferToThread(doLongCalculation)$/;"	v
+d	PydevSduty/src/twisted/web/client/request.py	/^d = agent.request($/;"	v
+d	PydevSduty/src/twisted/web/client/sendbody.py	/^d = agent.request($/;"	v
+data	PydevSduty/src/simple/function_Generators.py	/^data = 'golf'$/;"	v
+data	PydevSduty/src/std/net/Chp6ObtainWebPage.py	/^    data = fd.read(1024)$/;"	v
+data	PydevSduty/src/std/structured_data/json/JsonTest.py	/^data = [ { 'a':'A', 'b':(2, 4), 'c':3.0 } ]$/;"	v
+dataReceived	PydevSduty/src/twisted/SimpleGameServer.py	/^    def dataReceived(self, data):$/;"	m	class:gameSocket
+dataReceived	PydevSduty/src/twisted/core/echo_server.py	/^    def dataReceived(self, data):$/;"	m	class:Echo
+dataReceived	PydevSduty/src/twisted/core/simpleclient.py	/^    def dataReceived(self, data):$/;"	m	class:EchoClient
+dataReceived	PydevSduty/src/twisted/core/simpleserv.py	/^    def dataReceived(self, data):$/;"	m	class:Echo
+data_string	PydevSduty/src/std/structured_data/json/JsonTest.py	/^data_string = json.dumps(data)$/;"	v
+date	PydevSduty/src/simple/function_built_in_func_date.py	/^from datetime import date$/;"	i
+dateTest	PydevSduty/src/simple/function_built_in_func_date.py	/^def dateTest(): $/;"	f
+dateTest1	PydevSduty/src/simple/function_built_in_func_date.py	/^def dateTest1():$/;"	f
+dateTest2	PydevSduty/src/simple/function_built_in_func_date.py	/^def dateTest2():$/;"	f
+dateTest3	PydevSduty/src/simple/function_built_in_func_date.py	/^def dateTest3():$/;"	f
+datetime	PydevSduty/src/simple/function_built_in_func_date.py	/^from datetime import datetime     $/;"	i
+db	PydevSduty/src/std/db/MysqlDB.py	/^db = conn()$/;"	v
+debug	PydevSduty/src/pythonCorePrograming/figure_3_1.py	/^debug = True$/;"	v
+deepCopy	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public _del_args deepCopy() {$/;"	m	class:XcapOp._del_args
+deepCopy	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public _del_result deepCopy() {$/;"	m	class:XcapOp._del_result
+deepCopy	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public get_args deepCopy() {$/;"	m	class:XcapOp.get_args
+deepCopy	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public get_result deepCopy() {$/;"	m	class:XcapOp.get_result
+deepCopy	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public put_args deepCopy() {$/;"	m	class:XcapOp.put_args
+deepCopy	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public put_result deepCopy() {$/;"	m	class:XcapOp.put_result
+defer	PydevSduty/src/twisted/core/deferred00_Simple.py	/^from twisted.internet import reactor, defer$/;"	i
+defer	PydevSduty/src/twisted/core/deferred02_Demo.py	/^from twisted.internet import reactor, defer, protocol$/;"	i
+defer	PydevSduty/src/twisted/core/deferred03_.py	/^from twisted.internet import protocol, reactor, defer$/;"	i
+defer	PydevSduty/src/twisted/core/deferredList.py	/^from twisted.internet import defer$/;"	i
+defer	PydevSduty/src/twisted/cred/Cred.py	/^from twisted.internet import protocol, reactor, defer$/;"	i
+delimiter	PydevSduty/src/simple/object_string.py	/^delimiter = '-*-'$/;"	v
+delimiter	PydevSduty/src/twisted/cred/Cred.py	/^    delimiter = '\\n'$/;"	v	class:MoneyProtocol
+deque	PydevSduty/src/simple/collection_list.py	/^from collections import deque$/;"	i
+dictTest	PydevSduty/src/simple/collection_dict.py	/^def dictTest():$/;"	f
+dictTest1	PydevSduty/src/simple/collection_dict.py	/^def dictTest1():$/;"	f
+display	PydevSduty/src/thinking/in_/python/SimpleClass.py	/^    def display(self):$/;"	m	class:Simple2
+dist1	PydevSduty/src/simple/function_parameter.py	/^dist1 = {"foo" :'bar',"spam" :'eggs'}$/;"	v
+doLongCalculation	PydevSduty/src/twisted/threads/simple.py	/^def doLongCalculation():$/;"	f
+docUrl	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private String docUrl;$/;"	f	class:XcapOp.AsyncClient._del_call	file:
+docUrl	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private String docUrl;$/;"	f	class:XcapOp.AsyncClient.get_call	file:
+docUrl	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private String docUrl;$/;"	f	class:XcapOp.AsyncClient.put_call	file:
+docUrl	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String docUrl; \/\/ required$/;"	f	class:XcapOp._del_args
+docUrl	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String docUrl; \/\/ required$/;"	f	class:XcapOp.get_args
+docUrl	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String docUrl; \/\/ required$/;"	f	class:XcapOp.put_args
+doctest	PydevSduty/src/std/UnitTest.py	/^import doctest$/;"	i
+downloadToTempFile	PydevSduty/src/twisted/web/Download1.py	/^def downloadToTempFile(url):$/;"	f
+end	PydevSduty/src/twisted/core/testlogging.py	/^def end():$/;"	f
+endElement	PydevSduty/src/std/structured_data/xml/adddressbook.py	/^    def endElement(self, name):$/;"	m	class:PhoneContentHandler
+endElement	PydevSduty/src/std/structured_data/xml/token.py	/^    def endElement(self, name):$/;"	m	class:TokenContentHandler
+enterStack	PydevSduty/src/simple/collection_list.py	/^    def enterStack(self, obj):$/;"	m	class:StackTest
+epollreactor	PydevSduty/src/twisted/SimpleGameServer.py	/^    from twisted.internet import epollreactor$/;"	i
+equals	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean equals(Object that) {$/;"	m	class:XcapOp._del_args
+equals	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean equals(Object that) {$/;"	m	class:XcapOp._del_result
+equals	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean equals(Object that) {$/;"	m	class:XcapOp.get_args
+equals	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean equals(Object that) {$/;"	m	class:XcapOp.get_result
+equals	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean equals(Object that) {$/;"	m	class:XcapOp.put_args
+equals	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean equals(Object that) {$/;"	m	class:XcapOp.put_result
+equals	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean equals(_del_args that) {$/;"	m	class:XcapOp._del_args
+equals	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean equals(_del_result that) {$/;"	m	class:XcapOp._del_result
+equals	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean equals(get_args that) {$/;"	m	class:XcapOp.get_args
+equals	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean equals(get_result that) {$/;"	m	class:XcapOp.get_result
+equals	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean equals(put_args that) {$/;"	m	class:XcapOp.put_args
+equals	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean equals(put_result that) {$/;"	m	class:XcapOp.put_result
+error	PydevSduty/src/twisted/cred/dbcred.py	/^from twisted.cred import error$/;"	i
+error	PydevSduty/src/twisted/cred/simplecred.py	/^from twisted.cred import error$/;"	i
+errorcode	PydevSduty/src/std/db/OracleDBConnectorTest.py	/^from mysql.connector import errorcode$/;"	i
+f	PydevSduty/src/simple/class_init.py	/^    f = f1$/;"	v	class:C
+f	PydevSduty/src/simple/exception_finally.py	/^    f = file('poem.txt')$/;"	v
+f	PydevSduty/src/simple/function_default_parameter.py	/^def f(a, L=[]):$/;"	f
+f	PydevSduty/src/simple/io_file_persist_object.py	/^f = file(shoplistfile)$/;"	v
+f	PydevSduty/src/simple/io_file_persist_object.py	/^f = file(shoplistfile, 'w')$/;"	v
+f	PydevSduty/src/std/application/ConfigTest.py	/^def f() :$/;"	f
+f	PydevSduty/src/std/net/Chp1AdvDownloadClient.py	/^f = urllib.urlopen(argv[1])$/;"	v
+f	PydevSduty/src/thinking/in_/python/SimpleClass.py	/^  def f(obj): obj.show() # One-line definition$/;"	f
+f	PydevSduty/src/twisted/SimpleGameServer.py	/^    f = Factory()$/;"	v
+f	PydevSduty/src/twisted/core/rotatinglog.py	/^f = logfile.LogFile("test.log", "\/tmp", rotateLength=100)$/;"	v
+f	PydevSduty/src/twisted/web/SimpleWebServer1_Echo.py	/^f = protocol.ServerFactory()$/;"	v
+f1	PydevSduty/src/simple/class_init.py	/^def f1(self,x, y):$/;"	f
+factory	PydevSduty/src/twisted/core/chatserver.py	/^factory = protocol.ServerFactory()$/;"	v
+fastbinary	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  fastbinary = None$/;"	v
+fastbinary	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  from thrift.protocol import fastbinary$/;"	i
+fastbinary	ThriftTst/gen/gen-py/xcap/ttypes.py	/^  fastbinary = None$/;"	v
+fastbinary	ThriftTst/gen/gen-py/xcap/ttypes.py	/^  from thrift.protocol import fastbinary$/;"	i
+fd	PydevSduty/src/std/net/Chp6ObtainWebPage.py	/^fd = urllib2.urlopen(req)$/;"	v
+fieldForId	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public _Fields fieldForId(int fieldId) {$/;"	m	class:XcapOp._del_args
+fieldForId	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public _Fields fieldForId(int fieldId) {$/;"	m	class:XcapOp._del_result
+fieldForId	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public _Fields fieldForId(int fieldId) {$/;"	m	class:XcapOp.get_args
+fieldForId	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public _Fields fieldForId(int fieldId) {$/;"	m	class:XcapOp.get_result
+fieldForId	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public _Fields fieldForId(int fieldId) {$/;"	m	class:XcapOp.put_args
+fieldForId	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public _Fields fieldForId(int fieldId) {$/;"	m	class:XcapOp.put_result
+file	PydevSduty/src/std/structured_data/xml/token.py	/^    file = sendRequest(host, port)$/;"	v
+fileName	PydevSduty/src/linux/file_man.py	/^def fileName():$/;"	f
+fileOp	PydevSduty/src/simple/io_1.py	/^def fileOp():$/;"	f
+fileOp1	PydevSduty/src/simple/io_1.py	/^def fileOp1():$/;"	f
+filePath	PydevSduty/src/linux/file_man.py	/^def filePath():$/;"	f
+fileTest	PydevSduty/src/std/OsFileTest.py	/^def fileTest():$/;"	f
+filename	PydevSduty/src/std/net/Chapter1_SimpleGopherClient.py	/^filename = sys.argv[2]$/;"	v
+filename	PydevSduty/src/std/net/Chapter1_SimpleGopherClient_1.py	/^filename = sys.argv[2]$/;"	v
+findByName	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public static _Fields findByName(String name) {$/;"	m	class:XcapOp._del_args._Fields
+findByName	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public static _Fields findByName(String name) {$/;"	m	class:XcapOp._del_result._Fields
+findByName	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public static _Fields findByName(String name) {$/;"	m	class:XcapOp.get_args._Fields
+findByName	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public static _Fields findByName(String name) {$/;"	m	class:XcapOp.get_result._Fields
+findByName	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public static _Fields findByName(String name) {$/;"	m	class:XcapOp.put_args._Fields
+findByName	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public static _Fields findByName(String name) {$/;"	m	class:XcapOp.put_result._Fields
+findByThriftId	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public static _Fields findByThriftId(int fieldId) {$/;"	m	class:XcapOp._del_args._Fields
+findByThriftId	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public static _Fields findByThriftId(int fieldId) {$/;"	m	class:XcapOp._del_result._Fields
+findByThriftId	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public static _Fields findByThriftId(int fieldId) {$/;"	m	class:XcapOp.get_args._Fields
+findByThriftId	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public static _Fields findByThriftId(int fieldId) {$/;"	m	class:XcapOp.get_result._Fields
+findByThriftId	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public static _Fields findByThriftId(int fieldId) {$/;"	m	class:XcapOp.put_args._Fields
+findByThriftId	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public static _Fields findByThriftId(int fieldId) {$/;"	m	class:XcapOp.put_result._Fields
+findByThriftIdOrThrow	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public static _Fields findByThriftIdOrThrow(int fieldId) {$/;"	m	class:XcapOp._del_args._Fields
+findByThriftIdOrThrow	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public static _Fields findByThriftIdOrThrow(int fieldId) {$/;"	m	class:XcapOp._del_result._Fields
+findByThriftIdOrThrow	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public static _Fields findByThriftIdOrThrow(int fieldId) {$/;"	m	class:XcapOp.get_args._Fields
+findByThriftIdOrThrow	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public static _Fields findByThriftIdOrThrow(int fieldId) {$/;"	m	class:XcapOp.get_result._Fields
+findByThriftIdOrThrow	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public static _Fields findByThriftIdOrThrow(int fieldId) {$/;"	m	class:XcapOp.put_args._Fields
+findByThriftIdOrThrow	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public static _Fields findByThriftIdOrThrow(int fieldId) {$/;"	m	class:XcapOp.put_result._Fields
+findFiles	PydevSduty/src/simple/function_arg.py	/^def findFiles():$/;"	f
+find_mobile_phone	PydevSduty/src/std/structured_data/xml/adddressbook.py	/^def find_mobile_phone(name):$/;"	f
+firstExam	PydevSduty/src/std/net/Chapter1_SimpleGopherClient_1.py	/^def firstExam():$/;"	f
+foo	PydevSduty/src/simple/collection_list.py	/^def foo():$/;"	f
+foo	PydevSduty/src/simple/function_7_6.py	/^        def foo(x = a):$/;"	f	function:DefaultParam.testDefaultParam
+foo	PydevSduty/src/simple/function_7_6.py	/^        def foo(x = a):$/;"	f	function:DefaultParam.testSimpleDefaultParam
+foo	PydevSduty/src/simple/function_arg.py	/^def foo(*args):$/;"	f
+forElseTest	PydevSduty/src/simple/flow_control_for.py	/^def forElseTest() :$/;"	f
+fruit	PydevSduty/src/simple/collection_set.py	/^fruit = set(basket)              $/;"	v
+func	PydevSduty/src/simple/function_call_by_value.py	/^def func():$/;"	f
+func	PydevSduty/src/simple/function_default_parameter.py	/^def func(a, b=5, c=10):$/;"	f
+func	PydevSduty/src/simple/function_lambda.py	/^    def func(self):$/;"	m	class:CRecord
+func1	PydevSduty/src/simple/function_call_by_value.py	/^def func1(param):$/;"	f
+func2	PydevSduty/src/simple/function_call_by_value.py	/^def func2(obj):$/;"	f
+function	PydevSduty/src/simple/function_arg.py	/^def function(arg1="hello", arg2="slieer"):$/;"	f
+g	PydevSduty/src/simple/class_init.py	/^    def g(self):$/;"	m	class:C
+g	PydevSduty/src/simple/function_lambda.py	/^g = lambda x: x * 2$/;"	v
+gameSocket	PydevSduty/src/twisted/SimpleGameServer.py	/^class gameSocket(Protocol):$/;"	c
+gc	PydevSduty/src/simple/collection_list_1.py	/^        import weakref, gc$/;"	i
+get	PydevSduty/src/simple/collection_list.py	/^    def get(self):$/;"	m	class:ListTest
+get	PydevSduty/src/std/structured_data/xml/token.py	/^def get(file_):$/;"	f
+get	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def get(self, app, docUrl, token):$/;"	m	class:Client
+get	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def get(self, app, docUrl, token):$/;"	m	class:Iface
+get	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public get() {$/;"	m	class:XcapOp.Processor.get
+get	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private static class get<I extends Iface> extends org.apache.thrift.ProcessFunction<I, get_args> {$/;"	c	class:XcapOp.Processor
+get	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String get(String app, String docUrl, String token) throws org.apache.thrift.TException$/;"	m	class:XcapOp.Client
+get	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String get(String app, String docUrl, String token) throws org.apache.thrift.TException;$/;"	m	interface:XcapOp.Iface
+get	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void get(String app, String docUrl, String token, org.apache.thrift.async.AsyncMethodCallback<AsyncClient.get_call> resultHandler) throws org.apache.thrift.TException;$/;"	m	interface:XcapOp.AsyncIface
+get	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void get(String app, String docUrl, String token, org.apache.thrift.async.AsyncMethodCallback<get_call> resultHandler) throws org.apache.thrift.TException {$/;"	m	class:XcapOp.AsyncClient
+get	ThriftTst/src/main/java/com/broqs/thrift/client/XcapService.java	/^	String get(String app, String docUrl, String token) throws TException;$/;"	m	interface:XcapService
+get	ThriftTst/src/main/java/com/broqs/thrift/client/XcapServiceImpl.java	/^	public String get(String app, String docUrl, String token)$/;"	m	class:XcapServiceImpl
+getApp	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String getApp() {$/;"	m	class:XcapOp._del_args
+getApp	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String getApp() {$/;"	m	class:XcapOp.get_args
+getApp	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String getApp() {$/;"	m	class:XcapOp.put_args
+getAsyncClient	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public AsyncClient getAsyncClient(org.apache.thrift.transport.TNonblockingTransport transport) {$/;"	m	class:XcapOp.AsyncClient.Factory
+getChild	PydevSduty/src/twisted/web/SimpleWebServer4_Resources.py	/^    def getChild(self, path, request):$/;"	m	class:ColorRoot
+getClient	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public Client getClient(org.apache.thrift.protocol.TProtocol iprot, org.apache.thrift.protocol.TProtocol oprot) {$/;"	m	class:XcapOp.Client.Factory
+getClient	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public Client getClient(org.apache.thrift.protocol.TProtocol prot) {$/;"	m	class:XcapOp.Client.Factory
+getData	PydevSduty/src/twisted/core/deferred00_Simple.py	/^    def getData(self, x):$/;"	m	class:Getter
+getData1	PydevSduty/src/twisted/core/deferred00_Simple.py	/^    def getData1(self, x):$/;"	m	class:Getter
+getDocUrl	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String getDocUrl() {$/;"	m	class:XcapOp._del_args
+getDocUrl	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String getDocUrl() {$/;"	m	class:XcapOp.get_args
+getDocUrl	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String getDocUrl() {$/;"	m	class:XcapOp.put_args
+getEmptyArgsInstance	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      protected _del_args getEmptyArgsInstance() {$/;"	m	class:XcapOp.Processor._del
+getEmptyArgsInstance	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      protected get_args getEmptyArgsInstance() {$/;"	m	class:XcapOp.Processor.get
+getEmptyArgsInstance	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      protected put_args getEmptyArgsInstance() {$/;"	m	class:XcapOp.Processor.put
+getFieldName	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public String getFieldName() {$/;"	m	class:XcapOp._del_args._Fields
+getFieldName	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public String getFieldName() {$/;"	m	class:XcapOp._del_result._Fields
+getFieldName	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public String getFieldName() {$/;"	m	class:XcapOp.get_args._Fields
+getFieldName	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public String getFieldName() {$/;"	m	class:XcapOp.get_result._Fields
+getFieldName	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public String getFieldName() {$/;"	m	class:XcapOp.put_args._Fields
+getFieldName	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public String getFieldName() {$/;"	m	class:XcapOp.put_result._Fields
+getFieldValue	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public Object getFieldValue(_Fields field) {$/;"	m	class:XcapOp._del_args
+getFieldValue	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public Object getFieldValue(_Fields field) {$/;"	m	class:XcapOp._del_result
+getFieldValue	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public Object getFieldValue(_Fields field) {$/;"	m	class:XcapOp.get_args
+getFieldValue	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public Object getFieldValue(_Fields field) {$/;"	m	class:XcapOp.get_result
+getFieldValue	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public Object getFieldValue(_Fields field) {$/;"	m	class:XcapOp.put_args
+getFieldValue	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public Object getFieldValue(_Fields field) {$/;"	m	class:XcapOp.put_result
+getGoogleMainPage	PydevSduty/src/std/net/url/UrlLibTest.py	/^def getGoogleMainPage():$/;"	f
+getPrivileges	PydevSduty/src/twisted/cred/simplecred.py	/^    def getPrivileges():$/;"	m	class:IProtocolUser
+getPrivileges	PydevSduty/src/twisted/cred/simplecred.py	/^    def getPrivileges(self):$/;"	m	class:Administrator
+getPrivileges	PydevSduty/src/twisted/cred/simplecred.py	/^    def getPrivileges(self):$/;"	m	class:AnonymousUser
+getPrivileges	PydevSduty/src/twisted/cred/simplecred.py	/^    def getPrivileges(self):$/;"	m	class:RegularUser
+getProcessMap	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private static <I extends Iface> Map<String,  org.apache.thrift.ProcessFunction<I, ? extends  org.apache.thrift.TBase>> getProcessMap(Map<String,  org.apache.thrift.ProcessFunction<I, ? extends  org.apache.thrift.TBase>> processMap) {$/;"	m	class:XcapOp.Processor	file:
+getResult	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      protected _del_result getResult(I iface, _del_args args) throws org.apache.thrift.TException {$/;"	m	class:XcapOp.Processor._del
+getResult	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      protected get_result getResult(I iface, get_args args) throws org.apache.thrift.TException {$/;"	m	class:XcapOp.Processor.get
+getResult	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      protected put_result getResult(I iface, put_args args) throws org.apache.thrift.TException {$/;"	m	class:XcapOp.Processor.put
+getResult	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public String getResult() throws org.apache.thrift.TException {$/;"	m	class:XcapOp.AsyncClient._del_call
+getResult	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public String getResult() throws org.apache.thrift.TException {$/;"	m	class:XcapOp.AsyncClient.get_call
+getResult	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public String getResult() throws org.apache.thrift.TException {$/;"	m	class:XcapOp.AsyncClient.put_call
+getSuccess	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String getSuccess() {$/;"	m	class:XcapOp._del_result
+getSuccess	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String getSuccess() {$/;"	m	class:XcapOp.get_result
+getSuccess	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String getSuccess() {$/;"	m	class:XcapOp.put_result
+getThriftFieldId	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public short getThriftFieldId() {$/;"	m	class:XcapOp._del_args._Fields
+getThriftFieldId	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public short getThriftFieldId() {$/;"	m	class:XcapOp._del_result._Fields
+getThriftFieldId	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public short getThriftFieldId() {$/;"	m	class:XcapOp.get_args._Fields
+getThriftFieldId	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public short getThriftFieldId() {$/;"	m	class:XcapOp.get_result._Fields
+getThriftFieldId	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public short getThriftFieldId() {$/;"	m	class:XcapOp.put_args._Fields
+getThriftFieldId	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public short getThriftFieldId() {$/;"	m	class:XcapOp.put_result._Fields
+getToken	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String getToken() {$/;"	m	class:XcapOp._del_args
+getToken	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String getToken() {$/;"	m	class:XcapOp.get_args
+getToken	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String getToken() {$/;"	m	class:XcapOp.put_args
+getUser	PydevSduty/src/twisted/core/deferred01_lsCommand.py	/^    def getUser(self, user):$/;"	m	class:FingerFactory
+getUser	PydevSduty/src/twisted/core/deferred03_.py	/^    def getUser(self, user):$/;"	m	class:FingerFactory
+getXmldoc	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String getXmldoc() {$/;"	m	class:XcapOp.put_args
+get_args	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^class get_args:$/;"	c
+get_args	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public get_args($/;"	m	class:XcapOp.get_args
+get_args	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public get_args() {$/;"	m	class:XcapOp.get_args
+get_args	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public get_args(get_args other) {$/;"	m	class:XcapOp.get_args
+get_args	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^  public static class get_args implements org.apache.thrift.TBase<get_args, get_args._Fields>, java.io.Serializable, Cloneable   {$/;"	c	class:XcapOp
+get_call	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public get_call(String app, String docUrl, String token, org.apache.thrift.async.AsyncMethodCallback<get_call> resultHandler, org.apache.thrift.async.TAsyncClient client, org.apache.thrift.protocol.TProtocolFactory protocolFactory, org.apache.thrift.transport.TNonblockingTransport transport) throws org.apache.thrift.TException {$/;"	m	class:XcapOp.AsyncClient.get_call
+get_call	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public static class get_call extends org.apache.thrift.async.TAsyncMethodCall {$/;"	c	class:XcapOp.AsyncClient
+get_result	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^class get_result:$/;"	c
+get_result	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public get_result($/;"	m	class:XcapOp.get_result
+get_result	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public get_result() {$/;"	m	class:XcapOp.get_result
+get_result	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public get_result(get_result other) {$/;"	m	class:XcapOp.get_result
+get_result	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^  public static class get_result implements org.apache.thrift.TBase<get_result, get_result._Fields>, java.io.Serializable, Cloneable   {$/;"	c	class:XcapOp
+get_user_passwd	PydevSduty/src/linux/net.py	/^    def get_user_passwd(self, host, realm, clear_cache=0):$/;"	m	class:MyOpener
+getattrTest	PydevSduty/src/simple/function_7_6.py	/^def getattrTest():    $/;"	f
+glob	PydevSduty/src/simple/function_arg.py	/^import glob$/;"	i
+got_results	PydevSduty/src/twisted/core/deferredList.py	/^def got_results(res):$/;"	f
+guess	PydevSduty/src/simple/flow_control_if.py	/^guess = int(raw_input("Enter a Integer:"))$/;"	v
+h	PydevSduty/src/simple/class_init.py	/^    h = g$/;"	v	class:C
+h	PydevSduty/src/thinking/in_/InitImportTest.py	/^h = Hello()$/;"	v
+handle	PydevSduty/src/std/net/BasicAuth.py	/^    handle = urllib2.urlopen(req)$/;"	v
+handle	PydevSduty/src/std/net/SocketServerWeblog.py	/^    def handle(self):$/;"	m	class:WebLogHandler
+handleFailure	PydevSduty/src/twisted/core/deferred02_Demo.py	/^def handleFailure(failure, port):$/;"	f
+handlePost	PydevSduty/src/twisted/web/SimpleWebServer3_Post.py	/^def handlePost(request):$/;"	f
+handleSuccess	PydevSduty/src/twisted/core/deferred02_Demo.py	/^def handleSuccess(result, port):$/;"	f
+hashCode	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public int hashCode() {$/;"	m	class:XcapOp._del_args
+hashCode	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public int hashCode() {$/;"	m	class:XcapOp._del_result
+hashCode	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public int hashCode() {$/;"	m	class:XcapOp.get_args
+hashCode	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public int hashCode() {$/;"	m	class:XcapOp.get_result
+hashCode	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public int hashCode() {$/;"	m	class:XcapOp.put_args
+hashCode	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public int hashCode() {$/;"	m	class:XcapOp.put_result
+hello	PydevSduty/src/simple/_hello_world.py	/^def hello():$/;"	f
+hello	PydevSduty/src/thinking/in_/python/Test.py	/^    def hello(self):$/;"	m	class:HelloWorld
+hello	PydevSduty/src/thinking/in_/python/Test.py	/^def hello():$/;"	f
+helloMethod	PydevSduty/src/thinking/in_/InitImportTest.py	/^from thinking.in_.python.Test import hello as helloMethod$/;"	i
+hit_tag	PydevSduty/src/std/net/SocketServerWeblog.py	/^from webloglib import log_fields, hit_tag$/;"	i
+host	PydevSduty/src/std/net/Chapter1_SimpleGopherClient.py	/^host = sys.argv[1]$/;"	v
+host	PydevSduty/src/std/net/Chapter1_SimpleGopherClient_1.py	/^host = sys.argv[1]$/;"	v
+host	PydevSduty/src/std/net/Chapter1_SimpleServer.py	/^host = ''$/;"	v
+host	PydevSduty/src/std/structured_data/xml/token.py	/^    host = ""$/;"	v
+howMany	PydevSduty/src/simple/class_object_variable.py	/^    def howMany(self):$/;"	m	class:Person
+http	PydevSduty/src/twisted/web/SimpleWebServer2.py	/^from twisted.web import http$/;"	i
+http	PydevSduty/src/twisted/web/SimpleWebServer3_Post.py	/^from twisted.web import http$/;"	i
+http	PydevSduty/src/twisted/web2/children.py	/^from twisted.web2 import server, http, resource, channel$/;"	i
+http	PydevSduty/src/twisted/web2/simple.py	/^from twisted.web2 import server, http, resource, channel$/;"	i
+http_headers	PydevSduty/src/twisted/web2/children.py	/^from twisted.web2 import static, http_headers, responsecode$/;"	i
+httplib	PydevSduty/src/std/net/HttpClientRequest.py	/^import httplib$/;"	i
+i	PydevSduty/src/std/Thread.py	/^    i = 10$/;"	v	class:AsyncZip
+ifTest	PydevSduty/src/linux/hello.py	/^def ifTest():$/;"	f
+implements	PydevSduty/src/twisted/cred/Cred.py	/^from zope.interface import Interface, implements$/;"	i
+implements	PydevSduty/src/twisted/cred/dbcred.py	/^from zope.interface import implements$/;"	i
+implements	PydevSduty/src/twisted/cred/simplecred.py	/^from zope.interface import implements, Interface$/;"	i
+implements	PydevSduty/src/twisted/web/client/stringprod.py	/^from zope.interface import implements$/;"	i
+index	PydevSduty/src/twisted/web/WebResources.py	/^index = resource.Resource()$/;"	v
+info	PydevSduty/src/std/net/Chp6ObtainWebPage.py	/^info = fd.info()$/;"	v
+initArr	PydevSduty/src/simple/collection_list.py	/^def initArr():    $/;"	f
+insert	PydevSduty/src/std/db/MysqlDB.py	/^def insert(db):$/;"	f
+internet	PydevSduty/src/twisted/core/chatserver.py	/^from twisted.application import service, internet$/;"	i
+iocpreactor	PydevSduty/src/twisted/SimpleGameServer.py	/^    from twisted.internet import iocpreactor$/;"	i
+isSet	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean isSet(_Fields field) {$/;"	m	class:XcapOp._del_args
+isSet	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean isSet(_Fields field) {$/;"	m	class:XcapOp._del_result
+isSet	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean isSet(_Fields field) {$/;"	m	class:XcapOp.get_args
+isSet	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean isSet(_Fields field) {$/;"	m	class:XcapOp.get_result
+isSet	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean isSet(_Fields field) {$/;"	m	class:XcapOp.put_args
+isSet	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean isSet(_Fields field) {$/;"	m	class:XcapOp.put_result
+isSetApp	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean isSetApp() {$/;"	m	class:XcapOp._del_args
+isSetApp	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean isSetApp() {$/;"	m	class:XcapOp.get_args
+isSetApp	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean isSetApp() {$/;"	m	class:XcapOp.put_args
+isSetDocUrl	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean isSetDocUrl() {$/;"	m	class:XcapOp._del_args
+isSetDocUrl	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean isSetDocUrl() {$/;"	m	class:XcapOp.get_args
+isSetDocUrl	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean isSetDocUrl() {$/;"	m	class:XcapOp.put_args
+isSetSuccess	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean isSetSuccess() {$/;"	m	class:XcapOp._del_result
+isSetSuccess	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean isSetSuccess() {$/;"	m	class:XcapOp.get_result
+isSetSuccess	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean isSetSuccess() {$/;"	m	class:XcapOp.put_result
+isSetToken	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean isSetToken() {$/;"	m	class:XcapOp._del_args
+isSetToken	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean isSetToken() {$/;"	m	class:XcapOp.get_args
+isSetToken	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean isSetToken() {$/;"	m	class:XcapOp.put_args
+isSetXmldoc	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public boolean isSetXmldoc() {$/;"	m	class:XcapOp.put_args
+j	PydevSduty/src/simple/data_type_json.py	/^j = {$/;"	v
+john	PydevSduty/src/simple/class_init.py	/^    john = Employee()$/;"	v	class:Employee
+join	PydevSduty/src/cookbook/thread_test.py	/^    def join(self, timeout=None):$/;"	m	class:TestThread
+json	PydevSduty/src/simple/data_type_json.py	/^import json$/;"	i
+json	PydevSduty/src/std/structured_data/json/JsonTest.py	/^import json$/;"	i
+kalam	PydevSduty/src/simple/class_object_variable.py	/^kalam = Person('Abdul Kalam')$/;"	v
+line	PydevSduty/src/simple/exception_finally.py	/^        line = f.readline()$/;"	v
+line	PydevSduty/src/std/net/Chapter1_SimpleServer.py	/^    line = clientfile.readline().strip()$/;"	v
+lineReceived	PydevSduty/src/twisted/core/chatserver.py	/^    def lineReceived(self, line):$/;"	m	class:MyChat
+lineReceived	PydevSduty/src/twisted/core/deferred01_lsCommand.py	/^    def lineReceived(self, user):$/;"	m	class:FingerProtocol
+lineReceived	PydevSduty/src/twisted/core/deferred03_.py	/^    def lineReceived(self, user):$/;"	m	class:FingerProtocol
+lineReceived	PydevSduty/src/twisted/cred/Cred.py	/^    def lineReceived(self, line):$/;"	m	class:MoneyProtocol
+lineReceived	PydevSduty/src/twisted/cred/simplecred.py	/^    def lineReceived(self, line):$/;"	m	class:Protocol
+lineReceived	PydevSduty/src/twisted/web/SimpleWebServer1_Echo.py	/^    def lineReceived(self, line):$/;"	m	class:HttpEchoProtocol
+listown	PydevSduty/src/simple/os.py	/^listown = [2,3,4]$/;"	v
+listtwo	PydevSduty/src/simple/os.py	/^listtwo = [2 * i for i in listown if i > 2]$/;"	v
+log	PydevSduty/src/std/net/url/UrlLib2Test.py	/^from application import log$/;"	i
+log	PydevSduty/src/twisted/core/rotatinglog.py	/^from twisted.python import log$/;"	i
+log	PydevSduty/src/twisted/core/testlogging.py	/^from twisted.python import log$/;"	i
+log	PydevSduty/src/twisted/cred/dbcred.py	/^    from twisted.python import log$/;"	i
+log	PydevSduty/src/twisted/cred/simplecred.py	/^from twisted.python import log$/;"	i
+log_fields	PydevSduty/src/std/net/SocketServerWeblog.py	/^from webloglib import log_fields, hit_tag$/;"	i
+logfile	PydevSduty/src/twisted/core/rotatinglog.py	/^from twisted.python import logfile$/;"	i
+logging	PydevSduty/src/std/ManyModuleTest.py	/^        import logging$/;"	i
+loginErr	PydevSduty/src/twisted/cred/Cred.py	/^    def loginErr(self, result):$/;"	m	class:MoneyProtocol
+loginSuc	PydevSduty/src/twisted/cred/Cred.py	/^    def loginSuc(self, avatarInfo):$/;"	m	class:MoneyProtocol
+logout	PydevSduty/src/twisted/cred/simplecred.py	/^    def logout():$/;"	m	class:IProtocolUser
+logout	PydevSduty/src/twisted/cred/simplecred.py	/^    def logout(self):$/;"	m	class:Administrator
+logout	PydevSduty/src/twisted/cred/simplecred.py	/^    def logout(self):$/;"	m	class:AnonymousUser
+logout	PydevSduty/src/twisted/cred/simplecred.py	/^    def logout(self):$/;"	m	class:RegularUser
+logout	PydevSduty/src/twisted/cred/simplecred.py	/^    logout = None$/;"	v	class:Protocol
+m	PydevSduty/src/thinking/in_/InitImportTest.py	/^from thinking.in_.python.ClassFunction import make_adder_as_bound_method as m$/;"	i
+main	PydevSduty/src/linux/call_sys_command.py	/^def main():$/;"	f
+main	PydevSduty/src/linux/file_man.py	/^def main():$/;"	f
+main	PydevSduty/src/linux/hello.py	/^def main():$/;"	f
+main	PydevSduty/src/linux/net.py	/^def main():$/;"	f
+main	PydevSduty/src/twisted/core/simpleclient.py	/^def main():$/;"	f
+main	PydevSduty/src/twisted/core/simpleserv.py	/^def main():$/;"	f
+main	PydevSduty/src/twisted/cred/dbcred.py	/^def main():$/;"	f
+main	PydevSduty/src/twisted/cred/simplecred.py	/^def main():$/;"	f
+main	ThriftTst/src/main/java/com/broqs/thrift/client/XcapServiceImpl.java	/^	public static void main(String[] args) {$/;"	m	class:XcapServiceImpl
+make_adder_as_bound_method	PydevSduty/src/thinking/in_/python/ClassFunction.py	/^def make_adder_as_bound_method(augend):$/;"	f
+make_adder_as_callable_instance	PydevSduty/src/thinking/in_/python/ClassFunction.py	/^def make_adder_as_callable_instance(augend):$/;"	f
+make_adder_as_closure	PydevSduty/src/thinking/in_/python/ClassFunction.py	/^def make_adder_as_closure(augend):$/;"	f
+make_parser	PydevSduty/src/std/structured_data/xml/adddressbook.py	/^from xml.sax import make_parser, SAXException$/;"	i
+make_parser	PydevSduty/src/std/structured_data/xml/token.py	/^from xml.sax import make_parser$/;"	i
+math	PydevSduty/src/simple/os.py	/^import math$/;"	i
+mdb	PydevSduty/src/std/db/MysqlDB.py	/^import MySQLdb as mdb$/;"	i
+members	PydevSduty/src/simple/class_inherit.py	/^    members = [t, s]$/;"	v
+message	PydevSduty/src/twisted/core/chatserver.py	/^    def message(self, message):$/;"	m	class:MyChat
+metaDataMap	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public static final Map<_Fields, org.apache.thrift.meta_data.FieldMetaData> metaDataMap;$/;"	f	class:XcapOp._del_args
+metaDataMap	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public static final Map<_Fields, org.apache.thrift.meta_data.FieldMetaData> metaDataMap;$/;"	f	class:XcapOp._del_result
+metaDataMap	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public static final Map<_Fields, org.apache.thrift.meta_data.FieldMetaData> metaDataMap;$/;"	f	class:XcapOp.get_args
+metaDataMap	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public static final Map<_Fields, org.apache.thrift.meta_data.FieldMetaData> metaDataMap;$/;"	f	class:XcapOp.get_result
+metaDataMap	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public static final Map<_Fields, org.apache.thrift.meta_data.FieldMetaData> metaDataMap;$/;"	f	class:XcapOp.put_args
+metaDataMap	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public static final Map<_Fields, org.apache.thrift.meta_data.FieldMetaData> metaDataMap;$/;"	f	class:XcapOp.put_result
+method	PydevSduty/src/simple/function_7_6.py	/^    def method(self):$/;"	m	class:A
+mod	PydevSduty/src/simple/module_dir.py	/^mod = sys.modules$/;"	v
+module_mymodule	PydevSduty/src/simple/module_mymodule_invocation.py	/^import module_mymodule$/;"	i
+msgTag	PydevSduty/src/std/structured_data/xml/token.py	/^    msgTag = 'msg'$/;"	v	class:TokenContentHandler
+msisdnTag	PydevSduty/src/std/structured_data/xml/token.py	/^    msisdnTag = 'msisdn'$/;"	v	class:TokenContentHandler
+multiply	PydevSduty/src/simple/function_parameter.py	/^def multiply(*args):$/;"	f
+mutex	PydevSduty/src/simple/thread_test.py	/^mutex = thread.allocate_lock()$/;"	v
+mylist	PydevSduty/src/simple/object_clone.py	/^mylist = shoplist # mylist is just another name pointing to the same object!$/;"	v
+mylist	PydevSduty/src/simple/object_clone.py	/^mylist = shoplist[:] # make a copy by doing a full slice$/;"	v
+mylist	PydevSduty/src/simple/object_string.py	/^mylist = ['brazil','Russia','India','China']$/;"	v
+mysql	PydevSduty/src/std/db/OracleDBConnectorTest.py	/^import mysql.connector$/;"	i
+myurl	PydevSduty/src/std/net/Chp6ObtainWebPage.py	/^    myurl = ''.join(['http:\/\/' ,myurl])$/;"	v
+myurl	PydevSduty/src/std/net/Chp6ObtainWebPage.py	/^myurl = 'www.baidu.com'$/;"	v
+name	PydevSduty/src/simple/collection_sequence.py	/^name = 'swaroop'$/;"	v
+name	PydevSduty/src/std/structured_data/xml/adddressbook.py	/^    name = ' '.join(sys.argv[1:])$/;"	v
+namedTupleTest	PydevSduty/src/simple/collection_tuple.py	/^def namedTupleTest():$/;"	f
+namedTupleTest1	PydevSduty/src/simple/collection_tuple.py	/^def namedTupleTest1():$/;"	f
+names	PydevSduty/src/std/structured_data/json/JsonTest.py	/^names = ['Jane', ['Matt', 'Laura'], 'Julieta', 'John', 'Jack']$/;"	v
+number	PydevSduty/src/simple/flow_control_if.py	/^number = 23$/;"	v
+os	PydevSduty/src/linux/call_sys_command.py	/^import os$/;"	i
+os	PydevSduty/src/linux/file_man.py	/^import os$/;"	i
+os	PydevSduty/src/pythonCorePrograming/figure_3_1.py	/^import os $/;"	i
+os	PydevSduty/src/simple/function_arg.py	/^import os$/;"	i
+os	PydevSduty/src/simple/os.py	/^import os$/;"	i
+os	PydevSduty/src/std/OsFileTest.py	/^import os$/;"	i
+os	PydevSduty/src/twisted/SimpleGameServer.py	/^import os$/;"	i
+os	PydevSduty/src/twisted/cred/dbcred.py	/^    import os$/;"	i
+os	PydevSduty/src/twisted/web/Download1.py	/^    import sys, os$/;"	i
+os	PydevSduty/src/twisted/web2/children.py	/^import os.path, time$/;"	i
+osTest	PydevSduty/src/std/OsFileTest.py	/^def osTest():$/;"	f
+osinfo	PydevSduty/src/simple/os.py	/^def osinfo():$/;"	f
+p	PydevSduty/src/simple/class_init.py	/^    p = Person('Swaroop')$/;"	v	class:Employee
+p	PydevSduty/src/simple/class_static.py	/^    p = Person()   #__init__方法被调用$/;"	v
+p	PydevSduty/src/simple/io_file_persist_object.py	/^import cPickle as p$/;"	i
+p	PydevSduty/src/twisted/cred/Cred.py	/^p = portal.Portal(UserBankRealm())$/;"	v
+pageHandlers	PydevSduty/src/twisted/web/SimpleWebServer3_Post.py	/^    pageHandlers = {$/;"	v	class:FunctionHandleRequest
+pages	PydevSduty/src/twisted/web/SimpleWebServer2.py	/^    pages = {$/;"	v	class:MyRequestHandler
+parameters	PydevSduty/src/linux/net.py	/^class parameters:$/;"	c
+params	PydevSduty/src/linux/net.py	/^params = parameters()$/;"	v
+password	PydevSduty/src/std/application/ConfigTest.py	/^    password = ConfigSetting(type=str, value=None)$/;"	v	class:Account
+password	PydevSduty/src/std/net/BasicAuth.py	/^password = 'XXXXXX'  # 你信这是密码吗？ $/;"	v
+path	PydevSduty/src/twisted/web2/children.py	/^import os.path, time$/;"	i
+pauseProducing	PydevSduty/src/twisted/web/client/stringprod.py	/^    def pauseProducing(self):$/;"	m	class:StringProducer
+pb	PydevSduty/src/twisted/cred/dbcred.py	/^    from twisted.spread import pb$/;"	i
+pbecho	PydevSduty/src/twisted/cred/dbcred.py	/^    import pbecho$/;"	i
+phone	PydevSduty/src/std/structured_data/xml/adddressbook.py	/^    phone = find_mobile_phone(name)$/;"	v
+pi	PydevSduty/src/simple/function_Generators.py	/^from math import pi, sin$/;"	i
+poop	PydevSduty/src/simple/function_7_6.py	/^    def poop(self):$/;"	m	class:Animal
+popStactTopElement	PydevSduty/src/simple/collection_list.py	/^    def popStactTopElement(self):$/;"	m	class:StackTest
+popen	PydevSduty/src/linux/call_sys_command.py	/^def popen():$/;"	f
+popen2	PydevSduty/src/linux/call_sys_command.py	/^import popen2$/;"	i
+population	PydevSduty/src/simple/class_object_variable.py	/^    population =  0$/;"	v	class:Person
+port	PydevSduty/src/std/net/Chapter1_SimpleGopherClient.py	/^port = 70$/;"	v
+port	PydevSduty/src/std/net/Chapter1_SimpleGopherClient_1.py	/^port = 70$/;"	v
+port	PydevSduty/src/std/net/Chapter1_SimpleServer.py	/^port = 51423$/;"	v
+port	PydevSduty/src/std/net/Chp2BasicConnection.py	/^port = socket.getservbyname("http","tcp")$/;"	v
+port	PydevSduty/src/std/structured_data/xml/token.py	/^    port = ""$/;"	v
+port	ThriftTst/src/main/java/com/broqs/thrift/client/XcapServiceImpl.java	/^	private int port = 7911;$/;"	f	class:XcapServiceImpl	file:
+portal	PydevSduty/src/twisted/cred/Cred.py	/^from twisted.cred import portal, checkers, credentials$/;"	i
+portal	PydevSduty/src/twisted/cred/simplecred.py	/^    portal = None$/;"	v	class:Protocol
+portal	PydevSduty/src/twisted/cred/simplecred.py	/^from twisted.cred import portal$/;"	i
+powersum	PydevSduty/src/simple/os.py	/^def powersum(power,*args):$/;"	f
+printData	PydevSduty/src/twisted/core/deferred00_Simple.py	/^def printData(d):$/;"	f
+printError	PydevSduty/src/twisted/web/Download0.py	/^def printError(failure):$/;"	f
+printError	PydevSduty/src/twisted/web/Download1.py	/^    def printError(failure):$/;"	f	function:returnFilename
+printFile	PydevSduty/src/twisted/web/Download1.py	/^    def printFile(filename):$/;"	f	function:returnFilename
+printPage	PydevSduty/src/twisted/web/Download0.py	/^def printPage(data):$/;"	f
+printProperties	PydevSduty/src/simple/_hello_world_v1.py	/^    def printProperties(self):$/;"	m	class:Basic
+printResult	PydevSduty/src/twisted/threads/simple.py	/^def printResult(response):$/;"	f
+printSum	PydevSduty/src/twisted/core/reactorDemo.py	/^def printSum(i):$/;"	f
+printTime	PydevSduty/src/twisted/core/reactorDemo.py	/^def printTime():$/;"	f
+process	PydevSduty/src/twisted/web/SimpleWebServer2.py	/^    def process(self):$/;"	m	class:MyRequestHandler
+process	PydevSduty/src/twisted/web/SimpleWebServer3_Post.py	/^    def process(self):$/;"	m	class:FunctionHandleRequest
+process	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def process(self, iprot, oprot):$/;"	m	class:Processor
+process__del	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def process__del(self, seqid, iprot, oprot):$/;"	m	class:Processor
+process_get	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def process_get(self, seqid, iprot, oprot):$/;"	m	class:Processor
+process_put	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def process_put(self, seqid, iprot, oprot):$/;"	m	class:Processor
+protocol	PydevSduty/src/twisted/TcpClientDemo.py	/^    protocol = QuickDisconnectedProtocol$/;"	v	class:BasicClientFactory
+protocol	PydevSduty/src/twisted/TcpClientDemo.py	/^from twisted.internet import reactor, protocol$/;"	i
+protocol	PydevSduty/src/twisted/core/chatserver.py	/^from twisted.internet import protocol$/;"	i
+protocol	PydevSduty/src/twisted/core/deferred01_lsCommand.py	/^    protocol = FingerProtocol$/;"	v	class:FingerFactory
+protocol	PydevSduty/src/twisted/core/deferred01_lsCommand.py	/^from twisted.internet import protocol, reactor, utils$/;"	i
+protocol	PydevSduty/src/twisted/core/deferred02_Demo.py	/^    protocol = CallbackAndDisconnectProtocol$/;"	v	class:ConnectionTestFactory
+protocol	PydevSduty/src/twisted/core/deferred02_Demo.py	/^from twisted.internet import reactor, defer, protocol$/;"	i
+protocol	PydevSduty/src/twisted/core/deferred03_.py	/^    protocol = FingerProtocol$/;"	v	class:FingerFactory
+protocol	PydevSduty/src/twisted/core/deferred03_.py	/^from twisted.internet import protocol, reactor, defer$/;"	i
+protocol	PydevSduty/src/twisted/core/echo_server.py	/^from twisted.internet import protocol, reactor$/;"	i
+protocol	PydevSduty/src/twisted/core/simpleclient.py	/^    protocol = EchoClient$/;"	v	class:EchoFactory
+protocol	PydevSduty/src/twisted/core/simpleclient.py	/^from twisted.internet import reactor, protocol$/;"	i
+protocol	PydevSduty/src/twisted/core/simpleserv.py	/^from twisted.internet import reactor, protocol$/;"	i
+protocol	PydevSduty/src/twisted/cred/Cred.py	/^    protocol = MoneyProtocol$/;"	v	class:BankFactory
+protocol	PydevSduty/src/twisted/cred/Cred.py	/^from twisted.internet import protocol, reactor, defer$/;"	i
+protocol	PydevSduty/src/twisted/cred/simplecred.py	/^    protocol = Protocol$/;"	v	class:ServerFactory
+protocol	PydevSduty/src/twisted/cred/simplecred.py	/^from twisted.internet import protocol$/;"	i
+protocol	PydevSduty/src/twisted/web/SimpleWebServer1_Echo.py	/^from twisted.internet import protocol, reactor$/;"	i
+protocol	PydevSduty/src/twisted/web/SimpleWebServer2.py	/^    protocol = MyHttp$/;"	v	class:MyHttpFactory
+protocol	PydevSduty/src/twisted/web/SimpleWebServer3_Post.py	/^    protocol = MyHttp$/;"	v	class:MyHttpFactory
+protocolFactory	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private org.apache.thrift.protocol.TProtocolFactory protocolFactory;$/;"	f	class:XcapOp.AsyncClient.Factory	file:
+put	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def put(self, app, docUrl, xmldoc, token):$/;"	m	class:Client
+put	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def put(self, app, docUrl, xmldoc, token):$/;"	m	class:Iface
+put	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public put() {$/;"	m	class:XcapOp.Processor.put
+put	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private static class put<I extends Iface> extends org.apache.thrift.ProcessFunction<I, put_args> {$/;"	c	class:XcapOp.Processor
+put	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String put(String app, String docUrl, String xmldoc, String token) throws org.apache.thrift.TException$/;"	m	class:XcapOp.Client
+put	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String put(String app, String docUrl, String xmldoc, String token) throws org.apache.thrift.TException;$/;"	m	interface:XcapOp.Iface
+put	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void put(String app, String docUrl, String xmldoc, String token, org.apache.thrift.async.AsyncMethodCallback<AsyncClient.put_call> resultHandler) throws org.apache.thrift.TException;$/;"	m	interface:XcapOp.AsyncIface
+put	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void put(String app, String docUrl, String xmldoc, String token, org.apache.thrift.async.AsyncMethodCallback<put_call> resultHandler) throws org.apache.thrift.TException {$/;"	m	class:XcapOp.AsyncClient
+put	ThriftTst/src/main/java/com/broqs/thrift/client/XcapService.java	/^	String put(String app, String docUrl, String xmldoc, String token) throws TException;$/;"	m	interface:XcapService
+put	ThriftTst/src/main/java/com/broqs/thrift/client/XcapServiceImpl.java	/^	public String put(String app, String docUrl, String xmldoc, String token)$/;"	m	class:XcapServiceImpl
+put_args	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^class put_args:$/;"	c
+put_args	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public put_args($/;"	m	class:XcapOp.put_args
+put_args	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public put_args() {$/;"	m	class:XcapOp.put_args
+put_args	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public put_args(put_args other) {$/;"	m	class:XcapOp.put_args
+put_args	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^  public static class put_args implements org.apache.thrift.TBase<put_args, put_args._Fields>, java.io.Serializable, Cloneable   {$/;"	c	class:XcapOp
+put_call	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public put_call(String app, String docUrl, String xmldoc, String token, org.apache.thrift.async.AsyncMethodCallback<put_call> resultHandler, org.apache.thrift.async.TAsyncClient client, org.apache.thrift.protocol.TProtocolFactory protocolFactory, org.apache.thrift.transport.TNonblockingTransport transport) throws org.apache.thrift.TException {$/;"	m	class:XcapOp.AsyncClient.put_call
+put_call	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public static class put_call extends org.apache.thrift.async.TAsyncMethodCall {$/;"	c	class:XcapOp.AsyncClient
+put_result	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^class put_result:$/;"	c
+put_result	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public put_result($/;"	m	class:XcapOp.put_result
+put_result	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public put_result() {$/;"	m	class:XcapOp.put_result
+put_result	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public put_result(put_result other) {$/;"	m	class:XcapOp.put_result
+put_result	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^  public static class put_result implements org.apache.thrift.TBase<put_result, put_result._Fields>, java.io.Serializable, Cloneable   {$/;"	c	class:XcapOp
+query	PydevSduty/src/std/db/MysqlDB.py	/^def query(db):$/;"	f
+reactor	PydevSduty/src/twisted/SimpleGameServer.py	/^from twisted.internet import reactor$/;"	i
+reactor	PydevSduty/src/twisted/TcpClientDemo.py	/^from twisted.internet import reactor, protocol$/;"	i
+reactor	PydevSduty/src/twisted/__init__.py	/^from twisted.internet import reactor$/;"	i
+reactor	PydevSduty/src/twisted/core/deferred00_Simple.py	/^from twisted.internet import reactor, defer$/;"	i
+reactor	PydevSduty/src/twisted/core/deferred01_lsCommand.py	/^from twisted.internet import protocol, reactor, utils$/;"	i
+reactor	PydevSduty/src/twisted/core/deferred02_Demo.py	/^from twisted.internet import reactor, defer, protocol$/;"	i
+reactor	PydevSduty/src/twisted/core/deferred03_.py	/^from twisted.internet import protocol, reactor, defer$/;"	i
+reactor	PydevSduty/src/twisted/core/echo_server.py	/^from twisted.internet import protocol, reactor$/;"	i
+reactor	PydevSduty/src/twisted/core/reactorDemo.py	/^from twisted.internet import reactor$/;"	i
+reactor	PydevSduty/src/twisted/core/simpleclient.py	/^from twisted.internet import reactor, protocol$/;"	i
+reactor	PydevSduty/src/twisted/core/simpleserv.py	/^from twisted.internet import reactor, protocol$/;"	i
+reactor	PydevSduty/src/twisted/core/testlogging.py	/^from twisted.internet import reactor$/;"	i
+reactor	PydevSduty/src/twisted/cred/Cred.py	/^from twisted.internet import protocol, reactor, defer$/;"	i
+reactor	PydevSduty/src/twisted/cred/dbcred.py	/^    from twisted.internet import reactor$/;"	i
+reactor	PydevSduty/src/twisted/cred/simplecred.py	/^    from twisted.internet import reactor$/;"	i
+reactor	PydevSduty/src/twisted/threads/SimpleThread.py	/^from twisted.internet import reactor, threads$/;"	i
+reactor	PydevSduty/src/twisted/threads/simple.py	/^from twisted.internet import reactor, threads$/;"	i
+reactor	PydevSduty/src/twisted/web/Download0.py	/^from twisted.internet import reactor$/;"	i
+reactor	PydevSduty/src/twisted/web/Download1.py	/^    from twisted.internet import reactor$/;"	i
+reactor	PydevSduty/src/twisted/web/SimpleWebServer0.py	/^from twisted.internet import reactor $/;"	i
+reactor	PydevSduty/src/twisted/web/SimpleWebServer1_Echo.py	/^from twisted.internet import protocol, reactor$/;"	i
+reactor	PydevSduty/src/twisted/web/SimpleWebServer2.py	/^    from twisted.internet import reactor$/;"	i
+reactor	PydevSduty/src/twisted/web/SimpleWebServer3_Post.py	/^    from twisted.internet import reactor$/;"	i
+reactor	PydevSduty/src/twisted/web/SimpleWebServer4_Resources.py	/^    from twisted.internet import reactor$/;"	i
+reactor	PydevSduty/src/twisted/web/WebResources.py	/^from twisted.internet import reactor$/;"	i
+reactor	PydevSduty/src/twisted/web/client/request.py	/^from twisted.internet import reactor$/;"	i
+reactor	PydevSduty/src/twisted/web/client/sendbody.py	/^from twisted.internet import reactor$/;"	i
+read	PydevSduty/src/simple/collection_list.py	/^    def read(self):$/;"	m	class:QueueTest
+read	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def read(self, iprot):$/;"	m	class:_del_args
+read	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def read(self, iprot):$/;"	m	class:_del_result
+read	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def read(self, iprot):$/;"	m	class:get_args
+read	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def read(self, iprot):$/;"	m	class:get_result
+read	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def read(self, iprot):$/;"	m	class:put_args
+read	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def read(self, iprot):$/;"	m	class:put_result
+read	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void read(org.apache.thrift.protocol.TProtocol iprot) throws org.apache.thrift.TException {$/;"	m	class:XcapOp._del_args
+read	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void read(org.apache.thrift.protocol.TProtocol iprot) throws org.apache.thrift.TException {$/;"	m	class:XcapOp._del_result
+read	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void read(org.apache.thrift.protocol.TProtocol iprot) throws org.apache.thrift.TException {$/;"	m	class:XcapOp.get_args
+read	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void read(org.apache.thrift.protocol.TProtocol iprot) throws org.apache.thrift.TException {$/;"	m	class:XcapOp.get_result
+read	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void read(org.apache.thrift.protocol.TProtocol iprot) throws org.apache.thrift.TException {$/;"	m	class:XcapOp.put_args
+read	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void read(org.apache.thrift.protocol.TProtocol iprot) throws org.apache.thrift.TException {$/;"	m	class:XcapOp.put_result
+readObject	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private void readObject(java.io.ObjectInputStream in) throws java.io.IOException, ClassNotFoundException {$/;"	m	class:XcapOp._del_args	file:
+readObject	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private void readObject(java.io.ObjectInputStream in) throws java.io.IOException, ClassNotFoundException {$/;"	m	class:XcapOp._del_result	file:
+readObject	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private void readObject(java.io.ObjectInputStream in) throws java.io.IOException, ClassNotFoundException {$/;"	m	class:XcapOp.get_args	file:
+readObject	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private void readObject(java.io.ObjectInputStream in) throws java.io.IOException, ClassNotFoundException {$/;"	m	class:XcapOp.get_result	file:
+readObject	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private void readObject(java.io.ObjectInputStream in) throws java.io.IOException, ClassNotFoundException {$/;"	m	class:XcapOp.put_args	file:
+readObject	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private void readObject(java.io.ObjectInputStream in) throws java.io.IOException, ClassNotFoundException {$/;"	m	class:XcapOp.put_result	file:
+readStactTop	PydevSduty/src/simple/collection_list.py	/^    def readStactTop(self):$/;"	m	class:StackTest
+recv__del	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def recv__del(self, ):$/;"	m	class:Client
+recv__del	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String recv__del() throws org.apache.thrift.TException$/;"	m	class:XcapOp.Client
+recv_get	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def recv_get(self, ):$/;"	m	class:Client
+recv_get	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String recv_get() throws org.apache.thrift.TException$/;"	m	class:XcapOp.Client
+recv_put	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def recv_put(self, ):$/;"	m	class:Client
+recv_put	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String recv_put() throws org.apache.thrift.TException$/;"	m	class:XcapOp.Client
+render	PydevSduty/src/twisted/web/SimpleWebServer0.py	/^  def render(self, request): $/;"	m	class:ReStructured
+render	PydevSduty/src/twisted/web/SimpleWebServer4_Resources.py	/^    def render(self, request):$/;"	m	class:ColorIndexPage
+render	PydevSduty/src/twisted/web/SimpleWebServer4_Resources.py	/^    def render(self, request):$/;"	m	class:ColorPage
+render	PydevSduty/src/twisted/web/SimpleWebServer4_Resources.py	/^    def render(self, request):$/;"	m	class:ColorRoot
+render	PydevSduty/src/twisted/web/SimpleWebServer4_Resources.py	/^    def render(self, request):$/;"	m	class:HomePage
+render	PydevSduty/src/twisted/web/WebResources.py	/^    def render(self, request):$/;"	m	class:First
+render	PydevSduty/src/twisted/web2/children.py	/^  def render(self, ctx):$/;"	m	class:Child
+render	PydevSduty/src/twisted/web2/children.py	/^  def render(self, ctx):$/;"	m	class:Toplevel
+render	PydevSduty/src/twisted/web2/simple.py	/^  def render(self, ctx):$/;"	m	class:Toplevel
+renderHomePage	PydevSduty/src/twisted/web/SimpleWebServer3_Post.py	/^def renderHomePage(request):$/;"	f
+req	PydevSduty/src/std/net/BasicAuth.py	/^req = urllib2.Request(theurl)$/;"	v
+req	PydevSduty/src/std/net/Chp6ObtainWebPage.py	/^req = urllib2.Request(myurl)$/;"	v
+requestAvatar	PydevSduty/src/twisted/cred/Cred.py	/^    def requestAvatar(self, avatarId, mind, *interfaces):$/;"	m	class:UserBankRealm
+requestAvatar	PydevSduty/src/twisted/cred/simplecred.py	/^    def requestAvatar(self, avatarId, mind, *interfaces):$/;"	m	class:Realm
+requestAvatarId	PydevSduty/src/twisted/cred/Cred.py	/^    def requestAvatarId(self, credentials):$/;"	m	class:PasswordChecker
+requestAvatarId	PydevSduty/src/twisted/cred/dbcred.py	/^    def requestAvatarId(self, credentials):$/;"	m	class:DBCredentialsChecker
+requestFactory	PydevSduty/src/twisted/web/SimpleWebServer2.py	/^    requestFactory = MyRequestHandler$/;"	v	class:MyHttp
+requestFactory	PydevSduty/src/twisted/web/SimpleWebServer3_Post.py	/^    requestFactory = FunctionHandleRequest$/;"	v	class:MyHttp
+resource	PydevSduty/src/twisted/web/SimpleWebServer0.py	/^resource = static.File('.\/htm\/')                                                   $/;"	v
+resource	PydevSduty/src/twisted/web/SimpleWebServer4_Resources.py	/^from twisted.web import resource, static, server$/;"	i
+resource	PydevSduty/src/twisted/web/WebResources.py	/^from twisted.web import resource$/;"	i
+resource	PydevSduty/src/twisted/web2/children.py	/^from twisted.web2 import server, http, resource, channel$/;"	i
+resource	PydevSduty/src/twisted/web2/simple.py	/^from twisted.web2 import server, http, resource, channel$/;"	i
+responsecode	PydevSduty/src/twisted/web2/children.py	/^from twisted.web2 import static, http_headers, responsecode$/;"	i
+result	PydevSduty/src/twisted/core/reactorDemo.py	/^class result :$/;"	c
+returnFilename	PydevSduty/src/twisted/web/Download1.py	/^def returnFilename(result, filename):$/;"	f
+root	PydevSduty/src/twisted/web/SimpleWebServer4_Resources.py	/^    root = resource.Resource()$/;"	v
+run	PydevSduty/src/cookbook/thread_test.py	/^    def run(self):$/;"	m	class:TestThread
+run	PydevSduty/src/std/Thread.py	/^    def run(self):$/;"	m	class:AsyncZip
+s	PydevSduty/src/simple/class_inherit.py	/^    s = Student('Swaroop', 22, 75)$/;"	v
+s	PydevSduty/src/simple/exception.py	/^    s = raw_input('Enter something --> ')$/;"	v
+s	PydevSduty/src/simple/exception_raise_else.py	/^    s = raw_input('Enter something --> ')$/;"	v
+s	PydevSduty/src/simple/os.py	/^import os as s$/;"	i
+s	PydevSduty/src/simple/test/collecton_list_test.py	/^s = StackTest(['b','bb'])$/;"	v
+s	PydevSduty/src/std/Compression.py	/^s = 'witch which has which witches wrist watchwitch which has which witches wrist watch'$/;"	v
+s	PydevSduty/src/std/net/Chapter1_SimpleGopherClient.py	/^s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)  #IPv4, tcp.$/;"	v
+s	PydevSduty/src/std/net/Chapter1_SimpleServer.py	/^s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)$/;"	v
+s	PydevSduty/src/std/net/Chp2BasicConnection.py	/^s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)$/;"	v
+s	PydevSduty/src/twisted/web2/children.py	/^s = strports.service('tcp:8080', channel.HTTPFactory(site))$/;"	v
+s	PydevSduty/src/twisted/web2/simple.py	/^s = strports.service('tcp:8080', channel.HTTPFactory(site))$/;"	v
+say	PydevSduty/src/simple/function_default_parameter.py	/^def say(message, times = 1):$/;"	f
+sayHi	PydevSduty/src/simple/class_init.py	/^    def sayHi(self):$/;"	m	class:Person
+sayHi	PydevSduty/src/simple/class_object_variable.py	/^    def sayHi(self):$/;"	m	class:Person
+sayHi	PydevSduty/src/simple/class_static.py	/^    def sayHi(self):$/;"	m	class:Person
+sayhi	PydevSduty/src/simple/module_mymodule.py	/^def sayhi():$/;"	f
+secondExam	PydevSduty/src/std/net/Chapter1_SimpleGopherClient_1.py	/^def secondExam():$/;"	f
+sendRequest	PydevSduty/src/std/net/url/UrlLib2Test.py	/^def sendRequest(url,token):$/;"	f
+sendRequest	PydevSduty/src/std/structured_data/xml/token.py	/^def sendRequest(host,port):$/;"	f
+sendResponse	PydevSduty/src/twisted/web/SimpleWebServer1_Echo.py	/^    def sendResponse(self):$/;"	m	class:HttpEchoProtocol
+send__del	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def send__del(self, app, docUrl, token):$/;"	m	class:Client
+send__del	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void send__del(String app, String docUrl, String token) throws org.apache.thrift.TException$/;"	m	class:XcapOp.Client
+send_get	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def send_get(self, app, docUrl, token):$/;"	m	class:Client
+send_get	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void send_get(String app, String docUrl, String token) throws org.apache.thrift.TException$/;"	m	class:XcapOp.Client
+send_put	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def send_put(self, app, docUrl, xmldoc, token):$/;"	m	class:Client
+send_put	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void send_put(String app, String docUrl, String xmldoc, String token) throws org.apache.thrift.TException$/;"	m	class:XcapOp.Client
+server	PydevSduty/src/twisted/web/SimpleWebServer0.py	/^from twisted.web import server                                                   $/;"	i
+server	PydevSduty/src/twisted/web/SimpleWebServer4_Resources.py	/^from twisted.web import resource, static, server$/;"	i
+server	PydevSduty/src/twisted/web/WebResources.py	/^from twisted.web import static, server$/;"	i
+server	PydevSduty/src/twisted/web2/children.py	/^from twisted.web2 import server, http, resource, channel$/;"	i
+server	PydevSduty/src/twisted/web2/simple.py	/^from twisted.web2 import server, http, resource, channel$/;"	i
+service	PydevSduty/src/twisted/core/chatserver.py	/^from twisted.application import service, internet$/;"	i
+service	PydevSduty/src/twisted/web2/children.py	/^from twisted.application import service, strports$/;"	i
+service	PydevSduty/src/twisted/web2/simple.py	/^from twisted.application import service, strports$/;"	i
+setApp	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public _del_args setApp(String app) {$/;"	m	class:XcapOp._del_args
+setApp	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public get_args setApp(String app) {$/;"	m	class:XcapOp.get_args
+setApp	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public put_args setApp(String app) {$/;"	m	class:XcapOp.put_args
+setAppIsSet	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void setAppIsSet(boolean value) {$/;"	m	class:XcapOp._del_args
+setAppIsSet	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void setAppIsSet(boolean value) {$/;"	m	class:XcapOp.get_args
+setAppIsSet	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void setAppIsSet(boolean value) {$/;"	m	class:XcapOp.put_args
+setDocUrl	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public _del_args setDocUrl(String docUrl) {$/;"	m	class:XcapOp._del_args
+setDocUrl	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public get_args setDocUrl(String docUrl) {$/;"	m	class:XcapOp.get_args
+setDocUrl	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public put_args setDocUrl(String docUrl) {$/;"	m	class:XcapOp.put_args
+setDocUrlIsSet	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void setDocUrlIsSet(boolean value) {$/;"	m	class:XcapOp._del_args
+setDocUrlIsSet	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void setDocUrlIsSet(boolean value) {$/;"	m	class:XcapOp.get_args
+setDocUrlIsSet	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void setDocUrlIsSet(boolean value) {$/;"	m	class:XcapOp.put_args
+setFieldValue	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void setFieldValue(_Fields field, Object value) {$/;"	m	class:XcapOp._del_args
+setFieldValue	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void setFieldValue(_Fields field, Object value) {$/;"	m	class:XcapOp._del_result
+setFieldValue	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void setFieldValue(_Fields field, Object value) {$/;"	m	class:XcapOp.get_args
+setFieldValue	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void setFieldValue(_Fields field, Object value) {$/;"	m	class:XcapOp.get_result
+setFieldValue	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void setFieldValue(_Fields field, Object value) {$/;"	m	class:XcapOp.put_args
+setFieldValue	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void setFieldValue(_Fields field, Object value) {$/;"	m	class:XcapOp.put_result
+setSuccess	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public _del_result setSuccess(String success) {$/;"	m	class:XcapOp._del_result
+setSuccess	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public get_result setSuccess(String success) {$/;"	m	class:XcapOp.get_result
+setSuccess	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public put_result setSuccess(String success) {$/;"	m	class:XcapOp.put_result
+setSuccessIsSet	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void setSuccessIsSet(boolean value) {$/;"	m	class:XcapOp._del_result
+setSuccessIsSet	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void setSuccessIsSet(boolean value) {$/;"	m	class:XcapOp.get_result
+setSuccessIsSet	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void setSuccessIsSet(boolean value) {$/;"	m	class:XcapOp.put_result
+setToken	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public _del_args setToken(String token) {$/;"	m	class:XcapOp._del_args
+setToken	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public get_args setToken(String token) {$/;"	m	class:XcapOp.get_args
+setToken	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public put_args setToken(String token) {$/;"	m	class:XcapOp.put_args
+setTokenIsSet	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void setTokenIsSet(boolean value) {$/;"	m	class:XcapOp._del_args
+setTokenIsSet	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void setTokenIsSet(boolean value) {$/;"	m	class:XcapOp.get_args
+setTokenIsSet	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void setTokenIsSet(boolean value) {$/;"	m	class:XcapOp.put_args
+setXmldoc	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public put_args setXmldoc(String xmldoc) {$/;"	m	class:XcapOp.put_args
+setXmldocIsSet	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void setXmldocIsSet(boolean value) {$/;"	m	class:XcapOp.put_args
+shoplist	PydevSduty/src/simple/collection_list.py	/^    shoplist = ['apple','mango','carrot','banana']$/;"	v	class:ListTest
+shoplist	PydevSduty/src/simple/collection_sequence.py	/^shoplist = ['apple', 'mango', 'carrot', 'banana']$/;"	v
+shoplist	PydevSduty/src/simple/io_file_persist_object.py	/^shoplist = ['apple', 'mango', 'carrot']$/;"	v
+shoplist	PydevSduty/src/simple/object_clone.py	/^shoplist = ['apple', 'mango', 'carrot', 'banana']$/;"	v
+shoplistfile	PydevSduty/src/simple/io_file_persist_object.py	/^shoplistfile = 'shoplist.data'$/;"	v
+show	PydevSduty/src/thinking/in_/python/Simple.py	/^    def show(self):$/;"	m	class:Simple
+show	PydevSduty/src/thinking/in_/python/SimpleClass.py	/^    def show(self):$/;"	m	class:Different
+show	PydevSduty/src/thinking/in_/python/SimpleClass.py	/^    def show(self):$/;"	m	class:Simple2
+showMsg	PydevSduty/src/thinking/in_/python/Simple.py	/^    def showMsg(self, msg):$/;"	m	class:Simple
+shutil	PydevSduty/src/linux/file_man.py	/^import shutil$/;"	i
+shutil	PydevSduty/src/std/OsFileTest.py	/^        import shutil$/;"	i
+simple	PydevSduty/src/simple/_hello_world_v1.py	/^def simple():$/;"	f
+sin	PydevSduty/src/simple/function_Generators.py	/^from math import pi, sin$/;"	i
+sine_table	PydevSduty/src/simple/function_Generators.py	/^sine_table = dict((x, sin(x*pi\/180)) for x in range(0, 91))$/;"	v
+sip_address	PydevSduty/src/std/application/ConfigTest.py	/^    sip_address = ''$/;"	v	class:Account
+site	PydevSduty/src/twisted/web/SimpleWebServer4_Resources.py	/^    site = server.Site(root)$/;"	v
+site	PydevSduty/src/twisted/web2/children.py	/^site = server.Site(Toplevel())$/;"	v
+site	PydevSduty/src/twisted/web2/simple.py	/^site = server.Site(Toplevel())$/;"	v
+sleep	PydevSduty/src/std/net/SocketServerWeblog.py	/^from time import sleep$/;"	i
+socket	PydevSduty/src/std/net/Chapter1_SimpleGopherClient.py	/^import socket,sys$/;"	i
+socket	PydevSduty/src/std/net/Chapter1_SimpleGopherClient_1.py	/^import socket,sys$/;"	i
+socket	PydevSduty/src/std/net/Chapter1_SimpleServer.py	/^import socket$/;"	i
+socket	PydevSduty/src/std/net/Chp2BasicConnection.py	/^import socket$/;"	i
+socket	PydevSduty/src/std/net/SocketServerWeblog.py	/^import sys, socket$/;"	i
+socket	PydevSduty/src/std/structured_data/xml/token.py	/^import socket$/;"	i
+srv	PydevSduty/src/std/net/SocketServerWeblog.py	/^    srv = ThreadingTCPServer(('',8888), WebLogHandler)$/;"	v
+startElement	PydevSduty/src/std/structured_data/xml/adddressbook.py	/^    def startElement(self, name, attrs):$/;"	m	class:PhoneContentHandler
+startElement	PydevSduty/src/std/structured_data/xml/token.py	/^    def startElement(self, name, attrs):$/;"	m	class:TokenContentHandler
+startProducing	PydevSduty/src/twisted/web/client/stringprod.py	/^    def startProducing(self, consumer):$/;"	m	class:StringProducer
+startlog	PydevSduty/src/twisted/core/testlogging.py	/^def startlog():$/;"	f
+static	PydevSduty/src/twisted/web/SimpleWebServer0.py	/^from twisted.web import static                                                   $/;"	i
+static	PydevSduty/src/twisted/web/SimpleWebServer4_Resources.py	/^from twisted.web import resource, static, server$/;"	i
+static	PydevSduty/src/twisted/web/WebResources.py	/^from twisted.web import static, server$/;"	i
+static	PydevSduty/src/twisted/web2/children.py	/^from twisted.web2 import static, http_headers, responsecode$/;"	i
+staticMehtod	PydevSduty/src/simple/class_static.py	/^    def staticMehtod():$/;"	m	class:Person
+statusTag	PydevSduty/src/std/structured_data/xml/token.py	/^    statusTag = 'status'$/;"	v	class:TokenContentHandler
+stdout	PydevSduty/src/std/net/Chp1AdvDownloadClient.py	/^from sys import stdout$/;"	i
+stdout	PydevSduty/src/std/net/url/UrlLib2Test.py	/^from sys import stdout$/;"	i
+stdout	PydevSduty/src/twisted/threads/simple.py	/^from sys import stdout $/;"	i
+stopProducing	PydevSduty/src/twisted/web/client/stringprod.py	/^    def stopProducing(self):$/;"	m	class:StringProducer
+stopReactor	PydevSduty/src/twisted/core/reactorDemo.py	/^def stopReactor():$/;"	f
+storedlist	PydevSduty/src/simple/io_file_persist_object.py	/^storedlist = p.load(f)$/;"	v
+strOjb	PydevSduty/src/simple/data_type_string.py	/^    strOjb = StrType("ZhaiXiaoBin");$/;"	v
+str_test	PydevSduty/src/simple/data_type_string.py	/^def str_test():$/;"	f
+string	PydevSduty/src/simple/data_type_string.py	/^import string$/;"	i
+string_view	PydevSduty/src/simple/data_type_string.py	/^def string_view():$/;"	f
+strports	PydevSduty/src/twisted/web2/children.py	/^from twisted.application import service, strports$/;"	i
+strports	PydevSduty/src/twisted/web2/simple.py	/^from twisted.application import service, strports$/;"	i
+subprocess	PydevSduty/src/linux/call_sys_command.py	/^import subprocess$/;"	i
+succeed	PydevSduty/src/twisted/web/client/stringprod.py	/^from twisted.internet.defer import succeed$/;"	i
+success	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String success; \/\/ required$/;"	f	class:XcapOp._del_result
+success	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String success; \/\/ required$/;"	f	class:XcapOp.get_result
+success	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String success; \/\/ required$/;"	f	class:XcapOp.put_result
+suite	ThriftTst/src/test/java/com/slieer/ThriftTst/AppTest.java	/^    public static Test suite()$/;"	m	class:AppTest
+swaroop	PydevSduty/src/simple/class_object_variable.py	/^swaroop = Person('Swaroop')$/;"	v
+syncCounter	PydevSduty/src/simple/thread_test.py	/^def syncCounter(myId, count): $/;"	f
+sys	PydevSduty/src/linux/net.py	/^import sys$/;"	i
+sys	PydevSduty/src/pythonCorePrograming/figure_3_1.py	/^import sys   $/;"	i
+sys	PydevSduty/src/simple/collection_list_1.py	/^    import sys;$/;"	i
+sys	PydevSduty/src/simple/exception.py	/^import sys$/;"	i
+sys	PydevSduty/src/simple/module_dir.py	/^import sys$/;"	i
+sys	PydevSduty/src/std/db/MysqlDB.py	/^import sys$/;"	i
+sys	PydevSduty/src/std/net/BasicAuth.py	/^import sys$/;"	i
+sys	PydevSduty/src/std/net/Chapter1_SimpleGopherClient.py	/^import socket,sys$/;"	i
+sys	PydevSduty/src/std/net/Chapter1_SimpleGopherClient_1.py	/^import socket,sys$/;"	i
+sys	PydevSduty/src/std/net/Chp6ObtainWebPage.py	/^import sys,urllib2$/;"	i
+sys	PydevSduty/src/std/net/SocketServerWeblog.py	/^import sys, socket$/;"	i
+sys	PydevSduty/src/std/structured_data/xml/adddressbook.py	/^    import sys$/;"	i
+sys	PydevSduty/src/twisted/core/deferred02_Demo.py	/^    import sys$/;"	i
+sys	PydevSduty/src/twisted/core/testlogging.py	/^import sys, warnings$/;"	i
+sys	PydevSduty/src/twisted/cred/dbcred.py	/^    import sys$/;"	i
+sys	PydevSduty/src/twisted/cred/simplecred.py	/^import sys$/;"	i
+sys	PydevSduty/src/twisted/web/Download0.py	/^import sys$/;"	i
+sys	PydevSduty/src/twisted/web/Download1.py	/^    import sys, os$/;"	i
+t	PydevSduty/src/simple/class_inherit.py	/^    t = Teacher('Mrs. Shrividya', 40, 30000)$/;"	v
+t	PydevSduty/src/simple/class_properties.py	/^    t = Test()$/;"	v
+t	PydevSduty/src/std/Compression.py	/^t = zlib.compress(s)$/;"	v
+tell	PydevSduty/src/simple/class_inherit.py	/^    def tell(self):$/;"	m	class:SchoolMember
+tell	PydevSduty/src/simple/class_inherit.py	/^    def tell(self):$/;"	m	class:Student
+tell	PydevSduty/src/simple/class_inherit.py	/^    def tell(self):$/;"	m	class:Teacher
+tempfile	PydevSduty/src/twisted/web/Download1.py	/^import tempfile$/;"	i
+test	PydevSduty/src/pythonCorePrograming/figure_3_1.py	/^def test():$/;"	f
+test	PydevSduty/src/simple/data_type_string.py	/^    def test(self):$/;"	m	class:StrType
+test	PydevSduty/src/std/structured_data/json/JsonTest.py	/^test = json.dumps(names)$/;"	v
+test	PydevSduty/src/twisted/core/deferredList.py	/^    def test(self):$/;"	m	class:DeferredTest
+test	PydevSduty/src/twisted/core/testlogging.py	/^def test(i):$/;"	f
+test1	PydevSduty/src/twisted/core/deferredList.py	/^    def test1(self):        $/;"	m	class:DeferredTest
+testApp	ThriftTst/src/test/java/com/slieer/ThriftTst/AppTest.java	/^    public void testApp()$/;"	m	class:AppTest
+testConn	PydevSduty/src/std/net/HttpClientRequest.py	/^def testConn():$/;"	f
+testConnect	PydevSduty/src/twisted/core/deferred02_Demo.py	/^def testConnect(host, port):$/;"	f
+testDefaultParam	PydevSduty/src/simple/function_7_6.py	/^    def testDefaultParam(self):$/;"	m	class:DefaultParam
+testHttp	PydevSduty/src/std/net/HttpClientRequest.py	/^def testHttp():$/;"	f
+testLogging	PydevSduty/src/std/ManyModuleTest.py	/^    def testLogging(self):$/;"	m	class:Test
+testSimpleDefaultParam	PydevSduty/src/simple/function_7_6.py	/^    def testSimpleDefaultParam(self):$/;"	m	class:DefaultParam
+testSplit	PydevSduty/src/simple/function_7_6.py	/^    def testSplit(self):$/;"	m	class:String
+testSplit1	PydevSduty/src/simple/function_7_6.py	/^    def testSplit1(self):$/;"	m	class:String
+testTemplating	PydevSduty/src/std/ManyModuleTest.py	/^    def testTemplating(self):$/;"	m	class:Test
+testWeakref	PydevSduty/src/simple/collection_list_1.py	/^    def testWeakref(self):$/;"	m	class:Test
+test_average	PydevSduty/src/std/UnitTest.py	/^    def test_average(self):$/;"	m	class:TestStatisticalFunctions
+testthread	PydevSduty/src/cookbook/thread_test.py	/^    testthread = TestThread()$/;"	v
+text	PydevSduty/src/twisted/web2/children.py	/^  text = 'Yo Ho Ho and a bottle of rum.'$/;"	v	class:Child
+thepage	PydevSduty/src/std/net/BasicAuth.py	/^thepage = handle.read() $/;"	v
+theurl	PydevSduty/src/std/net/BasicAuth.py	/^theurl = 'http:\/\/api.minicloud.com.cn\/statuses\/friends_timeline.xml' $/;"	v
+thread	PydevSduty/src/simple/thread_test.py	/^import thread$/;"	i
+threadFunc	PydevSduty/src/simple/thread_test.py	/^def threadFunc():$/;"	f
+threading	PydevSduty/src/cookbook/thread_test.py	/^import threading$/;"	i
+threading	PydevSduty/src/std/Thread.py	/^import threading$/;"	i
+threads	PydevSduty/src/twisted/threads/SimpleThread.py	/^from twisted.internet import reactor, threads$/;"	i
+threads	PydevSduty/src/twisted/threads/simple.py	/^from twisted.internet import reactor, threads$/;"	i
+thrift_spec	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  thrift_spec = ($/;"	v	class:_del_args
+thrift_spec	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  thrift_spec = ($/;"	v	class:_del_result
+thrift_spec	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  thrift_spec = ($/;"	v	class:get_args
+thrift_spec	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  thrift_spec = ($/;"	v	class:get_result
+thrift_spec	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  thrift_spec = ($/;"	v	class:put_args
+thrift_spec	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  thrift_spec = ($/;"	v	class:put_result
+time	PydevSduty/src/cookbook/thread_test.py	/^    import time$/;"	i
+time	PydevSduty/src/simple/exception_finally.py	/^import time$/;"	i
+time	PydevSduty/src/simple/function_built_in_func_date.py	/^import time$/;"	i
+time	PydevSduty/src/simple/thread_test.py	/^import time$/;"	i
+time	PydevSduty/src/twisted/core/reactorDemo.py	/^import time$/;"	i
+time	PydevSduty/src/twisted/threads/SimpleThread.py	/^    import time$/;"	i
+time	PydevSduty/src/twisted/web2/children.py	/^import os.path, time$/;"	i
+toString	PydevSduty/src/simple/function_call_by_value.py	/^    def toString(self):$/;"	m	class:Obj
+toString	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String toString() {$/;"	m	class:XcapOp._del_args
+toString	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String toString() {$/;"	m	class:XcapOp._del_result
+toString	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String toString() {$/;"	m	class:XcapOp.get_args
+toString	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String toString() {$/;"	m	class:XcapOp.get_result
+toString	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String toString() {$/;"	m	class:XcapOp.put_args
+toString	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String toString() {$/;"	m	class:XcapOp.put_result
+token	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private String token;$/;"	f	class:XcapOp.AsyncClient._del_call	file:
+token	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private String token;$/;"	f	class:XcapOp.AsyncClient.get_call	file:
+token	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private String token;$/;"	f	class:XcapOp.AsyncClient.put_call	file:
+token	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String token; \/\/ required$/;"	f	class:XcapOp._del_args
+token	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String token; \/\/ required$/;"	f	class:XcapOp.get_args
+token	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String token; \/\/ required$/;"	f	class:XcapOp.put_args
+tostr	PydevSduty/src/simple/class_properties.py	/^    def tostr(self):$/;"	m	class:Test
+traceback	PydevSduty/src/simple/flow_control_while.py	/^import traceback$/;"	i
+traceback	PydevSduty/src/twisted/cred/Cred.py	/^            import traceback$/;"	i
+tupleFor	PydevSduty/src/simple/flow_control_for.py	/^def tupleFor():$/;"	f
+tupleTest	PydevSduty/src/simple/collection_tuple.py	/^def tupleTest():$/;"	f
+tupleTest1	PydevSduty/src/simple/collection_tuple.py	/^def tupleTest1():$/;"	f
+twisted	PydevSduty/src/twisted/__init__.py	/^import twisted$/;"	i
+types	PydevSduty/src/simple/data_type.py	/^import types$/;"	i
+uidTag	PydevSduty/src/std/structured_data/xml/token.py	/^    uidTag = 'uid'$/;"	v	class:TokenContentHandler
+unittest	PydevSduty/src/simple/collection_list_1.py	/^import unittest$/;"	i
+unittest	PydevSduty/src/std/ManyModuleTest.py	/^import unittest$/;"	i
+unittest	PydevSduty/src/std/UnitTest.py	/^import unittest$/;"	i
+unsetApp	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void unsetApp() {$/;"	m	class:XcapOp._del_args
+unsetApp	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void unsetApp() {$/;"	m	class:XcapOp.get_args
+unsetApp	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void unsetApp() {$/;"	m	class:XcapOp.put_args
+unsetDocUrl	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void unsetDocUrl() {$/;"	m	class:XcapOp._del_args
+unsetDocUrl	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void unsetDocUrl() {$/;"	m	class:XcapOp.get_args
+unsetDocUrl	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void unsetDocUrl() {$/;"	m	class:XcapOp.put_args
+unsetSuccess	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void unsetSuccess() {$/;"	m	class:XcapOp._del_result
+unsetSuccess	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void unsetSuccess() {$/;"	m	class:XcapOp.get_result
+unsetSuccess	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void unsetSuccess() {$/;"	m	class:XcapOp.put_result
+unsetToken	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void unsetToken() {$/;"	m	class:XcapOp._del_args
+unsetToken	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void unsetToken() {$/;"	m	class:XcapOp.get_args
+unsetToken	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void unsetToken() {$/;"	m	class:XcapOp.put_args
+unsetXmldoc	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void unsetXmldoc() {$/;"	m	class:XcapOp.put_args
+urllib	PydevSduty/src/linux/net.py	/^import urllib$/;"	i
+urllib	PydevSduty/src/std/net/Chp1AdvDownloadClient.py	/^import urllib $/;"	i
+urllib	PydevSduty/src/std/net/url/UrlLibTest.py	/^import urllib $/;"	i
+urllib2	PydevSduty/src/std/net/BasicAuth.py	/^import urllib2$/;"	i
+urllib2	PydevSduty/src/std/net/Chp6ObtainWebPage.py	/^import sys,urllib2$/;"	i
+urllib2	PydevSduty/src/std/net/url/UrlLib2Test.py	/^import urllib2$/;"	i
+urllib2	PydevSduty/src/twisted/threads/simple.py	/^import  urllib2$/;"	i
+user	PydevSduty/src/twisted/cred/simplecred.py	/^    user = None$/;"	v	class:Protocol
+username	PydevSduty/src/std/net/BasicAuth.py	/^username = 'qleelulu'$/;"	v
+utils	PydevSduty/src/twisted/core/deferred01_lsCommand.py	/^from twisted.internet import protocol, reactor, utils$/;"	i
+validate	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def validate(self):$/;"	m	class:_del_args
+validate	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def validate(self):$/;"	m	class:_del_result
+validate	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def validate(self):$/;"	m	class:get_args
+validate	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def validate(self):$/;"	m	class:get_result
+validate	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def validate(self):$/;"	m	class:put_args
+validate	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def validate(self):$/;"	m	class:put_result
+validate	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void validate() throws org.apache.thrift.TException {$/;"	m	class:XcapOp._del_args
+validate	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void validate() throws org.apache.thrift.TException {$/;"	m	class:XcapOp._del_result
+validate	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void validate() throws org.apache.thrift.TException {$/;"	m	class:XcapOp.get_args
+validate	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void validate() throws org.apache.thrift.TException {$/;"	m	class:XcapOp.get_result
+validate	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void validate() throws org.apache.thrift.TException {$/;"	m	class:XcapOp.put_args
+validate	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void validate() throws org.apache.thrift.TException {$/;"	m	class:XcapOp.put_result
+version	PydevSduty/src/simple/module_mymodule.py	/^version = '0.1'$/;"	v
+warnings	PydevSduty/src/twisted/core/testlogging.py	/^import sys, warnings$/;"	i
+waz	PydevSduty/src/simple/module_all.py	/^waz = 5$/;"	v
+weakref	PydevSduty/src/simple/collection_list_1.py	/^        import weakref, gc$/;"	i
+whileSimple	PydevSduty/src/simple/flow_control_while.py	/^def whileSimple():$/;"	f
+whileTest	PydevSduty/src/simple/flow_control_while.py	/^def whileTest():$/;"	f
+write	PydevSduty/src/simple/collection_list.py	/^    def write(self):$/;"	m	class:QueueTest
+write	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def write(self, oprot):$/;"	m	class:_del_args
+write	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def write(self, oprot):$/;"	m	class:_del_result
+write	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def write(self, oprot):$/;"	m	class:get_args
+write	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def write(self, oprot):$/;"	m	class:get_result
+write	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def write(self, oprot):$/;"	m	class:put_args
+write	ThriftTst/gen/gen-py/xcap/XcapOp.py	/^  def write(self, oprot):$/;"	m	class:put_result
+write	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void write(org.apache.thrift.protocol.TProtocol oprot) throws org.apache.thrift.TException {$/;"	m	class:XcapOp._del_args
+write	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void write(org.apache.thrift.protocol.TProtocol oprot) throws org.apache.thrift.TException {$/;"	m	class:XcapOp._del_result
+write	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void write(org.apache.thrift.protocol.TProtocol oprot) throws org.apache.thrift.TException {$/;"	m	class:XcapOp.get_args
+write	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void write(org.apache.thrift.protocol.TProtocol oprot) throws org.apache.thrift.TException {$/;"	m	class:XcapOp.get_result
+write	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void write(org.apache.thrift.protocol.TProtocol oprot) throws org.apache.thrift.TException {$/;"	m	class:XcapOp.put_args
+write	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public void write(org.apache.thrift.protocol.TProtocol oprot) throws org.apache.thrift.TException {$/;"	m	class:XcapOp.put_result
+writeObject	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {$/;"	m	class:XcapOp._del_args	file:
+writeObject	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {$/;"	m	class:XcapOp._del_result	file:
+writeObject	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {$/;"	m	class:XcapOp.get_args	file:
+writeObject	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {$/;"	m	class:XcapOp.get_result	file:
+writeObject	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {$/;"	m	class:XcapOp.put_args	file:
+writeObject	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {$/;"	m	class:XcapOp.put_result	file:
+write_args	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public void write_args(org.apache.thrift.protocol.TProtocol prot) throws org.apache.thrift.TException {$/;"	m	class:XcapOp.AsyncClient._del_call
+write_args	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public void write_args(org.apache.thrift.protocol.TProtocol prot) throws org.apache.thrift.TException {$/;"	m	class:XcapOp.AsyncClient.get_call
+write_args	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      public void write_args(org.apache.thrift.protocol.TProtocol prot) throws org.apache.thrift.TException {$/;"	m	class:XcapOp.AsyncClient.put_call
+x	PydevSduty/src/simple/class_init.py	/^    x = C()$/;"	v	class:Employee
+x	PydevSduty/src/simple/function_call_by_value.py	/^x = 50$/;"	v
+x	PydevSduty/src/simple/test/module_all_test.py	/^x = X()$/;"	v
+x	PydevSduty/src/thinking/in_/python/Simple.py	/^    x = Simple("constructor argument")$/;"	v
+x	PydevSduty/src/thinking/in_/python/SimpleClass.py	/^  x = Simple2("Simple2 constructor argument")$/;"	v
+xcap_root	PydevSduty/src/std/application/ConfigTest.py	/^    xcap_root = ''$/;"	v	class:Account
+xmldoc	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^      private String xmldoc;$/;"	f	class:XcapOp.AsyncClient.put_call	file:
+xmldoc	ThriftTst/src/main/java/com/broqs/thrift/client/XcapOp.java	/^    public String xmldoc; \/\/ required$/;"	f	class:XcapOp.put_args
+xvec	PydevSduty/src/simple/function_Generators.py	/^xvec = [10, 20, 30]$/;"	v
+yvec	PydevSduty/src/simple/function_Generators.py	/^yvec = [7, 5, 3]$/;"	v
+zlib	PydevSduty/src/std/Compression.py	/^import zlib$/;"	i

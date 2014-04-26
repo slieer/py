@@ -1,0 +1,1 @@
+print 'thinking in.... InitTest.py '

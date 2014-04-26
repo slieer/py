@@ -1,0 +1,818 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	src/simple/collection_list_1.py	/^class A:$/;"	c
+A	src/simple/function_7_6.py	/^class A:$/;"	c
+Account	src/std/application/ConfigTest.py	/^class Account(ConfigSection):$/;"	c
+Adder	src/thinking/in_/python/ClassFunction.py	/^    class Adder(object):$/;"	c	function:make_adder_as_bound_method
+Adder	src/thinking/in_/python/ClassFunction.py	/^    class Adder(object):$/;"	c	function:make_adder_as_callable_instance
+Administrator	src/twisted/cred/simplecred.py	/^class Administrator:$/;"	c
+Agent	src/twisted/web/client/request.py	/^from twisted.web.client import Agent$/;"	i
+Agent	src/twisted/web/client/sendbody.py	/^from twisted.web.client import Agent$/;"	i
+Animal	src/simple/function_7_6.py	/^class Animal(object):$/;"	c
+AnonymousUser	src/twisted/cred/simplecred.py	/^class AnonymousUser:$/;"	c
+AsyncZip	src/std/Thread.py	/^class AsyncZip(threading.Thread):$/;"	c
+BankFactory	src/twisted/cred/Cred.py	/^class BankFactory(protocol.ServerFactory):$/;"	c
+BaseRequestHandler	src/std/net/SocketServerWeblog.py	/^from SocketServer import BaseRequestHandler, ThreadingTCPServer$/;"	i
+Basic	src/simple/_hello_world_v1.py	/^class Basic:$/;"	c
+Basic	src/simple/function_built_in_func_date.py	/^from simple._hello_world_v1 import Basic$/;"	i
+BasicClientFactory	src/twisted/TcpClientDemo.py	/^class BasicClientFactory(protocol.ClientFactory):$/;"	c
+C	src/simple/class_init.py	/^class C:$/;"	c
+CONFIG_FILE	src/std/application/ConfigTest.py	/^CONFIG_FILE = '.\/xcapclient.ini'$/;"	v
+CRecord	src/simple/function_lambda.py	/^class CRecord :$/;"	c
+CallbackAndDisconnectProtocol	src/twisted/core/deferred02_Demo.py	/^class CallbackAndDisconnectProtocol(protocol.Protocol):$/;"	c
+Child	src/simple/class_static.py	/^class Child (Person):$/;"	c
+Child	src/twisted/web2/children.py	/^class Child(resource.Resource):$/;"	c
+ColorIndexPage	src/twisted/web/SimpleWebServer4_Resources.py	/^class ColorIndexPage(resource.Resource):$/;"	c
+ColorPage	src/twisted/web/SimpleWebServer4_Resources.py	/^class ColorPage(resource.Resource):$/;"	c
+ColorRoot	src/twisted/web/SimpleWebServer4_Resources.py	/^class ColorRoot(resource.Resource):$/;"	c
+ConfigFile	src/std/application/ConfigTest.py	/^from application.configuration import ConfigFile, ConfigSection, ConfigSetting$/;"	i
+ConfigSection	src/std/application/ConfigTest.py	/^from application.configuration import ConfigFile, ConfigSection, ConfigSetting$/;"	i
+ConfigSetting	src/std/application/ConfigTest.py	/^from application.configuration import ConfigFile, ConfigSection, ConfigSetting$/;"	i
+ConnectionTestFactory	src/twisted/core/deferred02_Demo.py	/^class ConnectionTestFactory(protocol.ClientFactory):$/;"	c
+ContentHandler	src/std/structured_data/xml/adddressbook.py	/^from xml.sax.handler import ContentHandler$/;"	i
+ContentHandler	src/std/structured_data/xml/token.py	/^from xml.sax.handler import ContentHandler$/;"	i
+DBCredentialsChecker	src/twisted/cred/dbcred.py	/^class DBCredentialsChecker(object):$/;"	c
+DefaultParam	src/simple/function_7_6.py	/^class DefaultParam:$/;"	c
+Deferred	src/twisted/cred/dbcred.py	/^from twisted.internet.defer import Deferred$/;"	i
+DeferredTest	src/twisted/core/deferredList.py	/^class DeferredTest:$/;"	c
+Different	src/thinking/in_/python/SimpleClass.py	/^class Different:$/;"	c
+Echo	src/twisted/core/echo_server.py	/^class Echo(protocol.Protocol):$/;"	c
+Echo	src/twisted/core/simpleserv.py	/^class Echo(protocol.Protocol):$/;"	c
+EchoClient	src/twisted/core/simpleclient.py	/^class EchoClient(protocol.Protocol):$/;"	c
+EchoFactory	src/twisted/core/echo_server.py	/^class EchoFactory(protocol.Factory):$/;"	c
+EchoFactory	src/twisted/core/simpleclient.py	/^class EchoFactory(protocol.ClientFactory):$/;"	c
+EchoFactory	src/twisted/core/simpleserv.py	/^class EchoFactory(protocol.Factory):$/;"	c
+Employee	src/simple/class_init.py	/^class Employee:$/;"	c
+Factory	src/twisted/SimpleGameServer.py	/^from twisted.internet.protocol import Factory,Protocol$/;"	i
+FingerFactory	src/twisted/core/deferred01_lsCommand.py	/^class FingerFactory(protocol.ServerFactory):$/;"	c
+FingerFactory	src/twisted/core/deferred03_.py	/^class FingerFactory(protocol.ServerFactory):$/;"	c
+FingerProtocol	src/twisted/core/deferred01_lsCommand.py	/^class FingerProtocol(basic.LineReceiver):$/;"	c
+FingerProtocol	src/twisted/core/deferred03_.py	/^class FingerProtocol(basic.LineReceiver):$/;"	c
+First	src/twisted/web/WebResources.py	/^class First( resource.Resource):$/;"	c
+FooClass	src/pythonCorePrograming/figure_3_1.py	/^class FooClass(object):$/;"	c
+FunctionHandleRequest	src/twisted/web/SimpleWebServer3_Post.py	/^class FunctionHandleRequest(http.Request):$/;"	c
+Getter	src/twisted/core/deferred00_Simple.py	/^class Getter:$/;"	c
+Headers	src/twisted/web/client/request.py	/^from twisted.web.http_headers import Headers$/;"	i
+Headers	src/twisted/web/client/sendbody.py	/^from twisted.web.http_headers import Headers$/;"	i
+Hello	src/thinking/in_/InitImportTest.py	/^from thinking.in_.python.Test import HelloWorld as Hello$/;"	i
+HelloWorld	src/thinking/in_/python/Test.py	/^class HelloWorld:$/;"	c
+HomePage	src/twisted/web/SimpleWebServer4_Resources.py	/^class HomePage(resource.Resource):$/;"	c
+HttpEchoProtocol	src/twisted/web/SimpleWebServer1_Echo.py	/^class HttpEchoProtocol(basic.LineReceiver):$/;"	c
+IBodyProducer	src/twisted/web/client/stringprod.py	/^from twisted.web.iweb import IBodyProducer$/;"	i
+ICredentialsChecker	src/twisted/cred/dbcred.py	/^from twisted.cred.checkers import ICredentialsChecker$/;"	i
+IProtocolUser	src/twisted/cred/simplecred.py	/^class IProtocolUser(Interface):$/;"	c
+IUserMoneyAvatar	src/twisted/cred/Cred.py	/^class IUserMoneyAvatar(Interface):$/;"	c
+IUsernameHashedPassword	src/twisted/cred/dbcred.py	/^from twisted.cred.credentials import IUsernameHashedPassword, IUsernamePassword$/;"	i
+IUsernamePassword	src/twisted/cred/dbcred.py	/^from twisted.cred.credentials import IUsernameHashedPassword, IUsernamePassword$/;"	i
+Interface	src/twisted/cred/Cred.py	/^from zope.interface import Interface, implements$/;"	i
+Interface	src/twisted/cred/simplecred.py	/^from zope.interface import implements, Interface$/;"	i
+LOG	src/std/net/SocketServerWeblog.py	/^    LOG = open('access-log')$/;"	v
+LineReceiver	src/twisted/cred/Cred.py	/^from twisted.protocols.basic import LineReceiver$/;"	i
+ListTest	src/simple/collection_list.py	/^class ListTest:$/;"	c
+MoneyProtocol	src/twisted/cred/Cred.py	/^class MoneyProtocol(LineReceiver):$/;"	c
+MyChat	src/twisted/core/chatserver.py	/^class MyChat(basic.LineReceiver):$/;"	c
+MyHttp	src/twisted/web/SimpleWebServer2.py	/^class MyHttp(http.HTTPChannel):$/;"	c
+MyHttp	src/twisted/web/SimpleWebServer3_Post.py	/^class MyHttp(http.HTTPChannel):$/;"	c
+MyHttpFactory	src/twisted/web/SimpleWebServer2.py	/^class MyHttpFactory(http.HTTPFactory):$/;"	c
+MyHttpFactory	src/twisted/web/SimpleWebServer3_Post.py	/^class MyHttpFactory(http.HTTPFactory):$/;"	c
+MyOpener	src/linux/net.py	/^class MyOpener(urllib.FancyURLopener):$/;"	c
+MyRequestHandler	src/twisted/web/SimpleWebServer2.py	/^class MyRequestHandler(http.Request):$/;"	c
+NUMBER	src/simple/flow_control_while.py	/^NUMBER = 23$/;"	v
+Obj	src/simple/function_call_by_value.py	/^class Obj(object):$/;"	c
+OptionGroup	src/linux/net.py	/^        from optparse import OptionParser, OptionGroup$/;"	i
+OptionParser	src/linux/net.py	/^        from optparse import OptionParser, OptionGroup$/;"	i
+PORT	src/twisted/web/SimpleWebServer0.py	/^PORT = 8080                                                    $/;"	v
+PORT	src/twisted/web/WebResources.py	/^PORT = 8080$/;"	v
+PasswordChecker	src/twisted/cred/Cred.py	/^class PasswordChecker(object):$/;"	c
+Pers	src/simple/class_static.py	/^class Pers(object):$/;"	c
+Person	src/simple/class_init.py	/^class Person:$/;"	c
+Person	src/simple/class_object_variable.py	/^class Person:$/;"	c
+Person	src/simple/class_static.py	/^class Person:$/;"	c
+PhoneContentHandler	src/std/structured_data/xml/adddressbook.py	/^class PhoneContentHandler(ContentHandler):#定义一个handler类$/;"	c
+Portal	src/twisted/cred/dbcred.py	/^    from twisted.cred.portal import Portal$/;"	i
+Private	src/simple/module_all.py	/^class Private:$/;"	c
+Protocol	src/twisted/SimpleGameServer.py	/^from twisted.internet.protocol import Factory,Protocol$/;"	i
+Protocol	src/twisted/cred/simplecred.py	/^class Protocol(basic.LineReceiver):$/;"	c
+QueueTest	src/simple/collection_list.py	/^class QueueTest:$/;"	c
+QuickDisconnectedProtocol	src/twisted/TcpClientDemo.py	/^class QuickDisconnectedProtocol(protocol.Protocol):$/;"	c
+RUNNING	src/simple/flow_control_while.py	/^RUNNING = True$/;"	v
+ReStructured	src/twisted/web/SimpleWebServer0.py	/^class ReStructured(Resource):                                                                                                                                 $/;"	c
+Realm	src/twisted/cred/simplecred.py	/^class Realm:$/;"	c
+RegularUser	src/twisted/cred/simplecred.py	/^class RegularUser:$/;"	c
+Resource	src/twisted/web/SimpleWebServer0.py	/^from twisted.web.resource import Resource                                       $/;"	i
+SAXException	src/std/structured_data/xml/adddressbook.py	/^from xml.sax import make_parser, SAXException$/;"	i
+SchoolMember	src/simple/class_inherit.py	/^class SchoolMember:$/;"	c
+ServerFactory	src/twisted/cred/simplecred.py	/^class ServerFactory(protocol.ServerFactory):$/;"	c
+ShortInputException	src/simple/exception_raise_else.py	/^class ShortInputException(Exception):$/;"	c
+Simple	src/thinking/in_/python/Simple.py	/^class Simple:$/;"	c
+Simple	src/thinking/in_/python/SimpleClass.py	/^import Simple$/;"	i
+Simple2	src/thinking/in_/python/SimpleClass.py	/^class Simple2(Simple):$/;"	c
+StackTest	src/simple/collection_list.py	/^class StackTest:$/;"	c
+StackTest	src/simple/test/collecton_list_test.py	/^from simple.collection_list import StackTest$/;"	i
+StrType	src/simple/data_type_string.py	/^class StrType :$/;"	c
+String	src/simple/function_7_6.py	/^class String:$/;"	c
+StringProducer	src/twisted/web/client/sendbody.py	/^from stringprod import StringProducer$/;"	i
+StringProducer	src/twisted/web/client/stringprod.py	/^class StringProducer(object):$/;"	c
+Student	src/simple/class_inherit.py	/^class Student(SchoolMember):$/;"	c
+Teacher	src/simple/class_inherit.py	/^class Teacher(SchoolMember):$/;"	c
+Template	src/std/ManyModuleTest.py	/^        from string import Template$/;"	i
+Test	src/simple/class_properties.py	/^class Test:$/;"	c
+Test	src/simple/collection_list_1.py	/^class Test(unittest.TestCase):$/;"	c
+Test	src/std/ManyModuleTest.py	/^class Test(unittest.TestCase):$/;"	c
+TestStatisticalFunctions	src/std/UnitTest.py	/^class TestStatisticalFunctions(unittest.TestCase):$/;"	c
+TestThread	src/cookbook/thread_test.py	/^class TestThread(threading.Thread):$/;"	c
+ThreadingTCPServer	src/std/net/SocketServerWeblog.py	/^from SocketServer import BaseRequestHandler, ThreadingTCPServer$/;"	i
+TokenContentHandler	src/std/structured_data/xml/token.py	/^class TokenContentHandler(ContentHandler):$/;"	c
+Toplevel	src/twisted/web2/children.py	/^class Toplevel(resource.Resource):$/;"	c
+Toplevel	src/twisted/web2/simple.py	/^class Toplevel(resource.Resource):$/;"	c
+USER_INFO	src/twisted/cred/Cred.py	/^USER_INFO = {'kanif':{'password':'123456', 'money':1000, 'rate':0.1}$/;"	v
+UnauthorizedLogin	src/twisted/cred/Cred.py	/^from twisted.cred.error import UnauthorizedLogin$/;"	i
+UserBankRealm	src/twisted/cred/Cred.py	/^class UserBankRealm:$/;"	c
+UserMoneyAvatar	src/twisted/cred/Cred.py	/^class UserMoneyAvatar():$/;"	c
+WebLogHandler	src/std/net/SocketServerWeblog.py	/^class WebLogHandler(BaseRequestHandler):$/;"	c
+X	src/simple/module_all.py	/^class X :$/;"	c
+__all__	src/simple/module_all.py	/^__all__ = ['bar', 'baz', 'X']$/;"	v
+__all__	src/thinking/in_/python/ClassFunction.py	/^__all__ = ['make_adder_as_bound_method',$/;"	v
+__call__	src/simple/function_7_6.py	/^    def __call__(self):$/;"	m	class:String	file:
+__call__	src/simple/function_7_6.py	/^    def __call__(self,food):   $/;"	m	class:Animal	file:
+__call__	src/thinking/in_/python/ClassFunction.py	/^        def __call__(self, addend): return addend+self.augend$/;"	m	class:make_adder_as_callable_instance.Adder	file:
+__del__	src/simple/class_inherit.py	/^    def __del__(self):$/;"	m	class:SchoolMember	file:
+__del__	src/simple/class_object_variable.py	/^    def __del__(self):$/;"	m	class:Person	file:
+__init__	src/cookbook/thread_test.py	/^    def __init__(self, name='TestThread'):$/;"	m	class:TestThread
+__init__	src/linux/net.py	/^    def __init__(self):$/;"	m	class:parameters
+__init__	src/simple/_hello_world_v1.py	/^    def __init__(self, no='default-no', ver='var'):$/;"	m	class:Basic
+__init__	src/simple/class_inherit.py	/^    def __init__(self, name, age):$/;"	m	class:SchoolMember
+__init__	src/simple/class_inherit.py	/^    def __init__(self, name, age, marks):$/;"	m	class:Student
+__init__	src/simple/class_inherit.py	/^    def __init__(self, name, age, salary):$/;"	m	class:Teacher
+__init__	src/simple/class_init.py	/^    def __init__(self, name):$/;"	m	class:Person
+__init__	src/simple/class_object_variable.py	/^    def __init__(self,name):$/;"	m	class:Person
+__init__	src/simple/class_properties.py	/^    def __init__(self,a='defaultA',b='defaultB'):$/;"	m	class:Test
+__init__	src/simple/class_static.py	/^    def __init__(self):$/;"	m	class:Person
+__init__	src/simple/collection_list.py	/^    def __init__(self, array):$/;"	m	class:QueueTest
+__init__	src/simple/collection_list.py	/^    def __init__(self, arrayOjb=[]):     #class StackTest(object): def __new__(self, arrayOjb=[]):   出错？？？？$/;"	m	class:StackTest
+__init__	src/simple/collection_list_1.py	/^    def __init__(self, value):$/;"	m	class:A
+__init__	src/simple/data_type_string.py	/^    def __init__(self, st):$/;"	m	class:StrType
+__init__	src/simple/exception_raise_else.py	/^    def __init__(self, length, atleast):$/;"	m	class:ShortInputException
+__init__	src/simple/function_7_6.py	/^    def __init__(self):$/;"	m	class:A
+__init__	src/simple/function_7_6.py	/^    def __init__(self, name, legs):        $/;"	m	class:Animal
+__init__	src/simple/function_lambda.py	/^    def __init__(self):$/;"	m	class:CRecord
+__init__	src/std/Thread.py	/^    def __init__(self):$/;"	m	class:AsyncZip
+__init__	src/std/structured_data/xml/adddressbook.py	/^    def __init__(self, name):$/;"	m	class:PhoneContentHandler
+__init__	src/std/structured_data/xml/token.py	/^    def __init__(self):$/;"	m	class:TokenContentHandler
+__init__	src/thinking/in_/python/ClassFunction.py	/^        def __init__(self, augend): self.augend = augend$/;"	m	class:make_adder_as_bound_method.Adder
+__init__	src/thinking/in_/python/ClassFunction.py	/^        def __init__(self, augend): self.augend = augend$/;"	m	class:make_adder_as_callable_instance.Adder
+__init__	src/thinking/in_/python/Simple.py	/^    def __init__(self, str):$/;"	m	class:Simple
+__init__	src/thinking/in_/python/SimpleClass.py	/^    def __init__(self, str):$/;"	m	class:Simple2
+__init__	src/twisted/core/deferred02_Demo.py	/^    def __init__(self):$/;"	m	class:ConnectionTestFactory
+__init__	src/twisted/core/deferred03_.py	/^    def __init__(self, **kwargs):$/;"	m	class:FingerFactory
+__init__	src/twisted/cred/Cred.py	/^    def __init__(self, portal):$/;"	m	class:BankFactory
+__init__	src/twisted/cred/Cred.py	/^    def __init__(self, username, money):$/;"	m	class:UserMoneyAvatar
+__init__	src/twisted/cred/dbcred.py	/^    def __init__(self, runQuery,$/;"	m	class:DBCredentialsChecker
+__init__	src/twisted/cred/simplecred.py	/^    def __init__(self, portal):$/;"	m	class:ServerFactory
+__init__	src/twisted/web/SimpleWebServer0.py	/^  def __init__(self, filename, *a):                                         $/;"	m	class:ReStructured
+__init__	src/twisted/web/SimpleWebServer1_Echo.py	/^    def __init__(self):$/;"	m	class:HttpEchoProtocol
+__init__	src/twisted/web/SimpleWebServer4_Resources.py	/^    def __init__(self):$/;"	m	class:ColorRoot
+__init__	src/twisted/web/SimpleWebServer4_Resources.py	/^    def __init__(self, color):$/;"	m	class:ColorPage
+__init__	src/twisted/web/SimpleWebServer4_Resources.py	/^    def __init__(self, requestedColorsList):$/;"	m	class:ColorIndexPage
+__init__	src/twisted/web/client/stringprod.py	/^    def __init__(self, body):$/;"	m	class:StringProducer
+__new__	src/simple/class_static.py	/^    def __new__(self):$/;"	m	class:Pers	file:
+__new__	src/simple/function_call_by_value.py	/^    def __new__(self, a, b):$/;"	m	class:Obj	file:
+__repr__	src/simple/collection_list_1.py	/^    def __repr__(self):$/;"	m	class:A	file:
+__str__	src/simple/function_7_6.py	/^    def __str__(self):                $/;"	m	class:Animal	file:
+__str__	src/simple/function_lambda.py	/^    def __str__(self):$/;"	m	class:CRecord	file:
+_cbAuthenticate	src/twisted/cred/dbcred.py	/^    def _cbAuthenticate(self, result, credentials, deferred):$/;"	m	class:DBCredentialsChecker
+_cbLogin	src/twisted/cred/simplecred.py	/^    def _cbLogin(self, (interface, avatar, logout)):$/;"	m	class:Protocol
+_del	src/simple/collection_list.py	/^    def _del(self):$/;"	m	class:ListTest
+_ebAuthenticate	src/twisted/cred/dbcred.py	/^    def _ebAuthenticate(self, message, credentials, deferred):$/;"	m	class:DBCredentialsChecker
+_ebLogin	src/twisted/cred/simplecred.py	/^    def _ebLogin(self, failure):$/;"	m	class:Protocol
+_len	src/simple/collection_list.py	/^    def _len(self):$/;"	m	class:ListTest
+_list	src/simple/collection_list.py	/^    def _list(self):$/;"	m	class:ListTest
+_privateMethod	src/simple/class_properties.py	/^    def _privateMethod(self):$/;"	m	class:Test
+_testSplit	src/simple/function_7_6.py	/^    def _testSplit(self, str,interval):$/;"	m	class:String
+a	src/simple/collection_set.py	/^a = set('abracadabra')$/;"	v
+a	src/twisted/core/deferredList.py	/^a = DeferredTest()$/;"	v
+aSillyBlockingMethodOne	src/twisted/threads/SimpleThread.py	/^def aSillyBlockingMethodOne(x):$/;"	f
+aSillyBlockingMethodTwo	src/twisted/threads/SimpleThread.py	/^def aSillyBlockingMethodTwo(x):$/;"	f
+abc	src/thinking/in_/python/Test.py	/^abc = 12$/;"	v
+abcVirable	src/thinking/in_/InitImportTest.py	/^from thinking.in_.python.Test import abc as abcVirable$/;"	i
+accept	src/simple/function_parameter.py	/^def accept(kwargs):$/;"	f
+accept1	src/simple/function_parameter.py	/^def accept1(**kwargs):$/;"	f
+adbapi	src/twisted/cred/dbcred.py	/^    from twisted.enterprise import adbapi$/;"	i
+add	src/thinking/in_/python/ClassFunction.py	/^        def add(self, addend): return addend+self.augend$/;"	m	class:make_adder_as_bound_method.Adder
+add	src/thinking/in_/python/ClassFunction.py	/^    def add(addend, _augend=augend): return addend+_augend$/;"	f	function:make_adder_as_closure
+addSlash	src/twisted/web2/children.py	/^  addSlash = True$/;"	v	class:Toplevel
+addSlash	src/twisted/web2/simple.py	/^  addSlash = True$/;"	v	class:Toplevel
+agent	src/twisted/web/client/request.py	/^agent = Agent(reactor)$/;"	v
+agent	src/twisted/web/client/sendbody.py	/^agent = Agent(reactor)$/;"	v
+alist	src/simple/collection_sequence.py	/^alist = list(atuple);$/;"	v
+append	src/simple/collection_list.py	/^    def append(self):        $/;"	m	class:ListTest
+append1	src/simple/collection_list.py	/^    def append1(self):$/;"	m	class:ListTest
+application	src/twisted/core/chatserver.py	/^application = service.Application("chatserver")$/;"	v
+application	src/twisted/web2/children.py	/^application = service.Application("demoserver")$/;"	v
+application	src/twisted/web2/simple.py	/^application = service.Application("demoserver")$/;"	v
+ar	src/simple/data_type.py	/^ar = [['abc','xyz'],$/;"	v
+argv	src/std/net/Chp1AdvDownloadClient.py	/^from sys import argv$/;"	i
+arr	src/simple/data_type.py	/^arr = [['slieer']]$/;"	v
+arrTest	src/linux/hello.py	/^def arrTest():$/;"	f
+array	src/simple/collection_list_1.py	/^        from array import array$/;"	i
+arrayTest	src/simple/collection_list_1.py	/^    def arrayTest(self):$/;"	m	class:Test
+aset	src/simple/collection_sequence.py	/^aset = set([1, 2, 3, 2, 4, 6]) $/;"	v
+atuple	src/simple/collection_sequence.py	/^atuple = (2,3,'老子');$/;"	v
+auth	src/std/application/ConfigTest.py	/^    auth = ConfigSetting(type=str, value=None)$/;"	v	class:Account
+authheader	src/std/net/BasicAuth.py	/^authheader = "Basic %s" % base64string$/;"	v
+avatar	src/twisted/cred/simplecred.py	/^    avatar = None$/;"	v	class:Protocol
+average	src/std/UnitTest.py	/^def average(values):$/;"	f
+b	src/simple/collection_set.py	/^b = set('alacazam')$/;"	v
+b	src/simple/function_built_in_func_date.py	/^b = Basic()$/;"	v
+background	src/std/Thread.py	/^background = (AsyncZip(),AsyncZip());$/;"	v
+bar	src/simple/module_all.py	/^bar = 10$/;"	v
+base64	src/std/net/BasicAuth.py	/^import base64 $/;"	i
+base64string	src/std/net/BasicAuth.py	/^base64string = base64.encodestring($/;"	v
+basic	src/twisted/core/chatserver.py	/^from twisted.protocols import basic$/;"	i
+basic	src/twisted/core/deferred01_lsCommand.py	/^from twisted.protocols import basic$/;"	i
+basic	src/twisted/core/deferred03_.py	/^from twisted.protocols import basic$/;"	i
+basic	src/twisted/cred/simplecred.py	/^from twisted.protocols import basic$/;"	i
+basic	src/twisted/web/SimpleWebServer1_Echo.py	/^from twisted.protocols import basic$/;"	i
+basicFor	src/simple/flow_control_for.py	/^def basicFor():$/;"	f
+basicFor1	src/simple/flow_control_for.py	/^def basicFor1():$/;"	f
+basket	src/simple/collection_set.py	/^basket = ['apple', 'orange', 'apple', 'pear', 'orange', 'banana']$/;"	v
+baz	src/simple/module_all.py	/^def baz(): $/;"	f
+blist	src/simple/collection_sequence.py	/^blist = list(aset) $/;"	v
+body	src/twisted/web/client/sendbody.py	/^body = StringProducer("hello, world")$/;"	v
+btuple	src/simple/collection_sequence.py	/^btuple = tuple(alist)$/;"	v
+buf	src/std/net/Chapter1_SimpleGopherClient.py	/^    buf = s.recv(2048)$/;"	v
+buf	src/std/net/Chp1AdvDownloadClient.py	/^    buf = f.read(2048)    $/;"	v
+buildProtocol	src/twisted/core/echo_server.py	/^    def buildProtocol(self, addr):$/;"	m	class:EchoFactory
+buildProtocol	src/twisted/core/simpleserv.py	/^    def buildProtocol(self, addr):$/;"	m	class:EchoFactory
+buildProtocol	src/twisted/cred/simplecred.py	/^    def buildProtocol(self, addr):$/;"	m	class:ServerFactory
+c	src/simple/class_static.py	/^    c = Child()$/;"	v
+c	src/simple/function_lambda.py	/^    c = CRecord()$/;"	v	class:CRecord
+callTest	src/simple/function_7_6.py	/^def callTest():$/;"	f
+canntWalk	src/simple/class_static.py	/^    def canntWalk(self):$/;"	m	class:Child
+cb	src/twisted/cred/dbcred.py	/^    def cb(res):$/;"	f	function:main
+cbResponse	src/twisted/web/client/request.py	/^def cbResponse(ignored):$/;"	f
+cbResponse	src/twisted/web/client/sendbody.py	/^def cbResponse(ignored):$/;"	f
+cbShutdown	src/twisted/web/client/request.py	/^def cbShutdown(ignored):$/;"	f
+cbShutdown	src/twisted/web/client/sendbody.py	/^def cbShutdown(ignored):$/;"	f
+channel	src/twisted/web2/children.py	/^from twisted.web2 import server, http, resource, channel$/;"	i
+channel	src/twisted/web2/simple.py	/^from twisted.web2 import server, http, resource, channel$/;"	i
+characters	src/std/structured_data/xml/adddressbook.py	/^    def characters(self, chars):$/;"	m	class:PhoneContentHandler
+characters	src/std/structured_data/xml/token.py	/^    def characters(self, chars):$/;"	m	class:TokenContentHandler
+checkers	src/twisted/cred/Cred.py	/^from twisted.cred import portal, checkers, credentials$/;"	i
+checkers	src/twisted/cred/simplecred.py	/^from twisted.cred import checkers$/;"	i
+child_elephant	src/twisted/web2/children.py	/^  child_elephant = Child()$/;"	v	class:Toplevel
+child_monkey	src/twisted/web2/children.py	/^  child_monkey = static.File(os.path.dirname(static.__file__)+'\/static.py')$/;"	v	class:Toplevel
+classVar	src/simple/class_static.py	/^    classVar = 'test class variable.'$/;"	v	class:Person
+class_attr	src/simple/class_properties.py	/^    class_attr = 'slieer'$/;"	v	class:Test
+client	src/twisted/web/Download0.py	/^from twisted.web import client$/;"	i
+client	src/twisted/web/Download1.py	/^from twisted.web import client$/;"	i
+clientConnectionFailed	src/twisted/TcpClientDemo.py	/^    def clientConnectionFailed(self, connector, reason):$/;"	m	class:BasicClientFactory
+clientConnectionFailed	src/twisted/core/deferred02_Demo.py	/^    def clientConnectionFailed(self, connector, reason):$/;"	m	class:ConnectionTestFactory
+clientConnectionFailed	src/twisted/core/simpleclient.py	/^    def clientConnectionFailed(self, connector, reason):$/;"	m	class:EchoFactory
+clientConnectionLost	src/twisted/TcpClientDemo.py	/^    def clientConnectionLost(self, connector, reason):$/;"	m	class:BasicClientFactory
+clientConnectionLost	src/twisted/core/simpleclient.py	/^    def clientConnectionLost(self, connector, reason):$/;"	m	class:EchoFactory
+clientfile	src/std/net/Chapter1_SimpleServer.py	/^    clientfile = clientsock.makefile('rw',0)$/;"	v
+cmd_ANON	src/twisted/cred/simplecred.py	/^    def cmd_ANON(self):$/;"	m	class:Protocol
+cmd_PASS	src/twisted/cred/simplecred.py	/^    def cmd_PASS(self, password):$/;"	m	class:Protocol
+cmd_PRIVS	src/twisted/cred/simplecred.py	/^    def cmd_PRIVS(self):$/;"	m	class:Protocol
+cmd_USER	src/twisted/cred/simplecred.py	/^    def cmd_USER(self, name):$/;"	m	class:Protocol
+collections	src/simple/collection_tuple.py	/^        import collections$/;"	i
+commands	src/twisted/threads/SimpleThread.py	/^commands = [(aSillyBlockingMethodOne, ["Calling First"], {})]$/;"	v
+conn	src/std/db/MysqlDB.py	/^def conn():$/;"	f
+connErrorTest	src/std/db/OracleDBConnectorTest.py	/^def connErrorTest():$/;"	f
+connTest	src/std/db/OracleDBConnectorTest.py	/^def connTest():$/;"	f
+connTest2	src/std/db/OracleDBConnectorTest.py	/^def connTest2():$/;"	f
+connectionLost	src/twisted/SimpleGameServer.py	/^    def connectionLost(self,reason):$/;"	m	class:gameSocket
+connectionLost	src/twisted/core/chatserver.py	/^    def connectionLost(self, reason):$/;"	m	class:MyChat
+connectionLost	src/twisted/core/simpleclient.py	/^    def connectionLost(self, reason):$/;"	m	class:EchoClient
+connectionLost	src/twisted/cred/simplecred.py	/^    def connectionLost(self, reason):$/;"	m	class:Protocol
+connectionMade	src/twisted/SimpleGameServer.py	/^    def connectionMade(self):$/;"	m	class:gameSocket
+connectionMade	src/twisted/TcpClientDemo.py	/^    def connectionMade(self):$/;"	m	class:QuickDisconnectedProtocol
+connectionMade	src/twisted/core/chatserver.py	/^    def connectionMade(self):$/;"	m	class:MyChat
+connectionMade	src/twisted/core/deferred02_Demo.py	/^    def connectionMade(self):$/;"	m	class:CallbackAndDisconnectProtocol
+connectionMade	src/twisted/core/simpleclient.py	/^    def connectionMade(self):$/;"	m	class:EchoClient
+connectionMade	src/twisted/cred/simplecred.py	/^    def connectionMade(self):$/;"	m	class:Protocol
+connector	src/std/db/OracleDBConnectorTest.py	/^import mysql.connector$/;"	i
+content_type	src/twisted/web2/children.py	/^  content_type = http_headers.MimeType('text', 'plain')$/;"	v	class:Child
+counter	src/simple/thread_test.py	/^def counter(myId,count):$/;"	f
+creation_time	src/twisted/web2/children.py	/^  creation_time = time.time()$/;"	v	class:Child
+credentialInterfaces	src/twisted/cred/Cred.py	/^    credentialInterfaces = (credentials.IUsernamePassword,)$/;"	v	class:PasswordChecker
+credentials	src/twisted/cred/Cred.py	/^from twisted.cred import portal, checkers, credentials$/;"	i
+credentials	src/twisted/cred/simplecred.py	/^from twisted.cred import credentials$/;"	i
+d	src/twisted/threads/simple.py	/^d = threads.deferToThread(doLongCalculation)$/;"	v
+d	src/twisted/web/client/request.py	/^d = agent.request($/;"	v
+d	src/twisted/web/client/sendbody.py	/^d = agent.request($/;"	v
+data	src/simple/function_Generators.py	/^data = 'golf'$/;"	v
+data	src/std/net/Chp6ObtainWebPage.py	/^    data = fd.read(1024)$/;"	v
+data	src/std/structured_data/json/JsonTest.py	/^data = [ { 'a':'A', 'b':(2, 4), 'c':3.0 } ]$/;"	v
+dataReceived	src/twisted/SimpleGameServer.py	/^    def dataReceived(self, data):$/;"	m	class:gameSocket
+dataReceived	src/twisted/core/echo_server.py	/^    def dataReceived(self, data):$/;"	m	class:Echo
+dataReceived	src/twisted/core/simpleclient.py	/^    def dataReceived(self, data):$/;"	m	class:EchoClient
+dataReceived	src/twisted/core/simpleserv.py	/^    def dataReceived(self, data):$/;"	m	class:Echo
+data_string	src/std/structured_data/json/JsonTest.py	/^data_string = json.dumps(data)$/;"	v
+date	src/simple/function_built_in_func_date.py	/^from datetime import date$/;"	i
+dateTest	src/simple/function_built_in_func_date.py	/^def dateTest(): $/;"	f
+dateTest1	src/simple/function_built_in_func_date.py	/^def dateTest1():$/;"	f
+dateTest2	src/simple/function_built_in_func_date.py	/^def dateTest2():$/;"	f
+dateTest3	src/simple/function_built_in_func_date.py	/^def dateTest3():$/;"	f
+datetime	src/simple/function_built_in_func_date.py	/^from datetime import datetime     $/;"	i
+db	src/std/db/MysqlDB.py	/^db = conn()$/;"	v
+debug	src/pythonCorePrograming/figure_3_1.py	/^debug = True$/;"	v
+defer	src/twisted/core/deferred00_Simple.py	/^from twisted.internet import reactor, defer$/;"	i
+defer	src/twisted/core/deferred02_Demo.py	/^from twisted.internet import reactor, defer, protocol$/;"	i
+defer	src/twisted/core/deferred03_.py	/^from twisted.internet import protocol, reactor, defer$/;"	i
+defer	src/twisted/core/deferredList.py	/^from twisted.internet import defer$/;"	i
+defer	src/twisted/cred/Cred.py	/^from twisted.internet import protocol, reactor, defer$/;"	i
+delimiter	src/simple/object_string.py	/^delimiter = '-*-'$/;"	v
+delimiter	src/twisted/cred/Cred.py	/^    delimiter = '\\n'$/;"	v	class:MoneyProtocol
+deque	src/simple/collection_list.py	/^from collections import deque$/;"	i
+dictTest	src/simple/collection_dict.py	/^def dictTest():$/;"	f
+dictTest1	src/simple/collection_dict.py	/^def dictTest1():$/;"	f
+display	src/thinking/in_/python/SimpleClass.py	/^    def display(self):$/;"	m	class:Simple2
+dist1	src/simple/function_parameter.py	/^dist1 = {"foo" :'bar',"spam" :'eggs'}$/;"	v
+doLongCalculation	src/twisted/threads/simple.py	/^def doLongCalculation():$/;"	f
+doctest	src/std/UnitTest.py	/^import doctest$/;"	i
+downloadToTempFile	src/twisted/web/Download1.py	/^def downloadToTempFile(url):$/;"	f
+end	src/twisted/core/testlogging.py	/^def end():$/;"	f
+endElement	src/std/structured_data/xml/adddressbook.py	/^    def endElement(self, name):$/;"	m	class:PhoneContentHandler
+endElement	src/std/structured_data/xml/token.py	/^    def endElement(self, name):$/;"	m	class:TokenContentHandler
+enterStack	src/simple/collection_list.py	/^    def enterStack(self, obj):$/;"	m	class:StackTest
+epollreactor	src/twisted/SimpleGameServer.py	/^    from twisted.internet import epollreactor$/;"	i
+error	src/twisted/cred/dbcred.py	/^from twisted.cred import error$/;"	i
+error	src/twisted/cred/simplecred.py	/^from twisted.cred import error$/;"	i
+errorcode	src/std/db/OracleDBConnectorTest.py	/^from mysql.connector import errorcode$/;"	i
+f	src/simple/class_init.py	/^    f = f1$/;"	v	class:C
+f	src/simple/exception_finally.py	/^    f = file('poem.txt')$/;"	v
+f	src/simple/function_default_parameter.py	/^def f(a, L=[]):$/;"	f
+f	src/simple/io_file_persist_object.py	/^f = file(shoplistfile)$/;"	v
+f	src/simple/io_file_persist_object.py	/^f = file(shoplistfile, 'w')$/;"	v
+f	src/std/application/ConfigTest.py	/^def f() :$/;"	f
+f	src/std/net/Chp1AdvDownloadClient.py	/^f = urllib.urlopen(argv[1])$/;"	v
+f	src/thinking/in_/python/SimpleClass.py	/^  def f(obj): obj.show() # One-line definition$/;"	f
+f	src/twisted/SimpleGameServer.py	/^    f = Factory()$/;"	v
+f	src/twisted/core/rotatinglog.py	/^f = logfile.LogFile("test.log", "\/tmp", rotateLength=100)$/;"	v
+f	src/twisted/web/SimpleWebServer1_Echo.py	/^f = protocol.ServerFactory()$/;"	v
+f1	src/simple/class_init.py	/^def f1(self,x, y):$/;"	f
+factory	src/twisted/core/chatserver.py	/^factory = protocol.ServerFactory()$/;"	v
+fd	src/std/net/Chp6ObtainWebPage.py	/^fd = urllib2.urlopen(req)$/;"	v
+file	src/std/structured_data/xml/token.py	/^    file = sendRequest(host, port)$/;"	v
+fileName	src/linux/file_man.py	/^def fileName():$/;"	f
+fileOp	src/simple/io_1.py	/^def fileOp():$/;"	f
+fileOp1	src/simple/io_1.py	/^def fileOp1():$/;"	f
+filePath	src/linux/file_man.py	/^def filePath():$/;"	f
+fileTest	src/std/OsFileTest.py	/^def fileTest():$/;"	f
+filename	src/std/net/Chapter1_SimpleGopherClient.py	/^filename = sys.argv[2]$/;"	v
+filename	src/std/net/Chapter1_SimpleGopherClient_1.py	/^filename = sys.argv[2]$/;"	v
+findFiles	src/simple/function_arg.py	/^def findFiles():$/;"	f
+find_mobile_phone	src/std/structured_data/xml/adddressbook.py	/^def find_mobile_phone(name):$/;"	f
+firstExam	src/std/net/Chapter1_SimpleGopherClient_1.py	/^def firstExam():$/;"	f
+foo	src/simple/collection_list.py	/^def foo():$/;"	f
+foo	src/simple/function_7_6.py	/^        def foo(x = a):$/;"	f	function:DefaultParam.testDefaultParam
+foo	src/simple/function_7_6.py	/^        def foo(x = a):$/;"	f	function:DefaultParam.testSimpleDefaultParam
+foo	src/simple/function_arg.py	/^def foo(*args):$/;"	f
+forElseTest	src/simple/flow_control_for.py	/^def forElseTest() :$/;"	f
+fruit	src/simple/collection_set.py	/^fruit = set(basket)              $/;"	v
+func	src/simple/function_call_by_value.py	/^def func():$/;"	f
+func	src/simple/function_default_parameter.py	/^def func(a, b=5, c=10):$/;"	f
+func	src/simple/function_lambda.py	/^    def func(self):$/;"	m	class:CRecord
+func1	src/simple/function_call_by_value.py	/^def func1(param):$/;"	f
+func2	src/simple/function_call_by_value.py	/^def func2(obj):$/;"	f
+function	src/simple/function_arg.py	/^def function(arg1="hello", arg2="slieer"):$/;"	f
+g	src/simple/class_init.py	/^    def g(self):$/;"	m	class:C
+g	src/simple/function_lambda.py	/^g = lambda x: x * 2$/;"	v
+gameSocket	src/twisted/SimpleGameServer.py	/^class gameSocket(Protocol):$/;"	c
+gc	src/simple/collection_list_1.py	/^        import weakref, gc$/;"	i
+get	src/simple/collection_list.py	/^    def get(self):$/;"	m	class:ListTest
+get	src/std/structured_data/xml/token.py	/^def get(file_):$/;"	f
+getChild	src/twisted/web/SimpleWebServer4_Resources.py	/^    def getChild(self, path, request):$/;"	m	class:ColorRoot
+getData	src/twisted/core/deferred00_Simple.py	/^    def getData(self, x):$/;"	m	class:Getter
+getData1	src/twisted/core/deferred00_Simple.py	/^    def getData1(self, x):$/;"	m	class:Getter
+getGoogleMainPage	src/std/net/url/UrlLibTest.py	/^def getGoogleMainPage():$/;"	f
+getPrivileges	src/twisted/cred/simplecred.py	/^    def getPrivileges():$/;"	m	class:IProtocolUser
+getPrivileges	src/twisted/cred/simplecred.py	/^    def getPrivileges(self):$/;"	m	class:Administrator
+getPrivileges	src/twisted/cred/simplecred.py	/^    def getPrivileges(self):$/;"	m	class:AnonymousUser
+getPrivileges	src/twisted/cred/simplecred.py	/^    def getPrivileges(self):$/;"	m	class:RegularUser
+getUser	src/twisted/core/deferred01_lsCommand.py	/^    def getUser(self, user):$/;"	m	class:FingerFactory
+getUser	src/twisted/core/deferred03_.py	/^    def getUser(self, user):$/;"	m	class:FingerFactory
+get_user_passwd	src/linux/net.py	/^    def get_user_passwd(self, host, realm, clear_cache=0):$/;"	m	class:MyOpener
+getattrTest	src/simple/function_7_6.py	/^def getattrTest():    $/;"	f
+glob	src/simple/function_arg.py	/^import glob$/;"	i
+got_results	src/twisted/core/deferredList.py	/^def got_results(res):$/;"	f
+guess	src/simple/flow_control_if.py	/^guess = int(raw_input("Enter a Integer:"))$/;"	v
+h	src/simple/class_init.py	/^    h = g$/;"	v	class:C
+h	src/thinking/in_/InitImportTest.py	/^h = Hello()$/;"	v
+handle	src/std/net/BasicAuth.py	/^    handle = urllib2.urlopen(req)$/;"	v
+handle	src/std/net/SocketServerWeblog.py	/^    def handle(self):$/;"	m	class:WebLogHandler
+handleFailure	src/twisted/core/deferred02_Demo.py	/^def handleFailure(failure, port):$/;"	f
+handlePost	src/twisted/web/SimpleWebServer3_Post.py	/^def handlePost(request):$/;"	f
+handleSuccess	src/twisted/core/deferred02_Demo.py	/^def handleSuccess(result, port):$/;"	f
+hello	src/simple/_hello_world.py	/^def hello():$/;"	f
+hello	src/thinking/in_/python/Test.py	/^    def hello(self):$/;"	m	class:HelloWorld
+hello	src/thinking/in_/python/Test.py	/^def hello():$/;"	f
+helloMethod	src/thinking/in_/InitImportTest.py	/^from thinking.in_.python.Test import hello as helloMethod$/;"	i
+hit_tag	src/std/net/SocketServerWeblog.py	/^from webloglib import log_fields, hit_tag$/;"	i
+host	src/std/net/Chapter1_SimpleGopherClient.py	/^host = sys.argv[1]$/;"	v
+host	src/std/net/Chapter1_SimpleGopherClient_1.py	/^host = sys.argv[1]$/;"	v
+host	src/std/net/Chapter1_SimpleServer.py	/^host = ''$/;"	v
+host	src/std/structured_data/xml/token.py	/^    host = ""$/;"	v
+howMany	src/simple/class_object_variable.py	/^    def howMany(self):$/;"	m	class:Person
+http	src/twisted/web/SimpleWebServer2.py	/^from twisted.web import http$/;"	i
+http	src/twisted/web/SimpleWebServer3_Post.py	/^from twisted.web import http$/;"	i
+http	src/twisted/web2/children.py	/^from twisted.web2 import server, http, resource, channel$/;"	i
+http	src/twisted/web2/simple.py	/^from twisted.web2 import server, http, resource, channel$/;"	i
+http_headers	src/twisted/web2/children.py	/^from twisted.web2 import static, http_headers, responsecode$/;"	i
+httplib	src/std/net/HttpClientRequest.py	/^import httplib$/;"	i
+i	src/std/Thread.py	/^    i = 10$/;"	v	class:AsyncZip
+ifTest	src/linux/hello.py	/^def ifTest():$/;"	f
+implements	src/twisted/cred/Cred.py	/^from zope.interface import Interface, implements$/;"	i
+implements	src/twisted/cred/dbcred.py	/^from zope.interface import implements$/;"	i
+implements	src/twisted/cred/simplecred.py	/^from zope.interface import implements, Interface$/;"	i
+implements	src/twisted/web/client/stringprod.py	/^from zope.interface import implements$/;"	i
+index	src/twisted/web/WebResources.py	/^index = resource.Resource()$/;"	v
+info	src/std/net/Chp6ObtainWebPage.py	/^info = fd.info()$/;"	v
+initArr	src/simple/collection_list.py	/^def initArr():    $/;"	f
+insert	src/std/db/MysqlDB.py	/^def insert(db):$/;"	f
+internet	src/twisted/core/chatserver.py	/^from twisted.application import service, internet$/;"	i
+iocpreactor	src/twisted/SimpleGameServer.py	/^    from twisted.internet import iocpreactor$/;"	i
+j	src/simple/data_type_json.py	/^j = {$/;"	v
+john	src/simple/class_init.py	/^    john = Employee()$/;"	v	class:Employee
+join	src/cookbook/thread_test.py	/^    def join(self, timeout=None):$/;"	m	class:TestThread
+json	src/simple/data_type_json.py	/^import json$/;"	i
+json	src/std/structured_data/json/JsonTest.py	/^import json$/;"	i
+kalam	src/simple/class_object_variable.py	/^kalam = Person('Abdul Kalam')$/;"	v
+line	src/simple/exception_finally.py	/^        line = f.readline()$/;"	v
+line	src/std/net/Chapter1_SimpleServer.py	/^    line = clientfile.readline().strip()$/;"	v
+lineReceived	src/twisted/core/chatserver.py	/^    def lineReceived(self, line):$/;"	m	class:MyChat
+lineReceived	src/twisted/core/deferred01_lsCommand.py	/^    def lineReceived(self, user):$/;"	m	class:FingerProtocol
+lineReceived	src/twisted/core/deferred03_.py	/^    def lineReceived(self, user):$/;"	m	class:FingerProtocol
+lineReceived	src/twisted/cred/Cred.py	/^    def lineReceived(self, line):$/;"	m	class:MoneyProtocol
+lineReceived	src/twisted/cred/simplecred.py	/^    def lineReceived(self, line):$/;"	m	class:Protocol
+lineReceived	src/twisted/web/SimpleWebServer1_Echo.py	/^    def lineReceived(self, line):$/;"	m	class:HttpEchoProtocol
+listown	src/simple/os.py	/^listown = [2,3,4]$/;"	v
+listtwo	src/simple/os.py	/^listtwo = [2 * i for i in listown if i > 2]$/;"	v
+log	src/std/net/url/UrlLib2Test.py	/^from application import log$/;"	i
+log	src/twisted/core/rotatinglog.py	/^from twisted.python import log$/;"	i
+log	src/twisted/core/testlogging.py	/^from twisted.python import log$/;"	i
+log	src/twisted/cred/dbcred.py	/^    from twisted.python import log$/;"	i
+log	src/twisted/cred/simplecred.py	/^from twisted.python import log$/;"	i
+log_fields	src/std/net/SocketServerWeblog.py	/^from webloglib import log_fields, hit_tag$/;"	i
+logfile	src/twisted/core/rotatinglog.py	/^from twisted.python import logfile$/;"	i
+logging	src/std/ManyModuleTest.py	/^        import logging$/;"	i
+loginErr	src/twisted/cred/Cred.py	/^    def loginErr(self, result):$/;"	m	class:MoneyProtocol
+loginSuc	src/twisted/cred/Cred.py	/^    def loginSuc(self, avatarInfo):$/;"	m	class:MoneyProtocol
+logout	src/twisted/cred/simplecred.py	/^    def logout():$/;"	m	class:IProtocolUser
+logout	src/twisted/cred/simplecred.py	/^    def logout(self):$/;"	m	class:Administrator
+logout	src/twisted/cred/simplecred.py	/^    def logout(self):$/;"	m	class:AnonymousUser
+logout	src/twisted/cred/simplecred.py	/^    def logout(self):$/;"	m	class:RegularUser
+logout	src/twisted/cred/simplecred.py	/^    logout = None$/;"	v	class:Protocol
+m	src/thinking/in_/InitImportTest.py	/^from thinking.in_.python.ClassFunction import make_adder_as_bound_method as m$/;"	i
+main	src/linux/call_sys_command.py	/^def main():$/;"	f
+main	src/linux/file_man.py	/^def main():$/;"	f
+main	src/linux/hello.py	/^def main():$/;"	f
+main	src/linux/net.py	/^def main():$/;"	f
+main	src/twisted/core/simpleclient.py	/^def main():$/;"	f
+main	src/twisted/core/simpleserv.py	/^def main():$/;"	f
+main	src/twisted/cred/dbcred.py	/^def main():$/;"	f
+main	src/twisted/cred/simplecred.py	/^def main():$/;"	f
+make_adder_as_bound_method	src/thinking/in_/python/ClassFunction.py	/^def make_adder_as_bound_method(augend):$/;"	f
+make_adder_as_callable_instance	src/thinking/in_/python/ClassFunction.py	/^def make_adder_as_callable_instance(augend):$/;"	f
+make_adder_as_closure	src/thinking/in_/python/ClassFunction.py	/^def make_adder_as_closure(augend):$/;"	f
+make_parser	src/std/structured_data/xml/adddressbook.py	/^from xml.sax import make_parser, SAXException$/;"	i
+make_parser	src/std/structured_data/xml/token.py	/^from xml.sax import make_parser$/;"	i
+math	src/simple/os.py	/^import math$/;"	i
+mdb	src/std/db/MysqlDB.py	/^import MySQLdb as mdb$/;"	i
+members	src/simple/class_inherit.py	/^    members = [t, s]$/;"	v
+message	src/twisted/core/chatserver.py	/^    def message(self, message):$/;"	m	class:MyChat
+method	src/simple/function_7_6.py	/^    def method(self):$/;"	m	class:A
+mod	src/simple/module_dir.py	/^mod = sys.modules$/;"	v
+module_mymodule	src/simple/module_mymodule_invocation.py	/^import module_mymodule$/;"	i
+msgTag	src/std/structured_data/xml/token.py	/^    msgTag = 'msg'$/;"	v	class:TokenContentHandler
+msisdnTag	src/std/structured_data/xml/token.py	/^    msisdnTag = 'msisdn'$/;"	v	class:TokenContentHandler
+multiply	src/simple/function_parameter.py	/^def multiply(*args):$/;"	f
+mutex	src/simple/thread_test.py	/^mutex = thread.allocate_lock()$/;"	v
+mylist	src/simple/object_clone.py	/^mylist = shoplist # mylist is just another name pointing to the same object!$/;"	v
+mylist	src/simple/object_clone.py	/^mylist = shoplist[:] # make a copy by doing a full slice$/;"	v
+mylist	src/simple/object_string.py	/^mylist = ['brazil','Russia','India','China']$/;"	v
+mysql	src/std/db/OracleDBConnectorTest.py	/^import mysql.connector$/;"	i
+myurl	src/std/net/Chp6ObtainWebPage.py	/^    myurl = ''.join(['http:\/\/' ,myurl])$/;"	v
+myurl	src/std/net/Chp6ObtainWebPage.py	/^myurl = 'www.baidu.com'$/;"	v
+name	src/simple/collection_sequence.py	/^name = 'swaroop'$/;"	v
+name	src/std/structured_data/xml/adddressbook.py	/^    name = ' '.join(sys.argv[1:])$/;"	v
+namedTupleTest	src/simple/collection_tuple.py	/^def namedTupleTest():$/;"	f
+namedTupleTest1	src/simple/collection_tuple.py	/^def namedTupleTest1():$/;"	f
+names	src/std/structured_data/json/JsonTest.py	/^names = ['Jane', ['Matt', 'Laura'], 'Julieta', 'John', 'Jack']$/;"	v
+number	src/simple/flow_control_if.py	/^number = 23$/;"	v
+os	src/linux/call_sys_command.py	/^import os$/;"	i
+os	src/linux/file_man.py	/^import os$/;"	i
+os	src/pythonCorePrograming/figure_3_1.py	/^import os $/;"	i
+os	src/simple/function_arg.py	/^import os$/;"	i
+os	src/simple/os.py	/^import os$/;"	i
+os	src/std/OsFileTest.py	/^import os$/;"	i
+os	src/twisted/SimpleGameServer.py	/^import os$/;"	i
+os	src/twisted/cred/dbcred.py	/^    import os$/;"	i
+os	src/twisted/web/Download1.py	/^    import sys, os$/;"	i
+os	src/twisted/web2/children.py	/^import os.path, time$/;"	i
+osTest	src/std/OsFileTest.py	/^def osTest():$/;"	f
+osinfo	src/simple/os.py	/^def osinfo():$/;"	f
+p	src/simple/class_init.py	/^    p = Person('Swaroop')$/;"	v	class:Employee
+p	src/simple/class_static.py	/^    p = Person()   #__init__方法被调用$/;"	v
+p	src/simple/io_file_persist_object.py	/^import cPickle as p$/;"	i
+p	src/twisted/cred/Cred.py	/^p = portal.Portal(UserBankRealm())$/;"	v
+pageHandlers	src/twisted/web/SimpleWebServer3_Post.py	/^    pageHandlers = {$/;"	v	class:FunctionHandleRequest
+pages	src/twisted/web/SimpleWebServer2.py	/^    pages = {$/;"	v	class:MyRequestHandler
+parameters	src/linux/net.py	/^class parameters:$/;"	c
+params	src/linux/net.py	/^params = parameters()$/;"	v
+password	src/std/application/ConfigTest.py	/^    password = ConfigSetting(type=str, value=None)$/;"	v	class:Account
+password	src/std/net/BasicAuth.py	/^password = 'XXXXXX'  # 你信这是密码吗？ $/;"	v
+path	src/twisted/web2/children.py	/^import os.path, time$/;"	i
+pauseProducing	src/twisted/web/client/stringprod.py	/^    def pauseProducing(self):$/;"	m	class:StringProducer
+pb	src/twisted/cred/dbcred.py	/^    from twisted.spread import pb$/;"	i
+pbecho	src/twisted/cred/dbcred.py	/^    import pbecho$/;"	i
+phone	src/std/structured_data/xml/adddressbook.py	/^    phone = find_mobile_phone(name)$/;"	v
+pi	src/simple/function_Generators.py	/^from math import pi, sin$/;"	i
+poop	src/simple/function_7_6.py	/^    def poop(self):$/;"	m	class:Animal
+popStactTopElement	src/simple/collection_list.py	/^    def popStactTopElement(self):$/;"	m	class:StackTest
+popen	src/linux/call_sys_command.py	/^def popen():$/;"	f
+popen2	src/linux/call_sys_command.py	/^import popen2$/;"	i
+population	src/simple/class_object_variable.py	/^    population =  0$/;"	v	class:Person
+port	src/std/net/Chapter1_SimpleGopherClient.py	/^port = 70$/;"	v
+port	src/std/net/Chapter1_SimpleGopherClient_1.py	/^port = 70$/;"	v
+port	src/std/net/Chapter1_SimpleServer.py	/^port = 51423$/;"	v
+port	src/std/net/Chp2BasicConnection.py	/^port = socket.getservbyname("http","tcp")$/;"	v
+port	src/std/structured_data/xml/token.py	/^    port = ""$/;"	v
+portal	src/twisted/cred/Cred.py	/^from twisted.cred import portal, checkers, credentials$/;"	i
+portal	src/twisted/cred/simplecred.py	/^    portal = None$/;"	v	class:Protocol
+portal	src/twisted/cred/simplecred.py	/^from twisted.cred import portal$/;"	i
+powersum	src/simple/os.py	/^def powersum(power,*args):$/;"	f
+printData	src/twisted/core/deferred00_Simple.py	/^def printData(d):$/;"	f
+printError	src/twisted/web/Download0.py	/^def printError(failure):$/;"	f
+printError	src/twisted/web/Download1.py	/^    def printError(failure):$/;"	f	function:returnFilename
+printFile	src/twisted/web/Download1.py	/^    def printFile(filename):$/;"	f	function:returnFilename
+printPage	src/twisted/web/Download0.py	/^def printPage(data):$/;"	f
+printProperties	src/simple/_hello_world_v1.py	/^    def printProperties(self):$/;"	m	class:Basic
+printResult	src/twisted/threads/simple.py	/^def printResult(response):$/;"	f
+printSum	src/twisted/core/reactorDemo.py	/^def printSum(i):$/;"	f
+printTime	src/twisted/core/reactorDemo.py	/^def printTime():$/;"	f
+process	src/twisted/web/SimpleWebServer2.py	/^    def process(self):$/;"	m	class:MyRequestHandler
+process	src/twisted/web/SimpleWebServer3_Post.py	/^    def process(self):$/;"	m	class:FunctionHandleRequest
+protocol	src/twisted/TcpClientDemo.py	/^    protocol = QuickDisconnectedProtocol$/;"	v	class:BasicClientFactory
+protocol	src/twisted/TcpClientDemo.py	/^from twisted.internet import reactor, protocol$/;"	i
+protocol	src/twisted/core/chatserver.py	/^from twisted.internet import protocol$/;"	i
+protocol	src/twisted/core/deferred01_lsCommand.py	/^    protocol = FingerProtocol$/;"	v	class:FingerFactory
+protocol	src/twisted/core/deferred01_lsCommand.py	/^from twisted.internet import protocol, reactor, utils$/;"	i
+protocol	src/twisted/core/deferred02_Demo.py	/^    protocol = CallbackAndDisconnectProtocol$/;"	v	class:ConnectionTestFactory
+protocol	src/twisted/core/deferred02_Demo.py	/^from twisted.internet import reactor, defer, protocol$/;"	i
+protocol	src/twisted/core/deferred03_.py	/^    protocol = FingerProtocol$/;"	v	class:FingerFactory
+protocol	src/twisted/core/deferred03_.py	/^from twisted.internet import protocol, reactor, defer$/;"	i
+protocol	src/twisted/core/echo_server.py	/^from twisted.internet import protocol, reactor$/;"	i
+protocol	src/twisted/core/simpleclient.py	/^    protocol = EchoClient$/;"	v	class:EchoFactory
+protocol	src/twisted/core/simpleclient.py	/^from twisted.internet import reactor, protocol$/;"	i
+protocol	src/twisted/core/simpleserv.py	/^from twisted.internet import reactor, protocol$/;"	i
+protocol	src/twisted/cred/Cred.py	/^    protocol = MoneyProtocol$/;"	v	class:BankFactory
+protocol	src/twisted/cred/Cred.py	/^from twisted.internet import protocol, reactor, defer$/;"	i
+protocol	src/twisted/cred/simplecred.py	/^    protocol = Protocol$/;"	v	class:ServerFactory
+protocol	src/twisted/cred/simplecred.py	/^from twisted.internet import protocol$/;"	i
+protocol	src/twisted/web/SimpleWebServer1_Echo.py	/^from twisted.internet import protocol, reactor$/;"	i
+protocol	src/twisted/web/SimpleWebServer2.py	/^    protocol = MyHttp$/;"	v	class:MyHttpFactory
+protocol	src/twisted/web/SimpleWebServer3_Post.py	/^    protocol = MyHttp$/;"	v	class:MyHttpFactory
+query	src/std/db/MysqlDB.py	/^def query(db):$/;"	f
+reactor	src/twisted/SimpleGameServer.py	/^from twisted.internet import reactor$/;"	i
+reactor	src/twisted/TcpClientDemo.py	/^from twisted.internet import reactor, protocol$/;"	i
+reactor	src/twisted/__init__.py	/^from twisted.internet import reactor$/;"	i
+reactor	src/twisted/core/deferred00_Simple.py	/^from twisted.internet import reactor, defer$/;"	i
+reactor	src/twisted/core/deferred01_lsCommand.py	/^from twisted.internet import protocol, reactor, utils$/;"	i
+reactor	src/twisted/core/deferred02_Demo.py	/^from twisted.internet import reactor, defer, protocol$/;"	i
+reactor	src/twisted/core/deferred03_.py	/^from twisted.internet import protocol, reactor, defer$/;"	i
+reactor	src/twisted/core/echo_server.py	/^from twisted.internet import protocol, reactor$/;"	i
+reactor	src/twisted/core/reactorDemo.py	/^from twisted.internet import reactor$/;"	i
+reactor	src/twisted/core/simpleclient.py	/^from twisted.internet import reactor, protocol$/;"	i
+reactor	src/twisted/core/simpleserv.py	/^from twisted.internet import reactor, protocol$/;"	i
+reactor	src/twisted/core/testlogging.py	/^from twisted.internet import reactor$/;"	i
+reactor	src/twisted/cred/Cred.py	/^from twisted.internet import protocol, reactor, defer$/;"	i
+reactor	src/twisted/cred/dbcred.py	/^    from twisted.internet import reactor$/;"	i
+reactor	src/twisted/cred/simplecred.py	/^    from twisted.internet import reactor$/;"	i
+reactor	src/twisted/threads/SimpleThread.py	/^from twisted.internet import reactor, threads$/;"	i
+reactor	src/twisted/threads/simple.py	/^from twisted.internet import reactor, threads$/;"	i
+reactor	src/twisted/web/Download0.py	/^from twisted.internet import reactor$/;"	i
+reactor	src/twisted/web/Download1.py	/^    from twisted.internet import reactor$/;"	i
+reactor	src/twisted/web/SimpleWebServer0.py	/^from twisted.internet import reactor $/;"	i
+reactor	src/twisted/web/SimpleWebServer1_Echo.py	/^from twisted.internet import protocol, reactor$/;"	i
+reactor	src/twisted/web/SimpleWebServer2.py	/^    from twisted.internet import reactor$/;"	i
+reactor	src/twisted/web/SimpleWebServer3_Post.py	/^    from twisted.internet import reactor$/;"	i
+reactor	src/twisted/web/SimpleWebServer4_Resources.py	/^    from twisted.internet import reactor$/;"	i
+reactor	src/twisted/web/WebResources.py	/^from twisted.internet import reactor$/;"	i
+reactor	src/twisted/web/client/request.py	/^from twisted.internet import reactor$/;"	i
+reactor	src/twisted/web/client/sendbody.py	/^from twisted.internet import reactor$/;"	i
+read	src/simple/collection_list.py	/^    def read(self):$/;"	m	class:QueueTest
+readStactTop	src/simple/collection_list.py	/^    def readStactTop(self):$/;"	m	class:StackTest
+render	src/twisted/web/SimpleWebServer0.py	/^  def render(self, request): $/;"	m	class:ReStructured
+render	src/twisted/web/SimpleWebServer4_Resources.py	/^    def render(self, request):$/;"	m	class:ColorIndexPage
+render	src/twisted/web/SimpleWebServer4_Resources.py	/^    def render(self, request):$/;"	m	class:ColorPage
+render	src/twisted/web/SimpleWebServer4_Resources.py	/^    def render(self, request):$/;"	m	class:ColorRoot
+render	src/twisted/web/SimpleWebServer4_Resources.py	/^    def render(self, request):$/;"	m	class:HomePage
+render	src/twisted/web/WebResources.py	/^    def render(self, request):$/;"	m	class:First
+render	src/twisted/web2/children.py	/^  def render(self, ctx):$/;"	m	class:Child
+render	src/twisted/web2/children.py	/^  def render(self, ctx):$/;"	m	class:Toplevel
+render	src/twisted/web2/simple.py	/^  def render(self, ctx):$/;"	m	class:Toplevel
+renderHomePage	src/twisted/web/SimpleWebServer3_Post.py	/^def renderHomePage(request):$/;"	f
+req	src/std/net/BasicAuth.py	/^req = urllib2.Request(theurl)$/;"	v
+req	src/std/net/Chp6ObtainWebPage.py	/^req = urllib2.Request(myurl)$/;"	v
+requestAvatar	src/twisted/cred/Cred.py	/^    def requestAvatar(self, avatarId, mind, *interfaces):$/;"	m	class:UserBankRealm
+requestAvatar	src/twisted/cred/simplecred.py	/^    def requestAvatar(self, avatarId, mind, *interfaces):$/;"	m	class:Realm
+requestAvatarId	src/twisted/cred/Cred.py	/^    def requestAvatarId(self, credentials):$/;"	m	class:PasswordChecker
+requestAvatarId	src/twisted/cred/dbcred.py	/^    def requestAvatarId(self, credentials):$/;"	m	class:DBCredentialsChecker
+requestFactory	src/twisted/web/SimpleWebServer2.py	/^    requestFactory = MyRequestHandler$/;"	v	class:MyHttp
+requestFactory	src/twisted/web/SimpleWebServer3_Post.py	/^    requestFactory = FunctionHandleRequest$/;"	v	class:MyHttp
+resource	src/twisted/web/SimpleWebServer0.py	/^resource = static.File('.\/htm\/')                                                   $/;"	v
+resource	src/twisted/web/SimpleWebServer4_Resources.py	/^from twisted.web import resource, static, server$/;"	i
+resource	src/twisted/web/WebResources.py	/^from twisted.web import resource$/;"	i
+resource	src/twisted/web2/children.py	/^from twisted.web2 import server, http, resource, channel$/;"	i
+resource	src/twisted/web2/simple.py	/^from twisted.web2 import server, http, resource, channel$/;"	i
+responsecode	src/twisted/web2/children.py	/^from twisted.web2 import static, http_headers, responsecode$/;"	i
+result	src/twisted/core/reactorDemo.py	/^class result :$/;"	c
+returnFilename	src/twisted/web/Download1.py	/^def returnFilename(result, filename):$/;"	f
+root	src/twisted/web/SimpleWebServer4_Resources.py	/^    root = resource.Resource()$/;"	v
+run	src/cookbook/thread_test.py	/^    def run(self):$/;"	m	class:TestThread
+run	src/std/Thread.py	/^    def run(self):$/;"	m	class:AsyncZip
+s	src/simple/class_inherit.py	/^    s = Student('Swaroop', 22, 75)$/;"	v
+s	src/simple/exception.py	/^    s = raw_input('Enter something --> ')$/;"	v
+s	src/simple/exception_raise_else.py	/^    s = raw_input('Enter something --> ')$/;"	v
+s	src/simple/os.py	/^import os as s$/;"	i
+s	src/simple/test/collecton_list_test.py	/^s = StackTest(['b','bb'])$/;"	v
+s	src/std/Compression.py	/^s = 'witch which has which witches wrist watchwitch which has which witches wrist watch'$/;"	v
+s	src/std/net/Chapter1_SimpleGopherClient.py	/^s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)  #IPv4, tcp.$/;"	v
+s	src/std/net/Chapter1_SimpleServer.py	/^s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)$/;"	v
+s	src/std/net/Chp2BasicConnection.py	/^s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)$/;"	v
+s	src/twisted/web2/children.py	/^s = strports.service('tcp:8080', channel.HTTPFactory(site))$/;"	v
+s	src/twisted/web2/simple.py	/^s = strports.service('tcp:8080', channel.HTTPFactory(site))$/;"	v
+say	src/simple/function_default_parameter.py	/^def say(message, times = 1):$/;"	f
+sayHi	src/simple/class_init.py	/^    def sayHi(self):$/;"	m	class:Person
+sayHi	src/simple/class_object_variable.py	/^    def sayHi(self):$/;"	m	class:Person
+sayHi	src/simple/class_static.py	/^    def sayHi(self):$/;"	m	class:Person
+sayhi	src/simple/module_mymodule.py	/^def sayhi():$/;"	f
+secondExam	src/std/net/Chapter1_SimpleGopherClient_1.py	/^def secondExam():$/;"	f
+sendRequest	src/std/net/url/UrlLib2Test.py	/^def sendRequest(url,token):$/;"	f
+sendRequest	src/std/structured_data/xml/token.py	/^def sendRequest(host,port):$/;"	f
+sendResponse	src/twisted/web/SimpleWebServer1_Echo.py	/^    def sendResponse(self):$/;"	m	class:HttpEchoProtocol
+server	src/twisted/web/SimpleWebServer0.py	/^from twisted.web import server                                                   $/;"	i
+server	src/twisted/web/SimpleWebServer4_Resources.py	/^from twisted.web import resource, static, server$/;"	i
+server	src/twisted/web/WebResources.py	/^from twisted.web import static, server$/;"	i
+server	src/twisted/web2/children.py	/^from twisted.web2 import server, http, resource, channel$/;"	i
+server	src/twisted/web2/simple.py	/^from twisted.web2 import server, http, resource, channel$/;"	i
+service	src/twisted/core/chatserver.py	/^from twisted.application import service, internet$/;"	i
+service	src/twisted/web2/children.py	/^from twisted.application import service, strports$/;"	i
+service	src/twisted/web2/simple.py	/^from twisted.application import service, strports$/;"	i
+shoplist	src/simple/collection_list.py	/^    shoplist = ['apple','mango','carrot','banana']$/;"	v	class:ListTest
+shoplist	src/simple/collection_sequence.py	/^shoplist = ['apple', 'mango', 'carrot', 'banana']$/;"	v
+shoplist	src/simple/io_file_persist_object.py	/^shoplist = ['apple', 'mango', 'carrot']$/;"	v
+shoplist	src/simple/object_clone.py	/^shoplist = ['apple', 'mango', 'carrot', 'banana']$/;"	v
+shoplistfile	src/simple/io_file_persist_object.py	/^shoplistfile = 'shoplist.data'$/;"	v
+show	src/thinking/in_/python/Simple.py	/^    def show(self):$/;"	m	class:Simple
+show	src/thinking/in_/python/SimpleClass.py	/^    def show(self):$/;"	m	class:Different
+show	src/thinking/in_/python/SimpleClass.py	/^    def show(self):$/;"	m	class:Simple2
+showMsg	src/thinking/in_/python/Simple.py	/^    def showMsg(self, msg):$/;"	m	class:Simple
+shutil	src/linux/file_man.py	/^import shutil$/;"	i
+shutil	src/std/OsFileTest.py	/^        import shutil$/;"	i
+simple	src/simple/_hello_world_v1.py	/^def simple():$/;"	f
+sin	src/simple/function_Generators.py	/^from math import pi, sin$/;"	i
+sine_table	src/simple/function_Generators.py	/^sine_table = dict((x, sin(x*pi\/180)) for x in range(0, 91))$/;"	v
+sip_address	src/std/application/ConfigTest.py	/^    sip_address = ''$/;"	v	class:Account
+site	src/twisted/web/SimpleWebServer4_Resources.py	/^    site = server.Site(root)$/;"	v
+site	src/twisted/web2/children.py	/^site = server.Site(Toplevel())$/;"	v
+site	src/twisted/web2/simple.py	/^site = server.Site(Toplevel())$/;"	v
+sleep	src/std/net/SocketServerWeblog.py	/^from time import sleep$/;"	i
+socket	src/std/net/Chapter1_SimpleGopherClient.py	/^import socket,sys$/;"	i
+socket	src/std/net/Chapter1_SimpleGopherClient_1.py	/^import socket,sys$/;"	i
+socket	src/std/net/Chapter1_SimpleServer.py	/^import socket$/;"	i
+socket	src/std/net/Chp2BasicConnection.py	/^import socket$/;"	i
+socket	src/std/net/SocketServerWeblog.py	/^import sys, socket$/;"	i
+socket	src/std/structured_data/xml/token.py	/^import socket$/;"	i
+srv	src/std/net/SocketServerWeblog.py	/^    srv = ThreadingTCPServer(('',8888), WebLogHandler)$/;"	v
+startElement	src/std/structured_data/xml/adddressbook.py	/^    def startElement(self, name, attrs):$/;"	m	class:PhoneContentHandler
+startElement	src/std/structured_data/xml/token.py	/^    def startElement(self, name, attrs):$/;"	m	class:TokenContentHandler
+startProducing	src/twisted/web/client/stringprod.py	/^    def startProducing(self, consumer):$/;"	m	class:StringProducer
+startlog	src/twisted/core/testlogging.py	/^def startlog():$/;"	f
+static	src/twisted/web/SimpleWebServer0.py	/^from twisted.web import static                                                   $/;"	i
+static	src/twisted/web/SimpleWebServer4_Resources.py	/^from twisted.web import resource, static, server$/;"	i
+static	src/twisted/web/WebResources.py	/^from twisted.web import static, server$/;"	i
+static	src/twisted/web2/children.py	/^from twisted.web2 import static, http_headers, responsecode$/;"	i
+staticMehtod	src/simple/class_static.py	/^    def staticMehtod():$/;"	m	class:Person
+statusTag	src/std/structured_data/xml/token.py	/^    statusTag = 'status'$/;"	v	class:TokenContentHandler
+stdout	src/std/net/Chp1AdvDownloadClient.py	/^from sys import stdout$/;"	i
+stdout	src/std/net/url/UrlLib2Test.py	/^from sys import stdout$/;"	i
+stdout	src/twisted/threads/simple.py	/^from sys import stdout $/;"	i
+stopProducing	src/twisted/web/client/stringprod.py	/^    def stopProducing(self):$/;"	m	class:StringProducer
+stopReactor	src/twisted/core/reactorDemo.py	/^def stopReactor():$/;"	f
+storedlist	src/simple/io_file_persist_object.py	/^storedlist = p.load(f)$/;"	v
+strOjb	src/simple/data_type_string.py	/^    strOjb = StrType("ZhaiXiaoBin");$/;"	v
+str_test	src/simple/data_type_string.py	/^def str_test():$/;"	f
+string	src/simple/data_type_string.py	/^import string$/;"	i
+string_view	src/simple/data_type_string.py	/^def string_view():$/;"	f
+strports	src/twisted/web2/children.py	/^from twisted.application import service, strports$/;"	i
+strports	src/twisted/web2/simple.py	/^from twisted.application import service, strports$/;"	i
+subprocess	src/linux/call_sys_command.py	/^import subprocess$/;"	i
+succeed	src/twisted/web/client/stringprod.py	/^from twisted.internet.defer import succeed$/;"	i
+swaroop	src/simple/class_object_variable.py	/^swaroop = Person('Swaroop')$/;"	v
+syncCounter	src/simple/thread_test.py	/^def syncCounter(myId, count): $/;"	f
+sys	src/linux/net.py	/^import sys$/;"	i
+sys	src/pythonCorePrograming/figure_3_1.py	/^import sys   $/;"	i
+sys	src/simple/collection_list_1.py	/^    import sys;$/;"	i
+sys	src/simple/exception.py	/^import sys$/;"	i
+sys	src/simple/module_dir.py	/^import sys$/;"	i
+sys	src/std/db/MysqlDB.py	/^import sys$/;"	i
+sys	src/std/net/BasicAuth.py	/^import sys$/;"	i
+sys	src/std/net/Chapter1_SimpleGopherClient.py	/^import socket,sys$/;"	i
+sys	src/std/net/Chapter1_SimpleGopherClient_1.py	/^import socket,sys$/;"	i
+sys	src/std/net/Chp6ObtainWebPage.py	/^import sys,urllib2$/;"	i
+sys	src/std/net/SocketServerWeblog.py	/^import sys, socket$/;"	i
+sys	src/std/structured_data/xml/adddressbook.py	/^    import sys$/;"	i
+sys	src/twisted/core/deferred02_Demo.py	/^    import sys$/;"	i
+sys	src/twisted/core/testlogging.py	/^import sys, warnings$/;"	i
+sys	src/twisted/cred/dbcred.py	/^    import sys$/;"	i
+sys	src/twisted/cred/simplecred.py	/^import sys$/;"	i
+sys	src/twisted/web/Download0.py	/^import sys$/;"	i
+sys	src/twisted/web/Download1.py	/^    import sys, os$/;"	i
+t	src/simple/class_inherit.py	/^    t = Teacher('Mrs. Shrividya', 40, 30000)$/;"	v
+t	src/simple/class_properties.py	/^    t = Test()$/;"	v
+t	src/std/Compression.py	/^t = zlib.compress(s)$/;"	v
+tell	src/simple/class_inherit.py	/^    def tell(self):$/;"	m	class:SchoolMember
+tell	src/simple/class_inherit.py	/^    def tell(self):$/;"	m	class:Student
+tell	src/simple/class_inherit.py	/^    def tell(self):$/;"	m	class:Teacher
+tempfile	src/twisted/web/Download1.py	/^import tempfile$/;"	i
+test	src/pythonCorePrograming/figure_3_1.py	/^def test():$/;"	f
+test	src/simple/data_type_string.py	/^    def test(self):$/;"	m	class:StrType
+test	src/std/structured_data/json/JsonTest.py	/^test = json.dumps(names)$/;"	v
+test	src/twisted/core/deferredList.py	/^    def test(self):$/;"	m	class:DeferredTest
+test	src/twisted/core/testlogging.py	/^def test(i):$/;"	f
+test1	src/twisted/core/deferredList.py	/^    def test1(self):        $/;"	m	class:DeferredTest
+testConn	src/std/net/HttpClientRequest.py	/^def testConn():$/;"	f
+testConnect	src/twisted/core/deferred02_Demo.py	/^def testConnect(host, port):$/;"	f
+testDefaultParam	src/simple/function_7_6.py	/^    def testDefaultParam(self):$/;"	m	class:DefaultParam
+testHttp	src/std/net/HttpClientRequest.py	/^def testHttp():$/;"	f
+testLogging	src/std/ManyModuleTest.py	/^    def testLogging(self):$/;"	m	class:Test
+testSimpleDefaultParam	src/simple/function_7_6.py	/^    def testSimpleDefaultParam(self):$/;"	m	class:DefaultParam
+testSplit	src/simple/function_7_6.py	/^    def testSplit(self):$/;"	m	class:String
+testSplit1	src/simple/function_7_6.py	/^    def testSplit1(self):$/;"	m	class:String
+testTemplating	src/std/ManyModuleTest.py	/^    def testTemplating(self):$/;"	m	class:Test
+testWeakref	src/simple/collection_list_1.py	/^    def testWeakref(self):$/;"	m	class:Test
+test_average	src/std/UnitTest.py	/^    def test_average(self):$/;"	m	class:TestStatisticalFunctions
+testthread	src/cookbook/thread_test.py	/^    testthread = TestThread()$/;"	v
+text	src/twisted/web2/children.py	/^  text = 'Yo Ho Ho and a bottle of rum.'$/;"	v	class:Child
+thepage	src/std/net/BasicAuth.py	/^thepage = handle.read() $/;"	v
+theurl	src/std/net/BasicAuth.py	/^theurl = 'http:\/\/api.minicloud.com.cn\/statuses\/friends_timeline.xml' $/;"	v
+thread	src/simple/thread_test.py	/^import thread$/;"	i
+threadFunc	src/simple/thread_test.py	/^def threadFunc():$/;"	f
+threading	src/cookbook/thread_test.py	/^import threading$/;"	i
+threading	src/std/Thread.py	/^import threading$/;"	i
+threads	src/twisted/threads/SimpleThread.py	/^from twisted.internet import reactor, threads$/;"	i
+threads	src/twisted/threads/simple.py	/^from twisted.internet import reactor, threads$/;"	i
+time	src/cookbook/thread_test.py	/^    import time$/;"	i
+time	src/simple/exception_finally.py	/^import time$/;"	i
+time	src/simple/function_built_in_func_date.py	/^import time$/;"	i
+time	src/simple/thread_test.py	/^import time$/;"	i
+time	src/twisted/core/reactorDemo.py	/^import time$/;"	i
+time	src/twisted/threads/SimpleThread.py	/^    import time$/;"	i
+time	src/twisted/web2/children.py	/^import os.path, time$/;"	i
+toString	src/simple/function_call_by_value.py	/^    def toString(self):$/;"	m	class:Obj
+tostr	src/simple/class_properties.py	/^    def tostr(self):$/;"	m	class:Test
+traceback	src/simple/flow_control_while.py	/^import traceback$/;"	i
+traceback	src/twisted/cred/Cred.py	/^            import traceback$/;"	i
+tupleFor	src/simple/flow_control_for.py	/^def tupleFor():$/;"	f
+tupleTest	src/simple/collection_tuple.py	/^def tupleTest():$/;"	f
+tupleTest1	src/simple/collection_tuple.py	/^def tupleTest1():$/;"	f
+twisted	src/twisted/__init__.py	/^import twisted$/;"	i
+types	src/simple/data_type.py	/^import types$/;"	i
+uidTag	src/std/structured_data/xml/token.py	/^    uidTag = 'uid'$/;"	v	class:TokenContentHandler
+unittest	src/simple/collection_list_1.py	/^import unittest$/;"	i
+unittest	src/std/ManyModuleTest.py	/^import unittest$/;"	i
+unittest	src/std/UnitTest.py	/^import unittest$/;"	i
+urllib	src/linux/net.py	/^import urllib$/;"	i
+urllib	src/std/net/Chp1AdvDownloadClient.py	/^import urllib $/;"	i
+urllib	src/std/net/url/UrlLibTest.py	/^import urllib $/;"	i
+urllib2	src/std/net/BasicAuth.py	/^import urllib2$/;"	i
+urllib2	src/std/net/Chp6ObtainWebPage.py	/^import sys,urllib2$/;"	i
+urllib2	src/std/net/url/UrlLib2Test.py	/^import urllib2$/;"	i
+urllib2	src/twisted/threads/simple.py	/^import  urllib2$/;"	i
+user	src/twisted/cred/simplecred.py	/^    user = None$/;"	v	class:Protocol
+username	src/std/net/BasicAuth.py	/^username = 'qleelulu'$/;"	v
+utils	src/twisted/core/deferred01_lsCommand.py	/^from twisted.internet import protocol, reactor, utils$/;"	i
+version	src/simple/module_mymodule.py	/^version = '0.1'$/;"	v
+warnings	src/twisted/core/testlogging.py	/^import sys, warnings$/;"	i
+waz	src/simple/module_all.py	/^waz = 5$/;"	v
+weakref	src/simple/collection_list_1.py	/^        import weakref, gc$/;"	i
+whileSimple	src/simple/flow_control_while.py	/^def whileSimple():$/;"	f
+whileTest	src/simple/flow_control_while.py	/^def whileTest():$/;"	f
+write	src/simple/collection_list.py	/^    def write(self):$/;"	m	class:QueueTest
+x	src/simple/class_init.py	/^    x = C()$/;"	v	class:Employee
+x	src/simple/function_call_by_value.py	/^x = 50$/;"	v
+x	src/simple/test/module_all_test.py	/^x = X()$/;"	v
+x	src/thinking/in_/python/Simple.py	/^    x = Simple("constructor argument")$/;"	v
+x	src/thinking/in_/python/SimpleClass.py	/^  x = Simple2("Simple2 constructor argument")$/;"	v
+xcap_root	src/std/application/ConfigTest.py	/^    xcap_root = ''$/;"	v	class:Account
+xvec	src/simple/function_Generators.py	/^xvec = [10, 20, 30]$/;"	v
+yvec	src/simple/function_Generators.py	/^yvec = [7, 5, 3]$/;"	v
+zlib	src/std/Compression.py	/^import zlib$/;"	i
