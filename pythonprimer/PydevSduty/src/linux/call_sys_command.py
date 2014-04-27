@@ -20,7 +20,29 @@ def popen():
 def main():
     os.system('ls')
     os.system('cat /proc/cpuinfo')
+
+def main1():
+    currDir = '/opt/source-code'
+    os.chdir(currDir)
+    comm = "ls -l --color=auto -h -t --time-style=long-iso | grep \'2013-04-09 00:45\'"
+    #os.system(comm)
+    
+    date = '2013-04-09 00:45'
+    delFileComm = 'rm -rf '
+    with os.popen(comm) as f:
+        for line in f:
+            tmp_str = line.strip() 
+            #print tmp_str
+            arr = tmp_str.split(date)
+            fileName = arr[1].strip()
+            print fileName
+            
+            comm1 = delFileComm + fileName
+            print comm1
+            os.system(comm1)
+                
+    
 if __name__ == '__main__':
-    main()
+    main1()
 
 # vim:set nu et ts=4 sw=4 cino=>4:

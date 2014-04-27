@@ -24,5 +24,5 @@ def f() :
         return dict(Account)
 
 if __name__ == '__main__':
-    print f();
+    print f()
     
