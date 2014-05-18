@@ -1,4 +1,8 @@
 eclipse.preferences.version=1
 encoding//src/linux/ssh/paramiko_simpe_exam.py=utf-8
 encoding//src/linux/sys_info.py=utf-8
+encoding//src/simple/_hello_world_v1.py=utf-8
+encoding//src/simple/data_type_string.py=utf-8
+encoding//src/simple/test/bug.py=utf-8
+encoding//src/simple/test/module_all_test.py=utf-8
 encoding//src/simple/thread_test.py=utf-8

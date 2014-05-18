@@ -37,4 +37,5 @@ def getFileMd5(fileName):
     return myHash.hexdigest().upper()
 
 print getFileMd5('./hash.py')
+
     
