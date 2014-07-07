@@ -16,7 +16,7 @@ def foo(*args):
 def findFiles():
     files = glob.glob('*.py')
     for x in files:
-        real = os.os.path.realpath(x)
+        real = os.path.realpath(x)
         print real
 
 if __name__ == '__main__':

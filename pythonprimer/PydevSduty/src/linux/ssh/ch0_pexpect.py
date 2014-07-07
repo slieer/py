@@ -1,9 +1,5 @@
-'''
-Created on Apr 18, 2014
-
-@author: root
-'''
 #!/usr/bin/env python
+
 #ssh_cmd_ver2.py
 #coding:utf-8
 import pexpect
