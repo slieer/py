@@ -11,6 +11,26 @@ port = 70
 host = sys.argv[1]
 filename = sys.argv[2]
 
+def socketTest():
+    '''
+    Created on 2011-9-11
+    '''
+    print "Creating socket...",
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    print "done"
+    
+    print "Looking up port number...",
+    port = socket.getservbyname("http","tcp")
+    print "%s done." %port
+    
+    print "Connecting to remote host...",
+    s.connect(('www.google.com',80))
+    print "done"
+    
+    print "Connected form ", s.getsockname()
+    print "connected to ", s.getpeername()
+
+
 def firstExam():
     s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
     try:
@@ -40,4 +60,5 @@ def secondExam():
         sys.stdout.write(line)
         
 if __name__ == '__main__':
-    firstExam()        
+    firstExam()  
+    secondExam()      
