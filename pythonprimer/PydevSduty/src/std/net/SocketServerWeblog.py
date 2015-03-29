@@ -6,7 +6,7 @@ Created on 2011-9-13
 from SocketServer import BaseRequestHandler, ThreadingTCPServer
 from time import sleep
 import sys, socket
-from webloglib import log_fields, hit_tag
+
 class WebLogHandler(BaseRequestHandler):
     def handle(self):
         print"Connected from", self.client_address
@@ -14,7 +14,7 @@ class WebLogHandler(BaseRequestHandler):
         try:
             while True:
                 for hit in LOG.readlines():
-                    self.request.sendall(hit_tag % log_fields(hit))
+                    self.request.sendall(hit)
                 sleep(5)
         except socket.error:
             self.request.close()
