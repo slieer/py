@@ -3,26 +3,34 @@ Created on 2011-9-16
 
 @author: slieer
 '''
-from application.configuration import ConfigFile, ConfigSection, ConfigSetting
+import ConfigParser
 
 CONFIG_FILE = './xcapclient.ini'
 
-
-class Account(ConfigSection):
-    sip_address = ''
-    password = ConfigSetting(type=str, value=None)
-    auth = ConfigSetting(type=str, value=None)
-    xcap_root = ''
-
 def f() :
-    client_config = ConfigFile(CONFIG_FILE)
-    acc = client_config.get_section("Account") 
-    if acc is None:
-        return None
-    else:
-        print acc
-        return dict(Account)
+    cf = ConfigParser.ConfigParser();
+    cf.read(CONFIG_FILE)
+    
+    s = cf.sections()
+    print 'sections:', s
+    
+    o = cf.options("Account")
+    print "Account Options:",o
+    
+    v = cf.items("Account")
+    print "Account Items:",v
+    
+    sip_addr = cf.get("Account", "sip_address")
+    threads = cf.getint("concurrent", "thread")
+    processors = cf.getint("concurrent", "processor")
+    
+    print "get section.item:", sip_addr, threads, processors
+    
+    
+    print 'ini file modify test start:'
+    cf.set("db", "db_pass", "zhaowei")
+    cf.write(open(CONFIG_FILE, "w"))
 
 if __name__ == '__main__':
-    print f()
+    f()
     

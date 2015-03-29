@@ -1,1 +1,0 @@
-http://twistedmatrix.com/documents/10.1.0/web/howto/client.html

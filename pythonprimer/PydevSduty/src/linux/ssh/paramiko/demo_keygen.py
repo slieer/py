@@ -14,6 +14,11 @@ from paramiko import RSAKey
 from paramiko.ssh_exception import SSHException
 from paramiko.py3compat import u
 
+ktype = ''
+bits = 0
+filename = ""
+comment = ''
+
 usage="""
 %prog [-v] [-b bits] -t type [-N new_passphrase] [-f output_keyfile]"""
 
