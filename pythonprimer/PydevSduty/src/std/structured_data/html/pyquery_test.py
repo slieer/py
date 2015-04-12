@@ -112,9 +112,11 @@ def data():
     print 'town end---------------------------------------------------'
 
     getVillagetr(villageLinks)
+   
+
 
 if __name__ == '__main__':
     #getPrivince() #"http://sina.com.cn"
     data()
-        
+
     
