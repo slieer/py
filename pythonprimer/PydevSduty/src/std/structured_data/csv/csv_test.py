@@ -4,25 +4,24 @@ Created on Apr 13, 2015
 
 @author: dev
 '''
+import os
 import csv
-from django.template.defaultfilters import default
-from simple.function_class import DefaultParam
 
-def csvTest():
-    srcFilePath = open("samples/sample.csv")
-    targetFile = open("")
+parentPath = os.environ['HOME'] + '/Documents/'
+
+def csvReadTest():
+    srcFilePath = open(parentPath + "sample.csv")
+    print srcFilePath
     #从文件读取
-    reader = csv.reader(file(srcFilePath,'rb'))  
+    reader = csv.reader(srcFilePath)  
     
     for line in reader:  
         #忽略第一行  
-        if reader.line_num == 1:  
-            continue    
-        #line是个list，取得所有需要的值  
-        type = line[0]  
-    
+        print line
+        
+def csvWriteTest():
     #写入文件  
-    writer = csv.writer(open(targetFile,"wb"),quoting=csv.QUOTE_ALL)  
+    writer = csv.writer(open(parentPath + 'data.csv',"wb"), quoting=csv.QUOTE_ALL)  
     #传入list  
     writer.writerow(["121","121"])  
     #传入2纬list  
@@ -30,9 +29,14 @@ def csvTest():
     
     
 def defaltPath():
-    import os
     print os.path.abspath(".")
+    print os.environ['HOME']
+
+    print os.path.expandvars('$HOME')
+    print os.path.expanduser('~')
     
 
 if __name__ == '__main__':
-    defaltPath()
+    #defaltPath()
+    csvReadTest()
+    csvWriteTest()

@@ -5,6 +5,7 @@ last modified 2012-9-29
 @author: slieer
 '''
 class Person:
+    i = 10
     def __init__(self, name):
         self.name = name
     def sayHi(self):
@@ -27,6 +28,7 @@ class Employee:
 if __name__ == '__main__':
     p = Person('Swaroop')
     p.sayHi()
+    print Person.i
     
     x = C()
     print x.f(3,4)

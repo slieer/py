@@ -1,34 +1,54 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
 '''
 Created on Apr 13, 2015
+@author: Zhai Xiaobin
 
-@author: dev
-'''
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
+create table data(
+code,
+area_name,
+level,
 
+)
+
+根据《规定》，统计上划分城乡的类别分为：
+100 城镇
+110 城区
+111 主城区
+112 城乡结合区
+120 镇区
+121 镇中心区
+122 镇乡结合区
+123 特殊区域
+200 乡村
+210 乡中心区
+220 村庄
 '''
-Created on Mar 29, 2015
-@author: dev
-'''
-from pyquery import PyQuery as pq
-#d = pq("<html></html>")
-#d = pq(etree.fromstring("<html></html>"))
-#d = pq(url=your_url, opener=lambda url, **kw: urlopen(url).read())
-#d = pq(filename=path_to_html_file)
-"""
+
 import sys
+import csv
+import os
+from urlgrabber import urlopen
+from urlgrabber.grabber import URLGrabError
+
+from pyquery import PyQuery as pq
+
 reload(sys)
-sys.setdefaultencoding('utf-8')
-print sys.getdefaultencoding()
-"""
+sys.setdefaultencoding( "utf-8" )
 gov_url = 'http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2013/'
+
+class AreaLevel:
+    privince_level = 1
+    city_level = 2
+    county_level = 3
+    town_level = 4
+    village_level = 5
+
 
 def getHtml(url, showUrl=False):
     if showUrl :
         print url    
 
-    from urlgrabber import urlopen
-    from urlgrabber.grabber import URLGrabError
     try:
         page = urlopen(url)
         html = page.read()
@@ -39,7 +59,7 @@ def getHtml(url, showUrl=False):
     return ""    
 
 
-def getAreaList(urlPrev, linkArr, nodeClass, classback=None):
+def getAreaList(urlPrev, linkArr, nodeClass,level, classback=None):
         #rint linkArr
     linkPq = []
     for link in linkArr :
@@ -52,24 +72,42 @@ def getAreaList(urlPrev, linkArr, nodeClass, classback=None):
         
         d = pq(getHtml(url))
         trList = d.find(nodeClass)
-        
+        #print level
         for tr in trList :
-#            print tdList.length
-
-            arr = pq(tr).find('A')
-            if(arr.length == 2) :
-                arr1 = pq(arr[0])
-                arr2 = pq(arr[1])  
-                url = arr1.attr('href')
-                linkPq.append(url)
-                                
-                print arr1.text(), arr2.text()
-         
+            code = ''
+            name = ''
+            village_level_code = ''
+            if(level != AreaLevel.village_level):
+                arr = pq(tr).find('A')
+                if(arr.length == 2) :
+                    arr1 = pq(arr[0])
+                    arr2 = pq(arr[1])  
+                    url = arr1.attr('href')
+                    linkPq.append(url)
+                                    
+                    code = arr1.text() 
+                    name = arr2.text()
+            else:
+                arr = pq(tr).find('TD')
+                
+                #print arr
+                code = pq(arr[0]).text()
+                name = pq(arr[2]).text()
+                
+                village_level_code= pq(arr[1]).text() 
+            
+            arr = [code, name, level, village_level_code]
+            csvWrite(arr)
+    #print linkPq
     return linkPq
 
-def getPrivince(html):
+parentPath = os.environ['HOME'] + '/Documents/'
+writer = csv.writer(open(parentPath + 'data.csv',"wb"), quoting=csv.QUOTE_ALL)  
+def csvWrite(arr):
+    writer.writerow(arr)    
+    
+def getPrivinceList(html):
     d = pq(html)
-    #print d.find('head meta')
     
     linkArr = []
     links = d.find('TR.provincetr').find('A')
@@ -78,50 +116,67 @@ def getPrivince(html):
         linkPq = pq(link)
         url = linkPq.attr('href')
         linkArr.append(url)
-        print url[0:-5], linkPq.text()
+        arr = [url[0:-5], linkPq.text(), AreaLevel.privince_level, ""]
+        csvWrite(arr)
+        
     return linkArr
 
-def getCity(linkArr):
+def getCityList(linkArr):
     
-    return getAreaList(gov_url ,linkArr, 'TR.citytr')
+    return getAreaList(gov_url ,linkArr, 'TR.citytr', AreaLevel.city_level)
     
-def getCountytr(linkArr):
-    return getAreaList(gov_url, linkArr, 'TR.countytr')
+def getCountyList(linkArr):
+    return getAreaList(gov_url, linkArr, 'TR.countytr', AreaLevel.county_level)
     
-def getTowntr(linkArr):
+def getTownList(linkArr):
     #data = '01/110102.html'    
     def partStrFunc(data):
         arr = data.split('/')
         #print arr[1][0:2]
         return arr[1][0:2]
 
-    return getAreaList(gov_url, linkArr,'TR.towntr', partStrFunc)
+    return getAreaList(gov_url, linkArr,'TR.towntr', AreaLevel.town_level, partStrFunc)
 
-def getVillagetr(linkArr):
-    'TR.villagetr'
-    pass
+def getVillageList(linkArr):
+    def partStrFunc(data):
+        arr = data.split('/')
+        #print arr[1][0:2]
+        return arr[1][0:2] + '/' + arr[1][2:4] + '/'
+    
+    #    for link in linkArr :
+    #        part = partStrFunc(link)
+    #        url = gov_url + part + link
+    #        print url
+    return getAreaList(gov_url, linkArr, 'TR.villagetr', AreaLevel.village_level, partStrFunc)
+    
     
 def data():
     html = getHtml(gov_url + 'index.html')
     
-    cityLinks = getPrivince(html)
+    cityLinks = getPrivinceList(html)
     print 'privince end---------------------------------------------------'
-    countryLinks = getCity(cityLinks)
+    countryLinks = getCityList(cityLinks)
     print 'city end---------------------------------------------------'
     #print countryLinks
-    townLinks = getCountytr(countryLinks)
+    townLinks = getCountyList(countryLinks)
     print 'countr end---------------------------------------------------'
     
-    #print townLinks
-    villageLinks = getTowntr(townLinks)
+    villageLinks = getTownList(townLinks)
     print 'town end---------------------------------------------------'
 
-    getVillagetr(villageLinks)
-   
+    getVillageList(villageLinks)
+
+def villageDataTest():   
+    townLinks = ['01/110102.html', '01/110105.html', '01/110106.html', '01/110107.html']
+    villageLinks = getTownList(townLinks)
+    print 'town end---------------------------------------------------'
+
+    getVillageList(villageLinks)
 
 
 if __name__ == '__main__':
-    #getPrivince() #"http://sina.com.cn"
+    #getPrivinceList() #"http://sina.com.cn"
+    #villageDataTest()
     data()
 
     
