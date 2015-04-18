@@ -89,16 +89,14 @@ def getAreaList(urlPrev, linkArr, nodeClass,level, classback=None):
                     name = arr2.text()
             else:
                 arr = pq(tr).find('TD')
-                
-                #print arr
+                                
                 code = pq(arr[0]).text()
                 name = pq(arr[2]).text()
-                
                 village_level_code= pq(arr[1]).text() 
             
             arr = [code, name, level, village_level_code]
             csvWrite(arr)
-    #print linkPq
+
     return linkPq
 
 parentPath = os.environ['HOME'] + '/Documents/'
@@ -112,7 +110,6 @@ def getPrivinceList(html):
     linkArr = []
     links = d.find('TR.provincetr').find('A')
     for link in links :
-        #print link
         linkPq = pq(link)
         url = linkPq.attr('href')
         linkArr.append(url)
@@ -122,7 +119,6 @@ def getPrivinceList(html):
     return linkArr
 
 def getCityList(linkArr):
-    
     return getAreaList(gov_url ,linkArr, 'TR.citytr', AreaLevel.city_level)
     
 def getCountyList(linkArr):
@@ -148,7 +144,6 @@ def getVillageList(linkArr):
     #        url = gov_url + part + link
     #        print url
     return getAreaList(gov_url, linkArr, 'TR.villagetr', AreaLevel.village_level, partStrFunc)
-    
     
 def data():
     html = getHtml(gov_url + 'index.html')
@@ -176,6 +171,7 @@ def villageDataTest():
 
 if __name__ == '__main__':
     #getPrivinceList() #"http://sina.com.cn"
+    #getPrivince() #"http://sina.com.cn"
     #villageDataTest()
     data()
 
