@@ -91,8 +91,8 @@ def getAreaList(urlPrev, linkArr, nodeClass,level, classback=None):
                     name = arr2.text()
                 else:
                     arr = pq(tr).find('td')
-                    code = arr[0].text()
-                    name = arr[1].text()
+                    code = pq(arr[0]).text()
+                    name = pq(arr[1]).text()
             else:
                 arr = pq(tr).find('TD')
                                 
