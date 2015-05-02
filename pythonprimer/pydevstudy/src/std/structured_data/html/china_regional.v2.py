@@ -98,13 +98,13 @@ def getAreaList(urlPrev, linkArr, nodeClass,level, classback=None):
                         name = pq(arr[1]).text()
             else:
                 #leaf node.
-                arr = pq(tr).find('TD')
+                arr = pq(tr).find('td')
                                 
                 code = pq(arr[0]).text()
                 village_level_code= pq(arr[1]).text() 
                 name = pq(arr[2]).text()
             
-            result_arr = [int(code), name, level, village_level_code]
+            result_arr = [int(code), name, level, int(village_level_code)]
             csvWrite(result_arr)
             #result_arr_list.append(result_arr)
         #print result_arr_list
