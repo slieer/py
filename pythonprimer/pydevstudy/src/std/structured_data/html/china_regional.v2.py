@@ -82,6 +82,7 @@ def getAreaList(urlPrev, linkArr, nodeClass,level, classback=None):
             if(level != AreaLevel.village_level):
                 arr = pq(tr).find('A')
                 if(arr.length == 2) :
+                    #print 'A node'
                     arr1 = pq(arr[0])
                     arr2 = pq(arr[1])  
                     url = arr1.attr('href')
@@ -90,10 +91,13 @@ def getAreaList(urlPrev, linkArr, nodeClass,level, classback=None):
                     code = arr1.text() 
                     name = arr2.text()
                 else:
+                    #print 'td node'
                     arr = pq(tr).find('td')
-                    code = pq(arr[0]).text()
-                    name = pq(arr[1]).text()
+                    if(arr.length == 2):
+                        code = pq(arr[0]).text()
+                        name = pq(arr[1]).text()
             else:
+                #leaf node.
                 arr = pq(tr).find('TD')
                                 
                 code = pq(arr[0]).text()
@@ -101,8 +105,10 @@ def getAreaList(urlPrev, linkArr, nodeClass,level, classback=None):
                 name = pq(arr[2]).text()
             
             result_arr = [code, name, level, village_level_code]
-            result_arr_list.append(result_arr)
-        csvWrite(result_arr_list)
+            csvWrite(result_arr)
+            #result_arr_list.append(result_arr)
+        #print result_arr_list
+        #csvWrite(result_arr_list)
 
     return linkPq
 
