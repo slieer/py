@@ -40,10 +40,16 @@ class StrType :
         print string.strip("  blank   ")
         print string.split("hello world")
         print string.join(["a", "b", "c", "d"], ",");
+        
+def strTo():
+    print float('30.7894')
+    print int('7894')
     
 if __name__ == '__main__' :
     "str_test()"
     "string_view()"
     strOjb = StrType("ZhaiXiaoBin");
     strOjb.test()
+    
+    strTo()
     

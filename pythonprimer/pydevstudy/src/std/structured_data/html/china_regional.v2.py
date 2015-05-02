@@ -76,12 +76,13 @@ def getAreaList(urlPrev, linkArr, nodeClass,level, classback=None):
         
         result_arr_list = [[]]
         for tr in trList :
-            code = ''
+            code = 0
             name = ''
-            village_level_code = ''
+            village_level_code = 0
             if(level != AreaLevel.village_level):
                 arr = pq(tr).find('A')
                 if(arr.length == 2) :
+                    #print 'A node'
                     arr1 = pq(arr[0])
                     arr2 = pq(arr[1])  
                     url = arr1.attr('href')
@@ -90,24 +91,29 @@ def getAreaList(urlPrev, linkArr, nodeClass,level, classback=None):
                     code = arr1.text() 
                     name = arr2.text()
                 else:
+                    #print 'td node'
                     arr = pq(tr).find('td')
-                    code = pq(arr[0]).text()
-                    name = pq(arr[1]).text()
+                    if(arr.length == 2):
+                        code = pq(arr[0]).text()
+                        name = pq(arr[1]).text()
             else:
+                #leaf node.
                 arr = pq(tr).find('TD')
                                 
                 code = pq(arr[0]).text()
                 village_level_code= pq(arr[1]).text() 
                 name = pq(arr[2]).text()
             
-            result_arr = [code, name, level, village_level_code]
-            result_arr_list.append(result_arr)
-        csvWrite(result_arr_list)
+            result_arr = [int(code), name, level, village_level_code]
+            csvWrite(result_arr)
+            #result_arr_list.append(result_arr)
+        #print result_arr_list
+        #csvWrite(result_arr_list)
 
     return linkPq
 
 parentPath = os.environ['HOME'] + '/Documents/'
-writer = csv.writer(open(parentPath + 'data.csv',"wb"), quoting=csv.QUOTE_ALL)  
+writer = csv.writer(open(parentPath + 'data.v1.csv',"wb"), quoting=csv.QUOTE_NONNUMERIC)  
 def csvWrite(arr):
     writer.writerow(arr)    
     
@@ -120,7 +126,7 @@ def getPrivinceList(html):
         linkPq = pq(link)
         url = linkPq.attr('href')
         linkArr.append(url)
-        arr = [url[0:-5], linkPq.text(), AreaLevel.privince_level, ""]
+        arr = [int(url[0:-5]), linkPq.text(), AreaLevel.privince_level, 0]
         csvWrite(arr)
         
     return linkArr

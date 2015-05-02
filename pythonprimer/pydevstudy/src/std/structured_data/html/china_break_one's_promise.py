@@ -62,13 +62,15 @@ class DetailDataParser(HTMLParser.HTMLParser):
     pass
 
 if __name__ == '__main__':
-    shixinUrl = 'http://shixin.court.gov.cn/unitMore.do?currentPage=1'
+    shixinUrl = 'http://shixin.court.gov.cn/unitMore.do?currentPage=100000000'
+    detail_url = 'http://shixin.court.gov.cn/detail?id='
     resp, content = h.request(shixinUrl)
+    print resp.status
+    print resp
     
     tp = DataParser()
     tp.feed(content)
     
-    detail_url = 'http://shixin.court.gov.cn/detail?id='
     
     #print tp.result_list
     
