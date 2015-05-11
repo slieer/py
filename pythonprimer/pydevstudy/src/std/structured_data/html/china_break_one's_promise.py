@@ -8,7 +8,6 @@ Created on Apr 18, 2015
 
 import httplib2
 import HTMLParser
-h =httplib2.Http()
     
 class DataParser(HTMLParser.HTMLParser):
     def __init__(self):
@@ -58,11 +57,26 @@ class DataParser(HTMLParser.HTMLParser):
     def get_data(self):
         return self.data
     
-class DetailDataParser(HTMLParser.HTMLParser):
-    pass
+h =httplib2.Http()
+def getDetailData():
+    max_page = 12802
+    shixinUrl = 'http://shixin.court.gov.cn/unitMore.do?currentPage='
+    detail_url = 'http://shixin.court.gov.cn/detail?id='
+    for i in range(1, max_page):
+        content = h.request(shixinUrl + str(i))
+        #print content
+        print '---------------------------------------------------------'      
+        tp = DataParser()
+        tp.feed(content)
+        
+        for detail_id in tp.result_list:
+            req_url = detail_url + detail_id
+            content = h.request(req_url)
+            print content
+        
 
-if __name__ == '__main__':
-    shixinUrl = 'http://shixin.court.gov.cn/unitMore.do?currentPage=100000000'
+def test():
+    shixinUrl = 'http://shixin.court.gov.cn/unitMore.do?currentPage=1'
     detail_url = 'http://shixin.court.gov.cn/detail?id='
     resp, content = h.request(shixinUrl)
     print resp.status
@@ -70,13 +84,15 @@ if __name__ == '__main__':
     
     tp = DataParser()
     tp.feed(content)
-    
-    
+        
     #print tp.result_list
     
     for detail_id in tp.result_list:
         req_url = detail_url + detail_id
         resp, content = h.request(req_url)
         print content
-    
+
+if __name__ == '__main__':
+    getDetailData()
+    #test()
     
