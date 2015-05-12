@@ -1,4 +1,6 @@
 ﻿# -*- coding: utf-8 -*-
+
+from collections import deque
 '''
 Created on 2010-7-3
 @author: me
@@ -57,7 +59,6 @@ class StackTest:
     def popStactTopElement(self):
         return self.array.pop()
         
-from collections import deque
 class QueueTest:
     def __init__(self, array):
         self.deque = deque(array)
@@ -77,7 +78,14 @@ def initArr():
 
 def foo():
     return 3, 5.5
+
 alpha, beta = foo()
+x = foo()[1]
+def reverseOrder():
+    a  =   [ 1 , 2 , 3 , 4 ]
+    a[:: - 1 ]
+    print a 
+
 
 if __name__ == "__main__" :
     li = ListTest()
@@ -95,7 +103,13 @@ if __name__ == "__main__" :
     s.enterStack('a2')
     
     print s.readStactTop()
-    print s.popStactTopElement()    
+    print s.popStactTopElement()
+
+    alpha, beta = foo()
+    print alpha, beta
+    print foo()[1]
+    reverseOrder()
+
  
     
     

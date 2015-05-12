@@ -8,7 +8,9 @@ Created on Apr 18, 2015
 
 import httplib2
 import HTMLParser
-    
+import logging
+logging.basicConfig(level=logging.INFO)
+
 class DataParser(HTMLParser.HTMLParser):
     def __init__(self):
         self.taglevels=[]
@@ -60,19 +62,20 @@ class DataParser(HTMLParser.HTMLParser):
 h =httplib2.Http()
 def getDetailData():
     max_page = 12802
+    max_page = 2
     shixinUrl = 'http://shixin.court.gov.cn/unitMore.do?currentPage='
     detail_url = 'http://shixin.court.gov.cn/detail?id='
     for i in range(1, max_page):
-        content = h.request(shixinUrl + str(i))
+        resp = h.request(shixinUrl + str(i))
+        content = resp[1]
         #print content
-        print '---------------------------------------------------------'      
         tp = DataParser()
         tp.feed(content)
         
         for detail_id in tp.result_list:
             req_url = detail_url + detail_id
-            content = h.request(req_url)
-            print content
+            content = h.request(req_url)[1]
+            logging.info(content)
         
 
 def test():

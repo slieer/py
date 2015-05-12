@@ -12,3 +12,7 @@ elif guess == number :
     print "Congratulations, you guessed it."
 else :
     print "No, it is a little higher than that!"
+    
+n = 5
+if n in [1,4,5,6]:
+    print 'find n!'
