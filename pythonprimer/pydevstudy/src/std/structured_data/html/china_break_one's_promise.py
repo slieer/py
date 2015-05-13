@@ -9,6 +9,7 @@ Created on Apr 18, 2015
 import httplib2
 import HTMLParser
 import logging
+
 logging.basicConfig(level=logging.INFO)
 
 class DataParser(HTMLParser.HTMLParser):
@@ -58,7 +59,9 @@ class DataParser(HTMLParser.HTMLParser):
             
     def get_data(self):
         return self.data
-    
+
+import std.structured_data.html.china_break_mongo as mongoTest
+
 h =httplib2.Http()
 def getDetailData():
     max_page = 12802
@@ -76,8 +79,10 @@ def getDetailData():
             req_url = detail_url + detail_id
             content = h.request(req_url)[1]
             logging.info(content)
+            
+            #contentJson[]
+            mongoTest.insert(content)
         
-
 def test():
     shixinUrl = 'http://shixin.court.gov.cn/unitMore.do?currentPage=1'
     detail_url = 'http://shixin.court.gov.cn/detail?id='
@@ -94,7 +99,7 @@ def test():
         req_url = detail_url + detail_id
         resp, content = h.request(req_url)
         print content
-
+        
 if __name__ == '__main__':
     getDetailData()
     #test()
