@@ -18,5 +18,14 @@ case "$Keypress" in
     [0-9] ) echo "Digit";;
     * ) echo "Punctuation, whitespace, or other";;
 sesac
+ 
+# This says hello to the argument while managing no argument.
+if [[ ${#} = 1 ]]; then
+  echo 'The '${0}' program says: "Hello '${1}'!"'
+elif [[ ${#} > 1 ]]; then
+  echo 'The '${0}' program wants to know if you have more than one name?'
+else
+  echo 'The '${0}' program wants to know if you have a name?'
+fi
 
 exit 0
