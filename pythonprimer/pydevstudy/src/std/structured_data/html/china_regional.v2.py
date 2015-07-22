@@ -69,10 +69,10 @@ def getAreaList(urlPrev, linkArr, nodeClass,level, classback=None):
             url = url + classback(link) + '/'
             #print 'this url:',partStr(link), ',,', url
         url = url + link
-        
+        print url
         d = pq(getHtml(url))
         trList = d.find(nodeClass)
-        #print level
+        print trList
         
         result_arr_list = [[]]
         for tr in trList :
@@ -112,8 +112,8 @@ def getAreaList(urlPrev, linkArr, nodeClass,level, classback=None):
 
     return linkPq
 
-parentPath = os.environ['HOME'] + '/Documents/'
-writer = csv.writer(open(parentPath + 'data.v1.csv',"wb"), quoting=csv.QUOTE_NONNUMERIC)  
+parentPath = os.environ['HOME'] + '/Documents/data_test_county.v1.csv'
+writer = csv.writer(open(parentPath, "wb"), quoting=csv.QUOTE_NONNUMERIC)  
 def csvWrite(arr):
     writer.writerow(arr)    
     
@@ -173,7 +173,11 @@ def data():
     print 'town end---------------------------------------------------'
 
     getVillageList(villageLinks)
-
+    
+def countyDataTest():
+    countryLinks = ['34/3413.html']
+    getCountyList(countryLinks)
+    
 def villageDataTest():   
     townLinks = ['01/110102.html', '01/110105.html', '01/110106.html', '01/110107.html']
     villageLinks = getTownList(townLinks)
@@ -184,8 +188,8 @@ def villageDataTest():
 
 if __name__ == '__main__':
     #getPrivinceList() #"http://sina.com.cn"
-    #getPrivince() #"http://sina.com.cn"
     #villageDataTest()
-    data()
+    #data()
+    countyDataTest()
 
     
