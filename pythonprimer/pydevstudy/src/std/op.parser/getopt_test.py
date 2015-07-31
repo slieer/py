@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
 __author__ = 'dev'
 """
  Python 有两个内建的模块用于处理命令行参数：
@@ -30,8 +32,6 @@ getopt
 --help = file1
 --help= file1
 """
-
-#!/usr/bin/env python
 
 import sys
 import getopt
