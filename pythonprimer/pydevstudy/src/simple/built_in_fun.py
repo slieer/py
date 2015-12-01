@@ -11,6 +11,8 @@ def _1st():
     f = lambda x, y, z : x + y + z
     return f
 
+_1st1 = lambda x, y, z : x + y + z
+
 def f(x): 
     return x % 2 != 0 and x % 3 != 0
 
@@ -29,6 +31,7 @@ class Test(unittest.TestCase):
     def testName(self):
         print _1st()(1,2,3)
         print _1st()(6, 7, 8)
+        print _1st1(6, 7, 8)
     
     def testFilter(self):
         print filter_test()
