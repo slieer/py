@@ -41,10 +41,10 @@ class Test(unittest.TestCase):
         #logging.info('html:' + html)
         d = pq(html)
         table = d.find('table.countytable')
-        logging.info(table)
+#        logging.info(table)
         trList = table.find('tr')
         for tr in trList :
-            logging.info(tr)
+            logging.info('http load html:' + str(tr))
         
     def testTr(self):
         html = """
@@ -62,7 +62,14 @@ class Test(unittest.TestCase):
         p = pq(html)
         trList = p.find('tr')
         for tr in trList:
-            logging.info(tr)
+            logging.info('local html:' + str(tr))
+       
+    def testPasre(self):
+        from BeautifulSoup import BeautifulSoup
+        url = 'http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2013/34/3413.html'
+        html = getHtml(url, True)
+        soup = BeautifulSoup(html)
+        logging.info('pasre:' + str(soup.table))
         
 
 if __name__ == "__main__":

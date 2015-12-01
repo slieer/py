@@ -172,7 +172,7 @@ def villageDataTest():
 if __name__ == '__main__':
     #getPrivinceList() #"http://sina.com.cn"
     #getPrivince() #"http://sina.com.cn"
-    #villageDataTest()
-    data()
+    villageDataTest()
+    #data()
 
     

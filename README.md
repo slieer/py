@@ -1,1 +1,1 @@
-pyton learn.
+python learn.
