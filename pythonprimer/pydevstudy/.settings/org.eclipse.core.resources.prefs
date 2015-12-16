@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
+encoding//src/cookbook/gen_url.py=utf-8
 encoding//src/linux/ssh/ch1_simple_paramiko.py=UTF-8
 encoding//src/linux/ssh/ch2_remote_modify_passwd.py=utf-8
 encoding//src/linux/sys_info.py=utf-8
@@ -23,6 +24,7 @@ encoding//src/std/net/client/SimpleGopherClient_1.py=utf-8
 encoding//src/std/net/client/http/HttpClientRequest.py=utf-8
 encoding//src/std/net/client/url/UrlLibTest.py=utf-8
 encoding//src/std/net/simple_server.py=utf-8
+encoding//src/std/structured_data/html/beautifulsoup/hello_bs4.py=utf-8
 encoding//src/std/structured_data/html/china_regional.py=UTF-8
 encoding//src/std/structured_data/json/Json_test.py=utf-8
 encoding//src/std/structured_data/xml/adddressbook.py=utf-8
