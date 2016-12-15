@@ -1,4 +1,0 @@
-    programming is fun
-    When the works id done
-    if you wana make your work also fun:
-        use python !
