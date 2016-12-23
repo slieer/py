@@ -18,14 +18,14 @@ def ssh_cmd(ip, passwd, cmd):
             ssh.sendline(passwd)
         ssh.sendline(cmd)
         r = ssh.read()
-        print r
+        print(r)
         ret = 0
     except pexpect.EOF:
-        print "EOF"
+        print("EOF")
         ssh.close()
         ret = -1
     except pexpect.TIMEOUT:
-        print "TIMEOUT"
+        print("TIMEOUT")
         ssh.close()
         ret = -2
     return ret

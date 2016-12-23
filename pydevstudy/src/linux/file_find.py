@@ -13,7 +13,7 @@ workspace_dir = '/opt/workspace/.metadata/.plugins/org.eclipse.core.runtime/.set
 
 def findFile(arg, dirname, files):
     if "jboss" in dirname:
-            print dirname
+            print(dirname)
 
 os.path.walk(workspace_dir, findFile, None)
 
@@ -34,6 +34,6 @@ def findBySize():
     root = os.environ['HOME']
     os.path.walk(root, checksize, bigfiles)
     for size, name in bigfiles:
-        print name, '大小为', size, 'Mb' 
+        print(name, '大小为', size, 'Mb') 
                     
 """findBySize()"""               

@@ -8,7 +8,7 @@ Created on Apr 14, 2014
 获取 CPU 的信息
 http://www.ibm.com/developerworks/cn/linux/1312_caojh_pythonlinux/
 '''
-from __future__ import print_function
+
 from collections import OrderedDict
 
 
@@ -56,7 +56,7 @@ def meminfo():
 
 if __name__ == '__main__' :
     CPUinfo = CPUInfo()
-    for processor in CPUinfo.keys():
+    for processor in list(CPUinfo.keys()):
         print(CPUinfo[processor]['model name'])
 
     meminfo()

@@ -10,8 +10,8 @@ def simple():
 
     hh = [11, 22, 33]
     
-    print 'hello not map, ', [add100(i) for i in hh]
-    print 'hello 1st, ', map(add100, hh)
+    print(('hello not map, ', [add100(i) for i in hh]))
+    print(('hello 1st, ', list(map(add100, hh))))
 
 simple()
 
@@ -23,28 +23,28 @@ def sec():
     list2 = [44,55,66]
     list3 = [77,88,99]
     
-    print 'hello sec, ', map(abc, list1, list2, list3)
+    print(('hello sec, ', list(map(abc, list1, list2, list3))))
 
 sec()
 
 def noneFuncMap():
     def one():
         list1 = [11, 22, 33]
-        print map(None, list1)
+        print((list(list1)))
     
     def two():
         list1 = [11,22,33]
         list2 = [44,55,66]
         list3 = [77,88,99]
         
-        print map(None,list1,list2,list3)
+        print((map(None,list1,list2,list3)))
     
     def three():
         str1 = 'one'
         str2 = 'two'
         str3 = 'three'
         
-        print map(None, str1, str2, str3)
+        print((map(None, str1, str2, str3)))
     
     one()
     two()
@@ -60,7 +60,7 @@ def abcc():
     list2 = [44,55,66]
     list3 = [77,88,99]
     
-    print 'abc func output, ', map(abc,list1,list2,list3)
+    print(('abc func output, ', list(map(abc,list1,list2,list3))))
     
 abcc()
 

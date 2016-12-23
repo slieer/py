@@ -7,16 +7,16 @@ Created on Apr 18, 2015
 '''
 
 import httplib2
-import HTMLParser
+import html.parser
 import logging
 
 logging.basicConfig(level=logging.INFO)
 
-class DataParser(HTMLParser.HTMLParser):
+class DataParser(html.parser.HTMLParser):
     def __init__(self):
         self.taglevels=[]
         self.processing=None
-        HTMLParser.HTMLParser.__init__(self)
+        html.parser.HTMLParser.__init__(self)
         
         self.attr_id = '';
         self.title = ''
@@ -87,8 +87,8 @@ def test():
     shixinUrl = 'http://shixin.court.gov.cn/unitMore.do?currentPage=1'
     detail_url = 'http://shixin.court.gov.cn/detail?id='
     resp, content = h.request(shixinUrl)
-    print resp.status
-    print resp
+    print(resp.status)
+    print(resp)
     
     tp = DataParser()
     tp.feed(content)
@@ -98,7 +98,7 @@ def test():
     for detail_id in tp.result_list:
         req_url = detail_url + detail_id
         resp, content = h.request(req_url)
-        print content
+        print(content)
         
 if __name__ == '__main__':
     getDetailData()

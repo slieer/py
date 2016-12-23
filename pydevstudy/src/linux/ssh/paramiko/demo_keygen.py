@@ -114,4 +114,4 @@ if __name__ == '__main__':
         print("done.")
 
     hash = u(hexlify(pub.get_fingerprint()))
-    print("Fingerprint: %d %s %s.pub (%s)" % (bits, ":".join([ hash[i:2+i] for i in range(0, len(hash), 2)]), filename, ktype.upper()))
+    print(("Fingerprint: %d %s %s.pub (%s)" % (bits, ":".join([ hash[i:2+i] for i in range(0, len(hash), 2)]), filename, ktype.upper())))

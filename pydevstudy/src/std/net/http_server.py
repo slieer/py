@@ -15,13 +15,13 @@ python -m pyftpdlib -p 21
 后面的21端口依然是可选的，不填会随机一个，被占用的端口将跳过。在浏览器敲入本机地址：
 ftp://localhost:21
 '''
-import SimpleHTTPServer
-import SocketServer
+import http.server
+import socketserver
 
 PORT = 8000
 
-Handler = SimpleHTTPServer.SimpleHTTPRequestHandler
-httpd = SocketServer.TCPServer(("", PORT), Handler)
+Handler = http.server.SimpleHTTPRequestHandler
+httpd = socketserver.TCPServer(("", PORT), Handler)
 
-print "serving at port", PORT
+print("serving at port", PORT)
 httpd.serve_forever()

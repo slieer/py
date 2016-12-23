@@ -14,7 +14,7 @@ import subprocess
 def popen():
     stdout, stdin = subprocess.Popen("ls")
     ostr = stdout.read()
-    print ostr
+    print(ostr)
 
 
 def main():
@@ -45,10 +45,10 @@ def main1():
             #print tmp_str
             arr = tmp_str.split(date)
             fileName = arr[1].strip()
-            print fileName
+            print(fileName)
             
             comm1 = delFileComm + fileName
-            print comm1
+            print(comm1)
             os.system(comm1)
                 
     

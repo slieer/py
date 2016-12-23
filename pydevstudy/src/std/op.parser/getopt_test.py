@@ -37,7 +37,7 @@ import sys
 import getopt
 
 def usage():
-    print("Usage:%s [-a|-o|-c] [--help|--output] args....", sys.argv[0])
+    print(("Usage:%s [-a|-o|-c] [--help|--output] args....", sys.argv[0]))
 
 if "__main__" == __name__:
     #lsArgs = [""];
@@ -59,7 +59,7 @@ if "__main__" == __name__:
             elif opt in ("-t", "--test"):
                 print("for test option")
             else:
-                print("%s  ==> %s" %(opt, arg))
+                print(("%s  ==> %s" %(opt, arg)))
 
     except getopt.GetoptError:
         print("getopt error!")

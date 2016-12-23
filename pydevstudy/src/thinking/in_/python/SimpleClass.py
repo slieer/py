@@ -3,11 +3,11 @@ Created on 2010-7-11
 
 @author: me
 '''
-import Simple
+from . import Simple
 
 class Simple2(Simple):
     def __init__(self, str):
-        print "Inside Simple2 constructor"
+        print("Inside Simple2 constructor")
             # You must explicitly call 
             # the base-class constructor:
         super.__init__(self, str)
@@ -15,14 +15,14 @@ class Simple2(Simple):
         self.showMsg("Called from display()")
         # Overriding a base-class method
     def show(self):
-        print "Overridden show() method"
+        print("Overridden show() method")
             # Calling a base-class method from inside
             # the overridden method:
         super.show(self)
 
 class Different:
     def show(self):
-        print "Not derived from Simple"
+        print("Not derived from Simple")
 
 if __name__ == "__main__":
   x = Simple2("Simple2 constructor argument")

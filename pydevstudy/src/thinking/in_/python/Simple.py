@@ -5,13 +5,13 @@ Created on 2010-7-11
 '''
 class Simple:
     def __init__(self, str):
-        print "Inside the Simple constructor"
+        print("Inside the Simple constructor")
         self.s = str
         # Two methods:
     def show(self):
-        print self.s
+        print(self.s)
     def showMsg(self, msg):
-        print msg + ':',
+        print(msg + ':', end=' ')
         self.show() # Calling another method
 
 if __name__ == "__main__":

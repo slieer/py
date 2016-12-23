@@ -15,28 +15,28 @@ def socketTest():
     '''
     Created on 2011-9-11
     '''
-    print "Creating socket...",
+    print("Creating socket...", end=' ')
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    print "done"
+    print("done")
     
-    print "Looking up port number...",
+    print("Looking up port number...", end=' ')
     port = socket.getservbyname("http","tcp")
-    print "%s done." %port
+    print("%s done." %port)
     
-    print "Connecting to remote host...",
+    print("Connecting to remote host...", end=' ')
     s.connect(('www.google.com',80))
-    print "done"
+    print("done")
     
-    print "Connected form ", s.getsockname()
-    print "connected to ", s.getpeername()
+    print("Connected form ", s.getsockname())
+    print("connected to ", s.getpeername())
 
 
 def firstExam():
     s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
     try:
         s.connect((host,port))
-    except socket.error, e:
-        print "Error connecting to server: %s" %e
+    except socket.error as e:
+        print("Error connecting to server: %s" %e)
         sys.exit()
         
     s.sendall(filename + '\r\n')

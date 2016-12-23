@@ -5,7 +5,7 @@ Created on 2011-9-23
 '''
 import sys
 from sys import stdout
-import urllib2
+import urllib.request, urllib.error, urllib.parse
 import logging as log
 
 def getRequestInfo():
@@ -14,15 +14,15 @@ def getRequestInfo():
     if not myurl.startswith("http://"):
         myurl = ''.join(['http://' ,myurl])
     
-    response = urllib2.Request(myurl)
-    fd = urllib2.urlopen(response)
+    response = urllib.request.Request(myurl)
+    fd = urllib.request.urlopen(response)
     
-    print "Retrieved " ,fd.geturl()
+    print("Retrieved " ,fd.geturl())
     info = fd.info()
-    for key, value in info.items():
-        print "%s = %s" %(key, value)
+    for key, value in list(info.items()):
+        print("%s = %s" %(key, value))
     
-    print "--------------------------------------"
+    print("--------------------------------------")
     
     while 1:
         data = fd.read(1024)
@@ -31,9 +31,9 @@ def getRequestInfo():
         sys.stdout.write(data)
 
 def getRequest(url):
-    print url
-    req = urllib2.Request(url)
-    response = urllib2.urlopen(req)
+    print(url)
+    req = urllib.request.Request(url)
+    response = urllib.request.urlopen(req)
     
     status = response.getcode()
     if  status == 200 :

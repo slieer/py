@@ -12,14 +12,14 @@ class ShortInputException(Exception):
         self.atleast = atleast
 
 try:
-    s = raw_input('Enter something --> ')
+    s = input('Enter something --> ')
     if len(s) < 3:
         raise ShortInputException(len(s), 3)
     # Other work can continue as usual here
 except EOFError:
-    print '\nWhy did you do an EOF on me?'
-except ShortInputException, x:
-    print 'ShortInputException: The input was of length %d, \
-          was expecting at least %d' % (x.length, x.atleast)
+    print('\nWhy did you do an EOF on me?')
+except ShortInputException as x:
+    print('ShortInputException: The input was of length %d, \
+          was expecting at least %d' % (x.length, x.atleast))
 else:
-    print 'No exception was raised.' 
+    print('No exception was raised.') 

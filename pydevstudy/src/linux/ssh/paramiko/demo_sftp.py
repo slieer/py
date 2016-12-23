@@ -23,7 +23,7 @@ if len(sys.argv) > 1:
     if hostname.find('@') >= 0:
         username, hostname = hostname.split('@')
 else:
-    hostname = input('Hostname: ')
+    hostname = eval(input('Hostname: '))
 if len(hostname) == 0:
     print('*** Hostname required.')
     sys.exit(1)
@@ -36,7 +36,7 @@ if hostname.find(':') >= 0:
 # get username
 if username == '':
     default_username = getpass.getuser()
-    username = input('Username [%s]: ' % default_username)
+    username = eval(input('Username [%s]: ' % default_username))
     if len(username) == 0:
         username = default_username
 password = getpass.getpass('Password for %s@%s: ' % (username, hostname))
@@ -56,9 +56,9 @@ except IOError:
         host_keys = {}
 
 if hostname in host_keys:
-    hostkeytype = host_keys[hostname].keys()[0]
+    hostkeytype = list(host_keys[hostname].keys())[0]
     hostkey = host_keys[hostname][hostkeytype]
-    print('Using host key of type %s' % hostkeytype)
+    print(('Using host key of type %s' % hostkeytype))
 
 
 # now, connect and use paramiko Transport to negotiate SSH2 across the connection
@@ -69,7 +69,7 @@ try:
 
     # dirlist on remote host
     dirlist = sftp.listdir('.')
-    print("Dirlist: %s" % dirlist)
+    print(("Dirlist: %s" % dirlist))
 
     # copy this demo onto the server
     try:
@@ -97,7 +97,7 @@ try:
     t.close()
 
 except Exception as e:
-    print('*** Caught exception: %s: %s' % (e.__class__, e))
+    print(('*** Caught exception: %s: %s' % (e.__class__, e)))
     traceback.print_exc()
     try:
         t.close()

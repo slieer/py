@@ -19,10 +19,10 @@ def test():
     "test function"
     foo = FooClass()
     if debug:
-        print "ran test()"
+        print("ran test()")
         
 if __name__ == '__main__':
     test();
-    print "asAAAAa".lower();
+    print("asAAAAa".lower());
 
 

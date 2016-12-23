@@ -17,15 +17,15 @@ class TestThread(threading.Thread):
 
     def run(self):
         """ main control loop """
-        print "%s starts" % (self.getName(),)
+        print("%s starts" % (self.getName(),))
 
         count = 0
         while not self._stopevent.isSet():
             count += 1
-            print "loop %d" % (count,)
+            print("loop %d" % (count,))
             self._stopevent.wait(self._sleepperiod)
 
-        print "%s ends" % (self.getName(),)
+        print("%s ends" % (self.getName(),))
 
     def join(self, timeout=None):
         """ Stop the thread. """

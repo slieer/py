@@ -4,9 +4,9 @@ Created on 2010-7-3
 @author: me
 '''
 if __name__ == '__nain__' :
-    print "This program is being run by itself"
+    print("This program is being run by itself")
 else:
-    print 'I an being imported from another module'
+    print('I an being imported from another module')
     
 '''
 $ python using_name.py

@@ -12,7 +12,7 @@ def create_database(cursor):
         cursor.execute(
             "CREATE DATABASE {} DEFAULT CHARACTER SET 'utf8'".format(DB_NAME))
     except mysql.connector.Error as err:
-        print("Failed creating database: {}".format(err))
+        print(("Failed creating database: {}".format(err)))
         exit(1)
 
 def exec_sql(cnx):

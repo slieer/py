@@ -12,5 +12,5 @@ s.enterStack('a1' )
 s.enterStack('a11')
 s.enterStack('a2')
 
-print s.readStactTop()
-print s.popStactTopElement()
+print(s.readStactTop())
+print(s.popStactTopElement())

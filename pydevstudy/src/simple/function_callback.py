@@ -5,7 +5,7 @@ Created on Apr 11, 2015
 '''
 
 def my_callback(input_):
-    print "function my_callback was called with %s input" % (input,)
+    print("function my_callback was called with %s input" % (input,))
 
 def caller(input_, func):
     func(input_)

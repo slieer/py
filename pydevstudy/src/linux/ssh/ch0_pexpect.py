@@ -28,5 +28,5 @@ for host in hosts.split("\n"):
     if host:
         ip, user, passwd, cmds = host.split(":")
         for cmd in cmds.split(","):
-            print "-- %s run:%s --" % (ip, cmd)
-            print ssh_cmd(ip, user, passwd, cmd)
+            print("-- %s run:%s --" % (ip, cmd))
+            print(ssh_cmd(ip, user, passwd, cmd))

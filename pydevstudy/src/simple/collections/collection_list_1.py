@@ -25,8 +25,8 @@ class Test(unittest.TestCase):
 
     def arrayTest(self):
         a = array('H', [4000, 10, 700, 22222])
-        print sum(a)
-        print a[1:3]
+        print(sum(a))
+        print(a[1:3])
 
 if __name__ == "__main__":
     sys.argv = ['Test.arrayTest']

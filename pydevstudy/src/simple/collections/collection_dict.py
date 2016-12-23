@@ -14,7 +14,7 @@ def dictTest():
                'Spammer'   : 'spammer@hotmail.com'
         }
         
-        print "Swaroop's address is %s"   % ab['Swaroop']
+        print("Swaroop's address is %s"   % ab['Swaroop'])
         
         # Adding a key/value pair
         ab['Guido'] = 'guido@python.org'
@@ -22,18 +22,18 @@ def dictTest():
         # Deleting a key/value pair
         del ab['Spammer']
         
-        print 'key set:' , ab.keys()
-        print 'value list: ' , ab.values()
+        print('key set:' , list(ab.keys()))
+        print('value list: ' , list(ab.values()))
         
-        print '\nThere are %d contacts in the address-book\n' % len(ab)
-        for name, address in ab.items():
-            print 'Contact %s at %s' % (name, address)
+        print('\nThere are %d contacts in the address-book\n' % len(ab))
+        for name, address in list(ab.items()):
+            print('Contact %s at %s' % (name, address))
         
         if 'Guido' in ab: # OR ab.has_key('Guido')
-            print "\nGuido's address is %s" % ab['Guido']
+            print("\nGuido's address is %s" % ab['Guido'])
         
-        print '---------help----------'
-        print help(dict)
+        print('---------help----------')
+        print(help(dict))
       
 def dictTest1():
         d = dict(
@@ -44,8 +44,8 @@ def dictTest1():
         
         dd = dict(sape=4139, guido=4127, jack=4098)
         
-        print d
-        print dd
+        print(d)
+        print(dd)
 
         
 

@@ -9,7 +9,7 @@ class Person:
     def __init__(self, name):
         self.name = name
     def sayHi(self):
-        print 'Hello, my name is', self.name
+        print('Hello, my name is', self.name)
 
 
 def f1(self,x, y):
@@ -28,13 +28,13 @@ class Employee:
 if __name__ == '__main__':
     p = Person('Swaroop')
     p.sayHi()
-    print Person.i
+    print(Person.i)
     
     x = C()
-    print x.f(3,4)
-    print x.h() 
+    print(x.f(3,4))
+    print(x.h()) 
     #print C.f()  error.
-    print id(x)
+    print(id(x))
     
     john = Employee()
     
@@ -43,4 +43,4 @@ if __name__ == '__main__':
     john.dept = 'computer lab'
     john.salary = 1000
     
-    print john
+    print(john)

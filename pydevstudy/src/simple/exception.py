@@ -8,13 +8,13 @@ Created on 2010-7-10
 import sys
 
 try:
-    s = raw_input('Enter something --> ')
+    s = input('Enter something --> ')
 except EOFError as e:
-    print '\nWhy did you do an EOF on me?'
-    print e
+    print('\nWhy did you do an EOF on me?')
+    print(e)
     sys.exit() # exit the program
 except:
-    print '\nSome error/exception occurred.'
+    print('\nSome error/exception occurred.')
     # here, we are not exiting the program
 
-print 'Done' 
+print('Done') 

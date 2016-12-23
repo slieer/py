@@ -1,1 +1,1 @@
-print 'thinking in.... InitTest.py '
+print('thinking in.... InitTest.py ')

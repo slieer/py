@@ -7,7 +7,7 @@ Created on 2012-11-30
 '''
 
 import sys
-import urllib
+import urllib.request, urllib.parse, urllib.error
 
 class parameters:
     def __init__(self):
@@ -50,16 +50,16 @@ if not params.options.url or \
 url = "%s/Control_Panel/Database/manage_pack?days:float=%d" % \
      (params.options.url, params.options.days)
 
-class MyOpener(urllib.FancyURLopener):
+class MyOpener(urllib.request.FancyURLopener):
     def get_user_passwd(self, host, realm, clear_cache=0):
         return params.options.username, params.options.password
 
 def main():
     try:
         f = MyOpener().open(url).read()
-        print "Successfully packed ZODB on host %s" % params.options.url
+        print("Successfully packed ZODB on host %s" % params.options.url)
     except:
-        print "Cannot open URL %s, aborted" % url
+        print("Cannot open URL %s, aborted" % url)
         raise
 
 if __name__ == '__main__':

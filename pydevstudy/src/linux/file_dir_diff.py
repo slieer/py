@@ -21,7 +21,7 @@ IOError: [Errno 21] Is a directory:
 dvd_list = os.listdir(centos_dvd_dir)
 u_list = os.listdir(u_dir)
 
-print "---dif---"
+print("---dif---")
 for x in dvd_list:
     flag = False
     for y in u_list:
@@ -29,4 +29,4 @@ for x in dvd_list:
             flag = True
             continue
     if(not flag) :
-        print x
+        print(x)

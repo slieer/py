@@ -136,7 +136,7 @@ def main():
         client.connect(server[0], server[1], username=options.user, key_filename=options.keyfile,
                        look_for_keys=options.look_for_keys, password=password)
     except Exception as e:
-        print('*** Failed to connect to %s:%d: %r' % (server[0], server[1], e))
+        print(('*** Failed to connect to %s:%d: %r' % (server[0], server[1], e)))
         sys.exit(1)
 
     verbose('Now forwarding remote port %d to %s:%d ...' % (options.port, remote[0], remote[1]))

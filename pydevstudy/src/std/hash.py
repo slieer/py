@@ -19,7 +19,7 @@ m0.update(src)
 m0.update('hi')
 m0.update('slieer')
 val = m0.hexdigest().upper()
-print val
+print(val)
 
 """file test"""
 def getFileMd5(fileName):
@@ -36,6 +36,6 @@ def getFileMd5(fileName):
     f.close()
     return myHash.hexdigest().upper()
 
-print getFileMd5('./hash.py')
+print(getFileMd5('./hash.py'))
 
     

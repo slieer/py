@@ -72,9 +72,9 @@ optParser.add_option("-v", action="store_true", dest="verbose", default=False, h
 #fakeArgs = sys.argv[1:]
 #options, args =optParser.parse_args(fakeArgs)
 options, args =optParser.parse_args()
-print options.fileName 
-print options.someopt 
-print args 
+print(options.fileName) 
+print(options.someopt) 
+print(args) 
 
 
 

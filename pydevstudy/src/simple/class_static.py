@@ -8,21 +8,21 @@ class Person:
     classVar = 'test class variable.'
     @staticmethod
     def staticMehtod():
-        print 'static method called'
+        print('static method called')
         
     def __init__(self):
-        print 'call init method...'
+        print('call init method...')
     def sayHi(self):
-        print 'Hello, how are you?'
+        print('Hello, how are you?')
         
 
 class Child (Person):
     def canntWalk(self):
-        print 'yes, con\'nt walk'
+        print('yes, con\'nt walk')
 
 class Pers(object):
     def __new__(self):
-        print 'execute new method.'
+        print('execute new method.')
 
 if __name__ == '__main__':
     p = Person()   #__init__方法被调用
@@ -30,13 +30,13 @@ if __name__ == '__main__':
     
     Person.staticMehtod() #类方法，应通过类型调用。
     #p.staticMehtod()   #类方法，也可以通过对象名调用
-    print Person.classVar
-    print '--------------------------------------'
+    print(Person.classVar)
+    print('--------------------------------------')
        
     c = Child()
     Child.staticMehtod(); #类方法也可以被继承
     c.canntWalk()
-    print c
+    print(c)
     
-    print '--------------------------------------'
+    print('--------------------------------------')
     Pers() #__new__方法被调用, only call when classes inheriting from object.

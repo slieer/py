@@ -9,5 +9,5 @@ f = open('tree.yaml')
 dataMap = yaml.load(f)
 f.close()
 
-print dataMap
+print(dataMap)
 

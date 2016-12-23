@@ -45,6 +45,6 @@ if __name__ == '__main__':
     name = ' '.join(sys.argv[1:])
     phone = find_mobile_phone(name)
     if phone:
-        print 'Mobile phone is', phone
+        print('Mobile phone is', phone)
     else:
-        print 'No mobile phone found for', name
+        print('No mobile phone found for', name)

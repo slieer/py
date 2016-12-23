@@ -32,8 +32,9 @@ from urlgrabber import urlopen
 from urlgrabber.grabber import URLGrabError
 
 from pyquery import PyQuery as pq
+import imp
 
-reload(sys)
+imp.reload(sys)
 sys.setdefaultencoding( "utf-8" )
 gov_url = 'http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2013/'
 
@@ -47,7 +48,7 @@ class AreaLevel:
 
 def getHtml(url, showUrl=False):
     if showUrl :
-        print url    
+        print(url)    
 
     try:
         page = urlopen(url)
@@ -55,7 +56,7 @@ def getHtml(url, showUrl=False):
         page.close()
         return html
     except URLGrabError:
-        print 'exce url', url
+        print('exce url', url)
     return ""    
 
 
@@ -69,10 +70,10 @@ def getAreaList(urlPrev, linkArr, nodeClass,level, classback=None):
             url = url + classback(link) + '/'
             #print 'this url:',partStr(link), ',,', url
         url = url + link
-        print url
+        print(url)
         d = pq(getHtml(url))
         trList = d.find(nodeClass)
-        print trList
+        print(trList)
         
         result_arr_list = [[]]
         for tr in trList :
@@ -162,15 +163,15 @@ def data():
     html = getHtml(gov_url + 'index.html')
     
     cityLinks = getPrivinceList(html)
-    print 'privince end---------------------------------------------------'
+    print('privince end---------------------------------------------------')
     countryLinks = getCityList(cityLinks)
-    print 'city end---------------------------------------------------'
+    print('city end---------------------------------------------------')
     #print countryLinks
     townLinks = getCountyList(countryLinks)
-    print 'countr end---------------------------------------------------'
+    print('countr end---------------------------------------------------')
     
     villageLinks = getTownList(townLinks)
-    print 'town end---------------------------------------------------'
+    print('town end---------------------------------------------------')
 
     getVillageList(villageLinks)
     
@@ -181,7 +182,7 @@ def countyDataTest():
 def villageDataTest():   
     townLinks = ['01/110102.html', '01/110105.html', '01/110106.html', '01/110107.html']
     villageLinks = getTownList(townLinks)
-    print 'town end---------------------------------------------------'
+    print('town end---------------------------------------------------')
 
     getVillageList(villageLinks)
 

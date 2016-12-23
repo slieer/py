@@ -5,5 +5,5 @@ Created on 2010-7-3
 '''
 from simple.module import module_mymodule
 module_mymodule.sayhi()
-print 'Version, mymodule.version'
+print('Version, mymodule.version')
 

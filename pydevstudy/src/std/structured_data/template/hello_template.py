@@ -8,7 +8,7 @@ from jinja2 import Environment, PackageLoader
 
 def test():
     template = Template('Hello {{ name }}!') 
-    print template.render(name='World') 
+    print(template.render(name='World')) 
     
 def test1():
     
@@ -29,7 +29,7 @@ def test1():
 </body>
 </html>
 """    
-    print template.render(a_variable='World', navigation=[{'t' : 'test'}, {'b' : 'bee'}])
+    print(template.render(a_variable='World', navigation=[{'t' : 'test'}, {'b' : 'bee'}]))
     
     
 test1()     

@@ -9,9 +9,9 @@ class Test:
         self.a = a
         self.b =b
     def _privateMethod(self):
-        print  'this is a private method.'
+        print('this is a private method.')
     def tostr(self):
-        print 'a=%s,b=%s' %(self.a,self.b)
+        print('a=%s,b=%s' %(self.a,self.b))
 
 if __name__ == '__main__':
     t = Test()
@@ -21,4 +21,4 @@ if __name__ == '__main__':
     setattr(t,'c', 'cc')
     t.d = 'ddd'
     t.__dict__['e'] = 'eee'
-    print 't.c=%s,t.d=%s,t.e=%s' %(t.c, t.d, t.e)
+    print('t.c=%s,t.d=%s,t.e=%s' %(t.c, t.d, t.e))

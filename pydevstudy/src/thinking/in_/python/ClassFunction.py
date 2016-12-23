@@ -26,4 +26,4 @@ def make_adder_as_callable_instance(augend):
         def __call__(self, addend): return addend+self.augend
     return Adder(augend)
 
-print make_adder_as_closure(122)
+print(make_adder_as_closure(122))

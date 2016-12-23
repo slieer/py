@@ -13,9 +13,9 @@ j = {
               }
      }
 
-print json.dumps(j)
+print(json.dumps(j))
 """print j["a"]
 
 print j["arr"]"""
 for val in j:
-    print j[val]
+    print(j[val])

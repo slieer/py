@@ -6,24 +6,24 @@ Created on 2012-11-30
 @author: slieer
 '''
 def ifTest():
-    print type( "" )
+    print(type( "" ))
     if type( "I am a string" ) is str: 
-        print True
+        print(True)
     if type( "Another string" ) is str(): 
-        print True
+        print(True)
 
 
 def arrTest():
     tokens = "This is a sample string used to demo split()".split()
     len(tokens)
-    print tokens
-    print tokens[0], tokens[2]
+    print(tokens)
+    print(tokens[0], tokens[2])
 
-    print tokens[-1], tokens[-2]
-    print tokens[2:5]
+    print(tokens[-1], tokens[-2])
+    print(tokens[2:5])
     
 def main():
-    print "Hello, world"
+    print("Hello, world")
 
 if __name__ == '__main__':
     main()

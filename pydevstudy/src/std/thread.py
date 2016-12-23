@@ -14,7 +14,7 @@ class AsyncZip(threading.Thread):
 
 background = (AsyncZip(),AsyncZip());
 background.start()
-print 'The main program continues to run in foreground.'
+print('The main program continues to run in foreground.')
 
 background.join()    # Wait for the background task to finish
-print 'Main program waited until background was done.'
+print('Main program waited until background was done.')

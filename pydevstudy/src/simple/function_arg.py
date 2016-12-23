@@ -5,40 +5,40 @@ import glob
 import os
 
 def func_arg_1(arg1="hello", arg2="slieer"):
-    print "arg1:%s" %arg1
-    print "arg2:%s" %(arg2)
+    print("arg1:%s" %arg1)
+    print("arg2:%s" %(arg2))
 
 
 def fun_arg_2(*args):
-    print str(args)
+    print(str(args))
     numArgs = len(args)
-    print "Number of arguments:%s" %numArgs
+    print("Number of arguments:%s" %numArgs)
     for i, x in enumerate(args):
-        print "Argument %s is %s" %(i,x)
+        print("Argument %s is %s" %(i,x))
 
 def fun_var_args(farg, *args):
-    print 'args[]:' + str(args)
+    print('args[]:' + str(args))
 
-    print "arg:", farg
+    print("arg:", farg)
     for value in args:
-        print "another arg:", value
+        print("another arg:", value)
 
 def fun_var_kwargs(farg, **kwargs):
-    print 'kwargs{}:' + str(kwargs)
-    print "arg:", farg
+    print('kwargs{}:' + str(kwargs))
+    print("arg:", farg)
     for key in kwargs:
-        print "another keyword arg: %s: %s" % (key, kwargs[key])
+        print("another keyword arg: %s: %s" % (key, kwargs[key]))
 
 def fun_var_args_call(arg1, arg2, arg3):
-    print "arg1:", arg1
-    print "arg2:", arg2
-    print "arg3:", arg3
+    print("arg1:", arg1)
+    print("arg2:", arg2)
+    print("arg3:", arg3)
 
 def findFiles():
     files = glob.glob('*.py')
     for x in files:
         real = os.path.realpath(x)
-        print real
+        print(real)
 
 if __name__ == '__main__':
     func_arg_1()

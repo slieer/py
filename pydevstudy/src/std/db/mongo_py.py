@@ -18,5 +18,5 @@ db = client.test_database
 collection = db.test_collection
 #collection = db['test-collection']
 
-print datetime.datetime.utcnow()
+print(datetime.datetime.utcnow())
 

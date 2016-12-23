@@ -15,8 +15,8 @@ s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 s.bind((host, port))
 s.listen(1)
 
-print "Server is runing on port %d; press Ctrl-C to terminate. " \
-    %port
+print("Server is runing on port %d; press Ctrl-C to terminate. " \
+    %port)
 
 while 1 : 
     clientsock, clientaddr = s.accept()

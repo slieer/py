@@ -20,12 +20,12 @@ def tupleTest():
         
         
         zoo = ('wolf','elephant','penguin')
-        print 'Number of animals in the zoo is', len(zoo)
+        print('Number of animals in the zoo is', len(zoo))
         
         new_zoo = ('monkey','dolphin',zoo)
-        print 'Number of animals in the new zoo is', len(new_zoo)
-        print "all animals in new zoo are", new_zoo
-        print 'Lash animals brought from old zoo is', new_zoo[2][2]
+        print('Number of animals in the new zoo is', len(new_zoo))
+        print("all animals in new zoo are", new_zoo)
+        print('Lash animals brought from old zoo is', new_zoo[2][2])
         
         '''
         print语句可以使用跟着%符号的项目元组的字符串。这些字符串具备定制的功能。
@@ -34,35 +34,35 @@ def tupleTest():
         '''
         age = 22
         name = 'Swaroop'
-        print '%s is %d years old' % (name, age)
-        print 'Why is %s playing with that python?' % name 
+        print('%s is %d years old' % (name, age))
+        print('Why is %s playing with that python?' % name) 
         
         
 def tupleTest1():
         Bob=('bob',30,'male')
-        print 'Representation:',Bob
+        print('Representation:',Bob)
         
         Jane=('Jane',29,'female')
-        print 'Field by index:',Jane[0]
+        print('Field by index:',Jane[0])
         
         for people in [Bob,Jane]:
-            print "%s is %d years old %s" % people    
+            print("%s is %d years old %s" % people)    
 
 #对比上面的例子，采用namedTuple   
 def namedTupleTest():
         import collections
         Person=collections.namedtuple('Person','name age gender')
-        print 'Type of Person:',type(Person)
+        print('Type of Person:',type(Person))
         
         Bob=Person(name='Bob',age=30,gender='male')
-        print 'Representation:',Bob
+        print('Representation:',Bob)
         
         Jane=Person(name='Jane',age=29,gender='female')
         
-        print 'Field by Name:',Jane.name
+        print('Field by Name:',Jane.name)
         
         for people in [Bob,Jane]:
-            print "%s is %d years old %s" % people
+            print("%s is %d years old %s" % people)
 
 '''''
 默认namedtyuple的时候要注意其中的名称不能使用Python的关键字，如：class def等；而且也不能有重复的元素名称，
@@ -71,9 +71,9 @@ def namedTupleTest():
 def namedTupleTest1():
         import collections
         with_class=collections.namedtuple('Person','name age class gender',rename=True)
-        print with_class._fields
+        print(with_class._fields)
         two_ages=collections.namedtuple('Person','name age gender age',rename=True)
-        print two_ages._fields    
+        print(two_ages._fields)    
             
 if __name__ == '__main__' :
         tupleTest()

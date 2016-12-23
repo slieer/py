@@ -7,7 +7,7 @@ import unittest
 import sys
 
 def redirectOut():
-    print "dive in"
+    print("dive in")
     
     #始终在重定向 stdout 之前保存它，这样你可以在后面将其设回正常。
     saveout = sys.stdout
@@ -15,7 +15,7 @@ def redirectOut():
     
     #将所有后续的输出重定向到我们刚打开的新文件上。
     sys.stdout = fsock
-    print 'This message will be logged instead of displayed'
+    print('This message will be logged instead of displayed')
     
     sys.stdout = saveout
     fsock.close()

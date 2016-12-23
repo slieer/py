@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 
-import paramiko
+from . import paramiko
 import threading
 
 """
@@ -19,11 +19,11 @@ def ssh2(ip, username, passwd, cmd):
             out = stdout.readlines()
             # 屏幕输出
             for o in out:
-                print o,
-        print '%s\tOK\n' % (ip)
+                print(o, end=' ')
+        print('%s\tOK\n' % (ip))
         ssh.close()
     except :
-        print '%s\tError\n' % (ip)
+        print('%s\tError\n' % (ip))
 
 """
 下载文件到本地
@@ -59,7 +59,7 @@ if __name__ == '__main__':
     username = "root"  # 用户名
     passwd = "slieer"  # 密码
     threads = [2]  # 多线程
-    print "Begin......"
+    print("Begin......")
     def scanIp() :
         for i in range(1, 254):
             ip = '192.168.1.' + str(i)

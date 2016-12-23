@@ -5,18 +5,18 @@
 Created on 2011-9-23
 @author: root
 '''
-import urllib 
+import urllib.request, urllib.parse, urllib.error 
 def getGoogleMainPage():
     #print urllib
-    urlConn = urllib.urlopen('http://www.baidu.com')
+    urlConn = urllib.request.urlopen('http://www.baidu.com')
     google = urlConn.read()
 
     header = urlConn.info()
-    print 'http header:\n', header
-    print 'http status:', urlConn.getcode()  
-    print 'url:', urlConn.geturl()  
+    print('http header:\n', header)
+    print('http status:', urlConn.getcode())  
+    print('url:', urlConn.geturl())  
     for line in google: # 就像在操作本地文件  
-        print line,  
+        print(line, end=' ')  
     urlConn.close()
 
 '''
@@ -31,7 +31,7 @@ def getUrlToconsole():
     from sys import argv
     from sys import stdout
     
-    f = urllib.urlopen(argv[1])
+    f = urllib.request.urlopen(argv[1])
     while 1:
         buf = f.read(2048)    
         if not len(buf):

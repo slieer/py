@@ -8,14 +8,14 @@ ar = [['abc','xyz'],
       ['m','l','n']
      ]
 
-print ar[0][0]
+print(ar[0][0])
 
 arr = [['slieer']]
 
-print arr[0][0]
+print(arr[0][0])
 
 import types
-print type(ar) is types.ListType
-print isinstance(ar, list)
+print(type(ar) is list)
+print(isinstance(ar, list))
 
-print dir(types)
+print(dir(types))

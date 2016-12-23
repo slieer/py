@@ -38,7 +38,7 @@ def create_conn():
 class Test(unittest.TestCase):
     def test_conn_db(self):
         cnx = create_conn()
-        print cnx.get_server_info()
+        print(cnx.get_server_info())
 
 if __name__ == "__main__":
     #import sys;sys.argv = ['', 'Test.testName']

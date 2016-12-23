@@ -21,7 +21,7 @@ class CRecord :
         self.a = 'hello'
     
     def func(self):
-        print self.a;
+        print(self.a);
     def __str__(self):
         aVar = self.a;
         stri = lambda : aVar *2
@@ -29,17 +29,17 @@ class CRecord :
 
 
 if __name__ == '__main__' :
-    print g(3)
+    print(g(3))
     c = CRecord()
     setattr(c,'a','Hello world,zhai')
-    print 'c.a=%s' %(c.a)
+    print('c.a=%s' %(c.a))
     
     '''
     c.__str__ = lambda :c.a
     print c
     '''
-    print 'getattr %s' %(getattr(c,'a'))
-    print c
+    print('getattr %s' %(getattr(c,'a')))
+    print(c)
 
 
 

@@ -7,8 +7,8 @@ Created on 2011-9-15
 abc = 12
 
 def hello():
-    print "hello world !"
+    print("hello world !")
     
 class HelloWorld:
     def hello(self):
-        print "hello world !"
+        print("hello world !")

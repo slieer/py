@@ -32,5 +32,5 @@ def get_my_ip():
         return "127.0.0.1"
 
 if __name__ == "__main__":
-    print get_my_ip()
+    print(get_my_ip())
 

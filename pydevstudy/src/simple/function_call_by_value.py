@@ -7,21 +7,21 @@ Created on 2010-6-28
 x = 50
 def func():
     global x
-    print 'x is ',x
+    print('x is ',x)
     x = 2
-    print 'Changed local x to ', x
+    print('Changed local x to ', x)
 
 #注意
 def func1(param):
     param = 20
-    print "changed local x to ", param
+    print("changed local x to ", param)
 
 class Obj(object):
     def __new__(self, a, b):
         self.a = a
         self.b = b
     def toString(self):
-        print 'a=%s, b=s%s' %(self.a,self.b)
+        print('a=%s, b=s%s' %(self.a,self.b))
 def func2(obj):
     setattr(obj,'a',100)
     
@@ -32,7 +32,7 @@ if __name__ == "__main__":
     func()
     #传入值参数
     func1(x)
-    print 'final x value is ', x
+    print('final x value is ', x)
     
     #传入引用
     o = Obj(1,3)

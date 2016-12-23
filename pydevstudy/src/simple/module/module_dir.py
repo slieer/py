@@ -15,8 +15,8 @@ sys.modules 打印python模块列表
 import sys
 mod = sys.modules
 
-for name in mod.items():
-    print name
+for name in list(mod.items()):
+    print(name)
 
 
 #get list of attributes for sys module

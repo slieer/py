@@ -44,8 +44,8 @@ def get(file_):
         parser.parse(file_)
         file_.close()
         return handler.status, handler.msg, handler.uid, handler.msisdn
-    except Exception ,e:
-        print e        
+    except Exception as e:
+        print(e)        
 
 def sendRequest(host,port):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -59,5 +59,5 @@ if __name__ == '__main__':
     host = ""
     port = ""
     file = sendRequest(host, port)
-    print get(file)
+    print(get(file))
 

@@ -4,7 +4,7 @@ Created on 2010-6-28
 @author: me
 '''
 def say(message, times = 1):
-    print message * times
+    print(message * times)
 
 say('hello')
 say('world',5)
@@ -13,7 +13,7 @@ say('world',5)
 Keyword Arguments test
 '''
 def func(a, b=5, c=10):
-    print 'a is', a, 'and b is', b, 'and c is', c
+    print('a is', a, 'and b is', b, 'and c is', c)
 
 func(3, 7)
 func(25, c=24)
@@ -30,6 +30,6 @@ def f(a, L=[]):
     L.append(a)
     return L
 
-print f(1)
+print(f(1))
 #print f(2)
-print f(3)
+print(f(3))

@@ -23,6 +23,6 @@ def load_stat():
     
     return loadavg
 
-print "loadavg_1", load_stat()['lavg_1']
-print "loadavg_5", load_stat()['lavg_5']
-print "loadavg_15", load_stat()['lavg_15']
+print("loadavg_1", load_stat()['lavg_1'])
+print("loadavg_5", load_stat()['lavg_5'])
+print("loadavg_15", load_stat()['lavg_15'])

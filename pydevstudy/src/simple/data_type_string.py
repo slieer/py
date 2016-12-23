@@ -4,6 +4,7 @@ Created on 2012-7-8
 @author: me
 '''
 import string
+import collections
 
 def string_view():
     function = []
@@ -11,51 +12,48 @@ def string_view():
     
     for fv in dir(string):
         name = "string.%s" % fv
-        if callable(eval(name)):
+        if isinstance(eval(name), collections.Callable):
             function.append(fv)
         else:
             variables.append(fv)
-    print "fun:", function
-    print "----------------------"
-    print "var:", variables
+    print("fun:", function)
+    print("----------------------")
+    print("var:", variables)
 
 def str_test():
-    print string.ascii_lowercase
-    print string.ascii_uppercase
-    print string.ascii_letters
-    print string.digits
-    print string.hexdigits
-    print  string.letters
-    print string.octdigits
-    print 'a' , 'b'
+    print(string.ascii_lowercase)
+    print(string.ascii_uppercase)
+    print(string.ascii_letters)
+    print(string.digits)
+    print(string.hexdigits)
+    print(string.ascii_letters)
+    print(string.octdigits)
+    print('a' , 'b')
     #A string containing all characters that are considered whitespace. 
-    print string.whitespace
+    print(string.whitespace)
 
     name = 'Swaroop' '''This is a string object'''
     
     if name.startswith('Swa'):
-        print 'Yes, the string starts with "Swa"'
+        print('Yes, the string starts with "Swa"')
     if 'a' in name :
-        print 'Yes, it contains the string "a"'
+        print('Yes, it contains the string "a"')
     if name.find('war') != -1 :
-        print 'Yes, it contains string "war"'
+        print('Yes, it contains string "war"')
     delimiter = '-*-'
     mylist = ['brazil','Russia','India','China']
-    print delimiter.join(mylist)
+    print(delimiter.join(mylist))
 
 def strTo():
-    print float('30.7894')
-    print int('7894')
+    print(float('30.7894'))
+    print(int('7894'))
 
 
 class StrType :
     def __init__(self, st):
         self.st = st
     def test(self):
-        print string.swapcase(self.st);
-        print string.strip("  blank   ")
-        print string.split("hello world")
-        print string.join(["a", "b", "c", "d"], ",");
+        string.hexdigits(self.st)
                 
 if __name__ == '__main__' :
     "str_test()"
