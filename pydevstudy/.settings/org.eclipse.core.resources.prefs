@@ -1,7 +1,7 @@
 eclipse.preferences.version=1
 encoding//src/cookbook/gen_url.py=utf-8
-encoding//src/linux/ssh/ch1_simple_paramiko.py=UTF-8
-encoding//src/linux/ssh/ch2_remote_modify_passwd.py=utf-8
+encoding//src/linux/ssh/pexpect/ch1_simple_paramiko.py=UTF-8
+encoding//src/linux/ssh/pexpect/ch2_remote_modify_passwd.py=utf-8
 encoding//src/linux/sys_info.py=utf-8
 encoding//src/simple/_hello_world.py=utf-8
 encoding//src/simple/_hello_world_v1.py=utf-8
