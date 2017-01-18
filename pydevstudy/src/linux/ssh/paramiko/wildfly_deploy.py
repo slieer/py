@@ -10,6 +10,11 @@ file_ext = [".war"]
 
 class AutoDeploy:
     war_files = []
+    
+    def gitPull(self):
+        os.chdir(java_code_path)
+        os.system('git pull')
+            
     def mvnInstall(self):
         os.chdir(java_code_path)
         os.system('mvn clean install')
@@ -50,6 +55,8 @@ class AutoDeploy:
         
 if __name__ == '__main__':
     auto = AutoDeploy()
+    
+    auto.gitPull()
     auto.mvnInstall()
     
     auto.scanDeployFiles(java_code_path)
