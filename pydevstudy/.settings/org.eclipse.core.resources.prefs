@@ -1,6 +1,7 @@
 eclipse.preferences.version=1
 encoding//src/cookbook/gen_url.py=utf-8
 encoding//src/linux/ssh/paramiko/file_download_upload.py=UTF-8
+encoding//src/linux/ssh/paramiko/task/wildfly_deploy.py=utf-8
 encoding//src/linux/ssh/pexpect/ch2_remote_modify_passwd.py=utf-8
 encoding//src/linux/sys_info.py=utf-8
 encoding//src/simple/_hello_world.py=utf-8
@@ -8,6 +9,7 @@ encoding//src/simple/_hello_world_v1.py=utf-8
 encoding//src/simple/class_inherit.py=utf-8
 encoding//src/simple/class_init.py=utf-8
 encoding//src/simple/class_object_variable.py=utf-8
+encoding//src/simple/class_static.py=utf-8
 encoding//src/simple/collections/collection_dict.py=utf-8
 encoding//src/simple/collections/collection_list.py=utf-8
 encoding//src/simple/collections/collection_sequence.py=utf-8

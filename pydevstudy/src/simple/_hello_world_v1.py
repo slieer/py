@@ -7,7 +7,7 @@ Created on 2012-9-15
 def simple():
     print('Hello world version 1.0')
     
-    print('世界，你好！')
+    print('世界，你好！ %s' %('zhai'))
     print("abc\n", "xyz\n", "lmn\n")
     print('name is %s ,sex is %s' %('zhai', 'man'))
     
