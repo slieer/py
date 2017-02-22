@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import os
 import linux.ssh.paramiko.file_download_upload as upload
-from linux.ssh.paramiko import exec_cmd_multi_ip as cmd
+from linux.ssh.paramiko import remote_cmd as cmd
 
 java_code_path = 'D:/devTools/workspace/car_ocean_server/car_ocean_platform'
 ignore_file = ['.gitignore', '.project', '.settings', 'pom.xml']
