@@ -74,7 +74,7 @@ def print_mimic(mimic_dict, word):
   # +++your code here+++
   # LAB(begin solution)
   for unused_i in range(200):
-    print word,
+    print(word, end=' ')
     nexts = mimic_dict.get(word)          # Returns None if not found
     if not nexts:
       nexts = mimic_dict['']  # Fallback to '' if not found
@@ -88,7 +88,7 @@ def print_mimic(mimic_dict, word):
 # Provided main(), calls mimic_dict() and mimic()
 def main():
   if len(sys.argv) != 2:
-    print 'usage: ./mimic.py file-to-read'
+    print('usage: ./mimic.py file-to-read')
     sys.exit(1)
 
   dict = mimic_dict(sys.argv[1])

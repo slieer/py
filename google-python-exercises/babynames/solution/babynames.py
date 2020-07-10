@@ -101,7 +101,7 @@ def main():
   args = sys.argv[1:]
 
   if not args:
-    print 'usage: [--summaryfile] file [file ...]'
+    print('usage: [--summaryfile] file [file ...]')
     sys.exit(1)
 
   # Notice the summary flag and remove it from args if it is present.
@@ -125,7 +125,7 @@ def main():
       outf.write(text + '\n')
       outf.close()
     else:
-      print text
+      print(text)
   # LAB(end solution)
 
 if __name__ == '__main__':

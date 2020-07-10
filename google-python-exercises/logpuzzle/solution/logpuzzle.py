@@ -9,7 +9,7 @@
 import os
 import re
 import sys
-import urllib
+import urllib.request, urllib.parse, urllib.error
 
 """Logpuzzle exercise
 Given an apache logfile, find the puzzle urls and download the images.
@@ -57,7 +57,7 @@ def read_urls(filename):
       if 'puzzle' in path:
         url_dict['http://' + host + path] = 1
 
-  return sorted(url_dict.keys(), key=url_sort_key)
+  return sorted(list(url_dict.keys()), key=url_sort_key)
   # LAB(end solution)
 
 
@@ -80,8 +80,8 @@ def download_images(img_urls, dest_dir):
   i = 0
   for img_url in img_urls:
     local_name = 'img%d' % i
-    print 'Retrieving...', img_url
-    urllib.urlretrieve(img_url, os.path.join(dest_dir, local_name))
+    print('Retrieving...', img_url)
+    urllib.request.urlretrieve(img_url, os.path.join(dest_dir, local_name))
 
     index.write('<img src="%s">' % (local_name,))
     i += 1
@@ -95,7 +95,7 @@ def main():
   args = sys.argv[1:]
 
   if not args:
-    print 'usage: [--todir dir] logfile '
+    print('usage: [--todir dir] logfile ')
     sys.exit(1)
 
   todir = ''
@@ -108,7 +108,7 @@ def main():
   if todir:
     download_images(img_urls, todir)
   else:
-    print '\n'.join(img_urls)
+    print('\n'.join(img_urls))
 
 if __name__ == '__main__':
   main()
