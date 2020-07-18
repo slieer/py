@@ -48,17 +48,23 @@ def strTo():
     print(float('30.7894'))
     print(int('7894'))
 
+    #字符串反转
+    #实现更好编码的 30 个神奇的 Python 技巧
+    #https://www.infoq.cn/article/BrYVP5bLfE4QGqQEAGF1
+    my_string = "MY STRING"
+    rev_string = my_string[::-1]
+    print(rev_string)
 
 class StrType :
     def __init__(self, st):
         self.st = st
     def test(self):
-        string.hexdigits(self.st)
+        print(self.st)
                 
 if __name__ == '__main__' :
     "str_test()"
     "string_view()"
-    strOjb = StrType("ZhaiXiaoBin");
+    strOjb = StrType("ZhaiXiaoBin")
     strOjb.test()
     
     strTo()
