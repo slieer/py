@@ -36,6 +36,23 @@ def hello_world():
     return 'hello world'
 app.add_url_rule('/', 'other-hello', hello_world)
 
+from flask import render_template
+from flask import make_response
+@app.errorhandler(404)
+def not_found(error):
+    resp = make_response(render_template('error.html'), 404)
+    resp.headers['X-Something'] = 'A value'
+    return resp
+
+@app.route("/me")
+def me_api():
+    return {
+        "username": 'user.username',
+        "theme": "user.theme",
+        "image": "image-url",
+    }
+
+
 if __name__ == '__main__':
     app.run(debug = True)
 #run:
