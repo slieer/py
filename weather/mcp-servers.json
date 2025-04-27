@@ -1,0 +1,13 @@
+{
+    "mcpServers": {
+        "weather": {
+            "command": "/snap/bin/uv",
+            "args": [
+                "--directory",
+                "/opt/workspace/weather",
+                "run",
+                "weather.py"
+            ]
+        }
+    }
+}
