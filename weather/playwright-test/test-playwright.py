@@ -16,3 +16,14 @@ def test_get_started_link(page: Page):
 
     # Expects page to have a heading with the name of Installation.
     expect(page.get_by_role("heading", name="OSCHINA - 中文开源技术交流社区")).to_be_visible()
+
+
+from playwright.sync_api import sync_playwright
+
+if __name__ == "__main__":
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        page = browser.new_page()
+        page.goto("https://www.oschina.com/")
+        page.get_by_placeholder("大家都在搜...").fill("java").press("Enter")
+
