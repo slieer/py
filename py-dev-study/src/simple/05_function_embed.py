@@ -1,7 +1,8 @@
 '''
 Created on Apr 17, 2014
-
 @author: root
+
+函数嵌套测试
 '''
 
 def simple():

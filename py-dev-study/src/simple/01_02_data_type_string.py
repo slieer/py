@@ -2,10 +2,40 @@
 '''
 Created on 2012-7-8
 @author: me
+
+# vim:set nu et ts=4 sw=4 cino=>4:
 '''
 import string
 import collections
 
+def str_():
+    str1 = '\u52c3\u5229\u53bf'
+    print(str1)
+    
+    s = '中文' #unicode编码的文字
+    print(s.encode('utf-8'))   #转换成utf-8格式输出 
+    
+    text = eval("u"+"'\\u56c3\\u67e4'")
+    print(text) 
+
+
+def ifTest():
+    print(type( "" ))
+    if type( "I am a string" ) is str: 
+        print(True)
+    if type( "Another string" ) is str(): 
+        print(True)
+
+
+def arrTest():
+    tokens = "This is a sample string used to demo split()".split()
+    len(tokens)
+    print(tokens)
+    print(tokens[0], tokens[2])
+
+    print(tokens[-1], tokens[-2])
+    print(tokens[2:5])
+    
 def string_view():
     function = []
     variables = []
@@ -65,7 +95,9 @@ if __name__ == '__main__' :
     "str_test()"
     "string_view()"
     strOjb = StrType("ZhaiXiaoBin")
-    strOjb.test()
-    
+    strOjb.test()    
     strTo()
+    ifTest()
+    arrTest()
+
     

@@ -4,7 +4,9 @@ Created on Jul 22, 2015
 @author: dev
 '''
 import unittest
-from functools import reduce
+import logging as log
+log.basicConfig(level=log.DEBUG, format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
+
 
 def f(x): 
     return x % 2 != 0 and x % 3 != 0

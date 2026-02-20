@@ -1,0 +1,53 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 5,
+  "metadata": {
+    "language_info": {
+      "name": "java"
+    }
+  },
+  "cells": [
+    {
+      "id": "c60a76f2-023d-4351-b3c5-3ea6685df251",
+      "cell_type": "markdown",
+      "source": "\njava jupyter\nhttps://github.com/oracle/javavscode/wiki/Interactive-Java-Notebooks",
+      "metadata": {
+        "language": "markdown",
+        "id": "c60a76f2-023d-4351-b3c5-3ea6685df251"
+      }
+    },
+    {
+      "id": "e2d5872e-b334-4243-9603-6c2dda5c7d84",
+      "cell_type": "code",
+      "source": "System.out.printf(\"print:%s\\n\", \"a\");\nvar arr = new int[]{1,2,3,4};\n// int[] arr = {1, 2, 3, 4, 5};\n\nIO.print(\"len:\" + arr.length + \"\\n\");\nvar avg = Arrays.stream(arr).filter(i -> i > 3).asLongStream().average().orElseGet(null);\nIO.println(\"avg:\" + avg);",
+      "metadata": {
+        "language": "java",
+        "id": "e2d5872e-b334-4243-9603-6c2dda5c7d84",
+        "executionSummary": {
+          "executionOrder": 2,
+          "success": true
+        }
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "print:a\nlen:4\navg:4.0\n"
+          },
+          "metadata": {},
+          "execution_count": 2
+        }
+      ]
+    },
+    {
+      "id": "3d50d924-08b8-4821-890a-9c027b4a6c38",
+      "cell_type": "markdown",
+      "source": "",
+      "metadata": {
+        "language": "markdown",
+        "id": "3d50d924-08b8-4821-890a-9c027b4a6c38"
+      }
+    }
+  ]
+}
