@@ -18,8 +18,8 @@ def popen():
 
 
 def main():
-    os.system('ls')
-    os.system('cat /proc/cpuinfo')
+    subprocess.call('ls')
+    subprocess.call('cat /proc/cpuinfo')
 
 """
 [slieer@local ~]$ ls -l --color=auto -h -t --time-style=long-iso | grep '2014-03-09 07:39'
