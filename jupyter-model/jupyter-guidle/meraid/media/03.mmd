@@ -1,0 +1,10 @@
+graph TD
+    A[Data Ingestion] --> B[Data Processing]
+    B --> C{Quality Check}
+    C -->|Pass| D[Feature Engineering]
+    C -->|Fail| E[Error Handling]
+    D --> F[Model Training]
+    F --> G[Model Evaluation]
+    G -->|Metrics Meet Threshold| H[Model Deployment]
+    G -->|Metrics Below Threshold| F
+    E --> A

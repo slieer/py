@@ -1,0 +1,20 @@
+classDiagram
+    class DataProcessor {
+        +DataFrame data
+        +process_data()
+        +validate_schema()
+    }
+    
+    class FeatureEngineering {
+        +create_features()
+        +scale_features()
+    }
+    
+    class ModelTrainer {
+        +train()
+        +evaluate()
+        +save_model()
+    }
+    
+    DataProcessor --> FeatureEngineering
+    FeatureEngineering --> ModelTrainer

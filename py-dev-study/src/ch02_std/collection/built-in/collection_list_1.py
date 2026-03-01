@@ -9,6 +9,12 @@ import unittest
 import weakref, gc
 from array import array
 
+class A:
+    def __init__(self, value):
+        self.value = value
+    def __repr__(self):
+        return str(self.value)
+
 """
 http://docs.python.org/2/tutorial/stdlib2.html
 """
@@ -31,9 +37,3 @@ class Test(unittest.TestCase):
 if __name__ == "__main__":
     sys.argv = ['Test.arrayTest']
     unittest.main()
-    
-class A:
-    def __init__(self, value):
-        self.value = value
-    def __repr__(self):
-        return str(self.value)

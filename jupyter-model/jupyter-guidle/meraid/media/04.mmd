@@ -1,0 +1,12 @@
+sequenceDiagram
+    participant User
+    participant Databricks
+    participant DataLake
+    participant ML
+    
+    User->>Databricks: Execute notebook
+    Databricks->>DataLake: Query data
+    DataLake-->>Databricks: Return dataset
+    Databricks->>ML: Train model
+    ML-->>Databricks: Return model
+    Databricks-->>User: Display results
