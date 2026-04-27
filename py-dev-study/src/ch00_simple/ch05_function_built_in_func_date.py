@@ -5,7 +5,6 @@ Created on 2012-10-7
 @author: me
 '''
 from ch00_simple.ch00_01_hello_world_v1 import Basic
-
 b = Basic()
 
 from datetime import datetime     
