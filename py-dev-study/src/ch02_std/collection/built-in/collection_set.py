@@ -1,17 +1,18 @@
-'''
+"""
 Created on 2012-10-6
 
 @author: me
-'''
-basket = ['apple', 'orange', 'apple', 'pear', 'orange', 'banana']
-# create a set without duplicates
-fruit = set(basket)              
-# fast membership testing
-print('orange' in fruit)
-print('crabgrass' in fruit)
+"""
 
-a = set('abracadabra')
-b = set('alacazam')
+basket = ["apple", "orange", "apple", "pear", "orange", "banana"]
+# create a set without duplicates
+fruit = set(basket)
+# fast membership testing
+print("orange" in fruit)
+print("crabgrass" in fruit)
+
+a = set("abracadabra")
+b = set("alacazam")
 print(a)
 print(b)
 print(a - b)
@@ -36,16 +37,16 @@ fs1 = frozenset([1, 2, 3])
 fs2 = frozenset([1, 2, 3, 4])
 
 # 交集&, 共同元素
-fs1.intersection(fs2)	
-# 并集|, 所有元素	
-fs1.union(fs2)	
-# 差集（s1 - s2）, 在 s1 不在 s2	
-fs1.difference(fs2)	
-# 对称差集^, 
-fs1.symmetric_difference(fs2)	
+fs1.intersection(fs2)
+# 并集|, 所有元素
+fs1.union(fs2)
+# 差集（s1 - s2）, 在 s1 不在 s2
+fs1.difference(fs2)
+# 对称差集^,
+fs1.symmetric_difference(fs2)
 # 子集	<=, s1 ⊆ s2
-fs1.issubset(fs2)	
+fs1.issubset(fs2)
 # 真子集	<	s1 ⊂ s2
 
-# 超集	>=, s1 ⊇ s2	
-fs1.issuperset(fs2)	
+# 超集	>=, s1 ⊇ s2
+fs1.issuperset(fs2)
