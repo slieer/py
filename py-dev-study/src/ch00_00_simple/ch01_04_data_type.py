@@ -1,46 +1,31 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 Created on 2011-9-28
 
 @author: root
-'''
-ar = [['abc','xyz'],
-      ['m','l','n']
-     ]
+"""
 
-print(ar[0][0])
+# 数字类型 --- int, float, complex
+# 布尔类型 - bool
+# 迭代器类型
+# 序列类型 --- list, tuple, range
+# 文本和二进制序列类型方法摘要
+# 文本序列类型 --- str
+# 二进制序列类型 --- bytes, bytearray, memoryview
+# 集合类型 --- set, frozenset
+# 映射类型 --- dict
+# 上下文管理器类型
+# 类型注解的类型 --- Generic Alias、 Union
+# 其他内置类型
+# 特殊属性
 
-arr = [['slieer']]
-
-print(arr[0][0])
 
 import types
+
 print(type(ar) is list)
 print(isinstance(ar, list))
 
 print(dir(types))
 
-#类型提示。但这只是一种注解，并不能在运行的时候去检查对与错。
-def add(x:int,y:int)->int:
-    return x+y
 
-print(add(10,12))
-print(add('hello','world')) # 无法做到检查
-
-x = 1
-y = 2
-(y, x) = (x, y)
-#print("x=" + x  + ", y=" + y)
-
-# fib.py
 from typing import Iterator
- 
- 
-def fib(n: int) -> Iterator[int]:
-  a, b = 0, 1
-  while a < n:
-    yield a
-    a, b = b, a + b
- 
-i = fib(3)
-print(next(i))

@@ -39,9 +39,17 @@ def dictTest():
 
 
 def dictTest1():
-    d = dict([("sape", 4139), ("guido", 4127), ("jack", 4098)])
-
-    dd = dict(sape=4139, guido=4127, jack=4098)
+    # 提示不要格式化
+    # fmt: off
+    d = dict([("sape", 4139), 
+              ("guido", 4127), 
+              ("jack", 4098)
+        ])
+    
+    dd = dict(sape=4139, 
+              guido=4127, 
+              jack=4098)
+    # fmt: on
 
     print(d)
     print(dd)

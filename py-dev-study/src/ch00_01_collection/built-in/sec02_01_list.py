@@ -27,10 +27,41 @@ Python 的 list 可以容纳不同类型的元素（如字符串、整数、对�
 
 """
 
+from collections.abc import MutableSequence, Sequence
+import array
+import collections
+
+
+class SequenceTest:
+    def __init__(self):
+        print(isinstance([1, 2, 3], Sequence))  # True
+        print(isinstance((1, 2, 3), Sequence))  # True
+        print(isinstance("hello", Sequence))  # True
+        print(isinstance(range(5), Sequence))  # True
+        print(isinstance({1, 2, 3}, Sequence))  # False (set 不是序列)
+
+        # MutableSequence 是 Python collections.abc 模块中的一个抽象基类 (Abstract Base Class, ABC)。
+        # 它继承自 Sequence，为所有可变序列定义了一套标准接口。
+        print(isinstance([], MutableSequence))  # True (list)
+        print(isinstance(bytearray(), MutableSequence))  # True (bytearray)
+        print(isinstance(collections.deque(), MutableSequence))  # True (deque)
+        print(isinstance(array.array("i"), MutableSequence))  # True (array.array)
+
 
 class BaseListTest:
+
     def __init__(self):
         self.shoplist = ["apple", "mango", "carrot", "banana"]
+
+        # 提示不要格式化
+        # fmt: off
+        self.matrix = [
+            [1, 2, 3],  # 第 0 行
+            [4, 5, 6],  # 第 1 行
+            [7, 8, 9]   # 第 2 行
+        ]
+        # fmt: on
+
         # Indexing or 'Subscription' operation
         print(
             "Item 0,1,2,3 is: %s, %s, %s, %s"
@@ -164,6 +195,7 @@ def reverseOrder():
 
 
 if __name__ == "__main__":
+    SequenceTest()
     BaseListTest()
 
     li = ListTest()
