@@ -22,10 +22,14 @@ Created on 2011-9-28
 
 import types
 
+# 提示不要格式化
+# fmt: off
+ar = [['abc','xyz'],
+      ['m','l','n']
+     ]
+# fmt: on
+
 print(type(ar) is list)
 print(isinstance(ar, list))
 
 print(dir(types))
-
-
-from typing import Iterator
